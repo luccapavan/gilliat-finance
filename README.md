@@ -1,4 +1,4 @@
-# LinkedIn Money Machine — Ecossistema de Infoprodutos Quantitativos
+# Gilliat Finance — Ecossistema Quantitativo de Conteúdo & Infoprodutos
 
 Este repositório contém a infraestrutura completa para:
 1. **Geração e Publicação de Conteúdo no LinkedIn** focado em atrair a audiência qualificada (Quants, Data Scientists, Economistas, Analistas de Mercado);
@@ -10,7 +10,7 @@ Este repositório contém a infraestrutura completa para:
 ## 📁 Estrutura do Projeto
 
 ```
-linkedin_money/
+gilliat-finance/
 ├── content_generator/          # Motor de inteligência de conteúdo
 │   ├── prompts.py              # Definição de persona, tom de voz e pilares
 │   └── generate_batch.py       # Gerador de lotes semanais de postagens

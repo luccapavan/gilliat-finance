@@ -8,7 +8,7 @@ A pasta `landing_pages/` está 100% autossuficiente e configurada para o Netlify
 
 1. Acesse: **[https://app.netlify.com/drop](https://app.netlify.com/drop)** (faça login ou crie sua conta gratuita).
 2. Abra a pasta do projeto no Windows Explorer:
-   `c:\Users\CLIENTE\linkedin_money\landing_pages`
+   `c:\Users\CLIENTE\gilliat-finance\landing_pages`
 3. **Arraste e solte a pasta `landing_pages`** diretamente na área pontilhada da tela do Netlify.
 4. O Netlify publicará o site instantaneamente e gerará uma URL (ex: `https://heuristic-darwin-123456.netlify.app`).
 5. No painel do Netlify, clique em **Site configuration** > **Change site name** e renomeie para:

@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 import shutil
 
-ROOT_DIR = Path(r"c:\Users\CLIENTE\linkedin_money")
+ROOT_DIR = Path(__file__).resolve().parent.parent
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding='utf-8')
 sys.path.append(str(ROOT_DIR))
