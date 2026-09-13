@@ -58,16 +58,22 @@ No LinkedIn e no mercado institucional, a exigência técnica explodiu:
 O **Curso de Análise Quantitativa Aplicada** foi desenhado com um currículo 100% aplicado e sem "enrolação teórica". Você sairá com código limpo, documentado e pronto para portfólio institucional:
 
 * **Módulo 1: Pipeline de Dados Financeiros em Python**  
-  Coleta e higienização de bases (Yahoo Finance, BCB, CVM, dados de mercado). Padronização de séries temporais, tratamento de splits, dividendos e sobrevivência.
+  Coleta e higienização de bases (Yahoo Finance, BCB, CVM, dados B3). Tratamento de splits, dividendos, dias úteis ANBIMA e eliminação de look-ahead bias e survivorship bias.
 
-* **Módulo 2: Engenharia de Fatores e Estratégias Sistemáticas**  
-  Criação de fatores de Momentum, Risco, Valuation e Qualidade na B3. Cross-sectional vs. Time-Series Momentum. Como evitar o "Factor Zoo".
+* **Módulo 2: Estatística de Retornos e Métricas Institucionais de Risco**  
+  Retornos simples vs. log-retornos, caudas pesadas (fat tails), métricas de performance além do Sharpe (Sortino, Calmar, Information Ratio) e risco de cauda (VaR e CVaR / Expected Shortfall).
 
-* **Módulo 3: Framework de Backtesting sem Vieses**  
-  Simulação realista: custos de corretagem, slippage, liquidez e impacto de mercado. Métricas reais de performance (Sortino, Calmar, Max Drawdown).
+* **Módulo 3: Factor Investing e Modelagem Multifatorial no Brasil**  
+  Momentum na B3 (Cross-Sectional vs. Time-Series com lag 12-2), fatores de Valor, Qualidade, Tamanho e Baixa Volatilidade. Controle do "Factor Zoo" via t-stat ≥ 3.0 e Teorema FWL.
 
-* **Módulo 4: Otimização de Portfólio e Paridade de Risco**  
-  Além de Markowitz: Hierarchical Risk Parity (HRP), Black-Litterman e alocação orientada a fatores.
+* **Módulo 4: Framework de Backtesting Institucional Realista**  
+  Motores vetorizados e por eventos em Python. Modelagem de atritos reais: corretagem, emolumentos B3, impostos, turnover, slippage com base no ADTV e Validação Purged Walk-Forward.
+
+* **Módulo 5: Otimização de Portfólios e Alocação de Risco**  
+  Limites da Média-Variância clássica de Markowitz, encolhimento de covariância com Ledoit-Wolf Shrinkage, Paridade de Risco e Hierarchical Risk Parity (HRP) com Machine Learning.
+
+* **Módulo 6: Projeto Final e Produção Quant**  
+  Estruturação modular de projetos quantitativos em Python, geração de relatórios executivos em HTML/PDF com dashboards e construção de uma estratégia proprietária de ponta a ponta.
 
 ---
 

@@ -157,45 +157,95 @@
       <p class="text-sm text-slate-400 mt-3 max-w-2xl mx-auto">Foco 100% em código utilizável e fundamentos de mercado, sem enrolação teórica.</p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
-        <span class="text-xs font-mono text-emerald-400">MÓDULO 01</span>
-        <h3 class="text-lg font-bold text-white mt-1 mb-3">Pipeline de Dados Financeiros em Python</h3>
-        <ul class="space-y-2 text-xs text-slate-300">
-          <li class="flex items-start gap-2"><span>▸</span> <span>Extração de dados via APIs (BCB, CVM, B3, Yahoo Finance).</span></li>
-          <li class="flex items-start gap-2"><span>▸</span> <span>Ajuste correto de dividendos, splits e datas de liquidação.</span></li>
-          <li class="flex items-start gap-2"><span>▸</span> <span>Como eliminar o viés de sobrevivência ao analisar a bolsa brasileira.</span></li>
-        </ul>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 01</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Infraestrutura de Dados Financeiros</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>APIs institucionais (BCB, CVM, B3 e Yahoo Finance).</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Ajuste correto de dividendos, splits e calendário ANBIMA.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Eliminação rigorosa de look-ahead e viés de sobrevivência.</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Base limpa de 10 anos do IBrX-100
+        </div>
       </div>
 
-      <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
-        <span class="text-xs font-mono text-emerald-400">MÓDULO 02</span>
-        <h3 class="text-lg font-bold text-white mt-1 mb-3">Engenharia de Fatores (Factor Investing)</h3>
-        <ul class="space-y-2 text-xs text-slate-300">
-          <li class="flex items-start gap-2"><span>▸</span> <span>Modelagem matemática de Momentum (Cross-sectional e Time-Series).</span></li>
-          <li class="flex items-start gap-2"><span>▸</span> <span>Fatores de Valor, Qualidade e Baixa Volatilidade no Brasil.</span></li>
-          <li class="flex items-start gap-2"><span>▸</span> <span>Como evitar o "Factor Zoo" com testes de significância estatística.</span></li>
-        </ul>
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 02</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Estatística & Métricas de Risco</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Retornos simples vs. log-retornos e propriedades aditivas.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Distribuições empíricas, caudas pesadas (fat tails) e assimetria.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Métricas além do Sharpe: Sortino, Calmar e CVaR (Expected Shortfall).</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Gerador automático de Risk Tear Sheet
+        </div>
       </div>
 
-      <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
-        <span class="text-xs font-mono text-emerald-400">MÓDULO 03</span>
-        <h3 class="text-lg font-bold text-white mt-1 mb-3">Framework de Backtesting Institucional</h3>
-        <ul class="space-y-2 text-xs text-slate-300">
-          <li class="flex items-start gap-2"><span>▸</span> <span>Construção de motor de backtest vetorial e orientado a eventos.</span></li>
-          <li class="flex items-start gap-2"><span>▸</span> <span>Inclusão de custos de corretagem, emolumentos e slippage.</span></li>
-          <li class="flex items-start gap-2"><span>▸</span> <span>Métricas reais de risco: Sortino, Calmar e Maximum Drawdown.</span></li>
-        </ul>
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 03</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Factor Investing na Bolsa Brasileira</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Momentum na B3: Cross-Sectional vs. Time-Series (lag 12-2).</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Fatores de Valor, Qualidade, Tamanho e Baixa Volatilidade.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Neutralização do Factor Zoo: t-stat ≥ 3.0 e Teorema FWL.</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Ranking multifatorial com Z-Scores na B3
+        </div>
       </div>
 
-      <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
-        <span class="text-xs font-mono text-emerald-400">MÓDULO 04</span>
-        <h3 class="text-lg font-bold text-white mt-1 mb-3">Otimização de Portfólio e Risco</h3>
-        <ul class="space-y-2 text-xs text-slate-300">
-          <li class="flex items-start gap-2"><span>▸</span> <span>Além da Média-Variância: Paridade de Risco Hierárquica (HRP).</span></li>
-          <li class="flex items-start gap-2"><span>▸</span> <span>Modelagem de matrizes de covariância e regularização (Ledoit-Wolf).</span></li>
-          <li class="flex items-start gap-2"><span>▸</span> <span>Exportação de relatórios visuais e dashboards executivos.</span></li>
-        </ul>
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 04</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Framework de Backtesting Realista</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Arquiteturas vetorizadas e orientadas a eventos em Python.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Atritos reais: corretagem, emolumentos B3, impostos e turnover.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Slippage sobre ADTV e Validação Purged Walk-Forward.</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Backtest de 5 anos com curva de capital auditável
+        </div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 05</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Otimização de Portfólios & Risco</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Limites de Markowitz e instabilidade em matrizes amostrais.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Regularização analítica com Ledoit-Wolf Shrinkage e RMT.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Paridade de Risco (Risk Parity) e Hierarchical Risk Parity (HRP).</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Comparativo 1/N vs. Markowitz vs. HRP
+        </div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 06</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Projeto Final & Produção Quant</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Estruturação modular de projetos quantitativos em Python.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Geração de relatórios executivos em PDF com dashboards.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Estratégia proprietária completa (dados → sinal → backtest → HRP).</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Estratégia sistemática ponta a ponta para portfólio
+        </div>
       </div>
     </div>
   </section>
