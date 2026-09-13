@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>The Quant Transition Playbook - Lucca Simeoni Pavan, Ph.D.</title>
+  <link rel="stylesheet" href="../../pdf_engine/theme.css">
+</head>
+<body>
+
+  <!-- ================= CAPA EXECUTIVA ================= -->
+  <div class="cover-page">
+    <div class="cover-header">
+      <span class="cover-badge">SISTEMAS & MODELAGEM QUANTITATIVA</span>
+      <div class="cover-title">THE QUANT TRANSITION<br>PLAYBOOK</div>
+      <div class="cover-subtitle">Da Academia & Ciência de Dados para a Indústria de Gestão Quantitativa de Recursos</div>
+      <div class="cover-accent-line"></div>
+    </div>
+
+    <div>
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #94A3B8; line-height: 1.8;">
+        <div>▪ Factor Investing & Anomalias de Mercado</div>
+        <div>▪ Protocolos Anti-Vieses em Backtesting (Look-ahead & Survivorship)</div>
+        <div>▪ Validação Cruzada Purged K-Fold com Embargo</div>
+        <div>▪ Engenharia de Portfólio no GitHub & Entrevistas Técnicas</div>
+      </div>
+    </div>
+
+    <div class="cover-footer">
+      <p class="author-name">Lucca Simeoni Pavan, Ph.D.</p>
+      <p class="author-title">Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação</p>
+      <p class="author-desc">Doutor em Economia (UFPR) • Especialista em Factor Investing, Séries Temporais, Alocação de Recursos & Risco</p>
+    </div>
+  </div>
+
+  <!-- ================= CONTEÚDO DO DOCUMENTO ================= -->
+  <div class="content-wrapper">
+
+    <!-- SUMÁRIO EXECUTIVO -->
+    <h1>Sumário Executivo</h1>
+    <p>O mercado de finanças quantitativas (<em>Quant Finance</em>) é historicamente um dos mais rentáveis e intelectualmente estimulantes do setor financeiro global. Contudo, há um abismo evidente entre o currículo dos programas de pós-graduação tradicionais (Mestrados e Doutorados em Economia, Estatística ou Física) e as demandas diárias de uma gestora de recursos sistemática (<em>Asset Management</em> ou <em>Hedge Fund</em>).</p>
+
+    <div class="callout callout-info">
+      <div class="callout-title">💡 Proposta Única deste Material</div>
+      Este manual sintetiza os conceitos centrais, vícios estatísticos comuns e boas práticas de modelagem que diferenciam candidatos teóricos de pesquisadores prontos para alocar capital real no mercado.
+    </div>
+
+    <h2>Estrutura dos Módulos</h2>
+    <ul>
+      <li><strong>Módulo 1:</strong> O Ecossistema Quant e os Modelos de Negócio (Fatores, StatArb, CTAs, Risk Parity).</li>
+      <li><strong>Módulo 2:</strong> Armadilhas Críticas de Modelagem e Protocolos Anti-Vieses de Backtesting.</li>
+      <li><strong>Módulo 3:</strong> Guia de Entrevistas Técnicas e Portfólio de Código no GitHub.</li>
+      <li><strong>Módulo 4:</strong> Especificação dos Templates de Código em Python (Backtest Multifator e Métricas de Risco).</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <!-- MÓDULO 1 -->
+    <h1>Módulo 1: O Ecossistema Quant e os Modelos de Negócio</h1>
+    <p>Diferente da gestão discricionária — onde teses são sustentadas por análises qualitativas e reuniões de comitê —, fundos quantitativos operam através de processos sistemáticos orientados por hipóteses econômicas refutáveis e validação empírica rigorosa.</p>
+
+    <h2>1.1 Panorama das Estratégias Sistemáticas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Estratégia</th>
+          <th>Tese Econômica Central</th>
+          <th>Horizonte Temporal</th>
+          <th>Principais Habilidades</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Factor Investing</strong></td>
+          <td>Prêmios sistemáticos de risco (Momentum, Value, Quality, Low Vol).</td>
+          <td>Médio a Longo Prazo (Mensal)</td>
+          <td>Econometria de corte transversal, contabilidade e múltiplos.</td>
+        </tr>
+        <tr>
+          <td><strong>Arbitragem Estatística (StatArb)</strong></td>
+          <td>Reversão à média de desvios em pares ou cestas cointegradas.</td>
+          <td>Intradiário a Poucos Dias</td>
+          <td>Testes de cointegração, Filtro de Kalman, microestrutura.</td>
+        </tr>
+        <tr>
+          <td><strong>Trend Following (CTAs)</strong></td>
+          <td>Persistência de tendência e fluxo em futuros de juros, câmbio e índices.</td>
+          <td>Médio Prazo (Semanas)</td>
+          <td>Modelos de séries temporais e controle de alavancagem.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>1.2 A Divisão do Trabalho Técnico</h2>
+    <ul>
+      <li><strong>Quant Researcher:</strong> Formula hipóteses econômicas, constrói fatores e valida robustez fora da amostra.</li>
+      <li><strong>Quant Developer:</strong> Desenvolve infraestrutura de dados em tempo real, engines de backtesting e execução de ordens via APIs.</li>
+      <li><strong>Risk Manager:</strong> Constrói cenários de estresse, calcula métricas de cauda (VaR/CVaR) e monitora limites de correlação setorial.</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <!-- MÓDULO 2 -->
+    <h1>Módulo 2: Armadilhas Críticas de Modelagem e Backtesting</h1>
+    <p>Na modelagem financeira quantitativa, a maior ameaça não é a falta de sinais rentáveis, mas a presença de sinais ilusórios criados por falhas metodológicas do próprio pesquisador.</p>
+
+    <div class="callout callout-danger">
+      <div class="callout-title">⚠️ Os Três Erros que Destroem Estratégias na Produção</div>
+      <ol style="margin: 0; padding-left: 15px;">
+        <li><strong>Look-Ahead Bias:</strong> Usar balanços ou métricas antes de sua publicação efetiva pela CVM/SEC.</li>
+        <li><strong>Survivorship Bias:</strong> Fazer backtests em amostras que excluem empresas que faliram ou foram canceladas.</li>
+        <li><strong>Desconsideração de Fricções:</strong> Ignorar taxas de corretagem B3, slippage de mercado e custo de empréstimo (BTC).</li>
+      </ol>
+    </div>
+
+    <h2>2.1 O Protocolo Correto de Validação: Purged K-Fold</h2>
+    <p>A validação cruzada tradicional aleatória (K-Fold convencional) é estritamente proibida em séries temporais financeiras porque causa vazamento de dados do futuro para o passado através de autocorrelação e overlapping de retornos.</p>
+    <p>O método adequado consiste em:</p>
+    <ul>
+      <li><strong>Purging (Expurgo):</strong> Excluir dados de treino que compartilhem períodos temporais de formação com a janela de teste.</li>
+      <li><strong>Embargo:</strong> Inserir uma zona de quarentena imediatamente após a janela de teste para absorver efeitos de persistência de choque.</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <!-- MÓDULO 3 -->
+    <h1>Módulo 3: Guia de Entrevistas & Portfólio GitHub</h1>
+    <p>Gestores técnicos e comitês de alocação recebem diariamente dezenas de currículos. Ter um portfólio de código limpo e pragmático no GitHub é o fator decisivo para a contratação.</p>
+
+    <h2>3.1 O Que Evitar e O Que Priorizar</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>❌ O que Desclassifica Candidatos</th>
+          <th>✅ O que Encanta Gestores Quants</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Previsão de ações com LSTM sem custos e sem slippage.</td>
+          <td>Pipeline de dados com tratamento explícito de datas <em>point-in-time</em>.</td>
+        </tr>
+        <tr>
+          <td>Notebooks monolíticos de 1000 linhas sem funções.</td>
+          <td>Código modular em classes com testes unitários (<code>pytest</code>).</td>
+        </tr>
+        <tr>
+          <td>Apenas Sharpe Ratio reportado como métrica de sucesso.</td>
+          <td>Relatório completo com Drawdown, Calmar, Sortino e Turnover.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3.2 Perguntas Conceituais Frequentes</h2>
+    <div class="callout callout-warning">
+      <div class="callout-title">📌 Teste de Conceito: Momentum vs Reversal</div>
+      <strong>Pergunta:</strong> Por que o fator clássico de Momentum exclui o mês mais recente (período t-12 até t-2)?<br>
+      <strong>Resposta:</strong> Para isolar o prêmio de persistência de médio prazo e eliminar o ruído da reversão de curtíssimo prazo (<em>short-term reversal</em>), provocada por pressões momentâneas de liquidez.
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- MÓDULO 4 -->
+    <h1>Módulo 4: Especificação dos Templates de Código</h1>
+    <p>Este Playbook acompanha scripts em Python completos, documentados e prontos para teste e estudo:</p>
+
+    <h2>4.1 Estrutura do Motor de Backtest Multifator</h2>
+    <p>O script <code>backtest_multifator.py</code> implementa a seleção simultânea de Fatores de Valor (E/P) e Fatores de Tendência (Momentum 12-2), combinando-os via Z-Scores transversais:</p>
+
+    <pre><code># Padronização de Fatores por Z-Score de Corte Transversal
+def compute_z_score(df: pd.DataFrame) -> pd.DataFrame:
+    return df.sub(df.mean(axis=1), axis=0).div(df.std(axis=1), axis=0)
+
+# Combinação Equilibrada: 50% Momentum + 50% Value
+composite_score = 0.5 * z_momentum + 0.5 * z_value
+
+# Aplicação de shift(1) para neutralizar Look-Ahead Bias
+execution_weights = portfolio_weights.shift(1).fillna(0.0)</code></pre>
+
+    <h2>4.2 Métricas de Cauda e Risco Coerente</h2>
+    <p>O script <code>metricas_risco_performance.py</code> calcula não apenas o retorno geométrico (CAGR), mas medidas formais de preservação de capital:</p>
+    <ul>
+      <li><strong>Maximum Drawdown & Calmar Ratio:</strong> Medem a dor psicológica e a perda máxima acumulada de pico a vale.</li>
+      <li><strong>Conditional VaR (CVaR 95%):</strong> Mensura a magnitude esperada da perda caso o limiar do VaR histórico seja superado (medida de risco subaditiva).</li>
+    </ul>
+
+    <div style="margin-top: 40px; border-top: 1px solid var(--border-light); padding-top: 20px; font-size: 8.5pt; color: var(--text-muted); text-align: center;">
+      The Quant Transition Playbook • Elaborado por Lucca Simeoni Pavan, Ph.D. • Direitos Reservados.
+    </div>
+  </div>
+
+</body>
+</html>

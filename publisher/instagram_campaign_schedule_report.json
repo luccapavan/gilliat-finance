@@ -1,0 +1,42 @@
+[
+  {
+    "success": true,
+    "post_id": "6aa2985797d385cbcc9cbb3b",
+    "status": "draft",
+    "dueAt": null,
+    "saveToDraft": true,
+    "channel_id": "6aa208b4cd8b9c702c3e33cc",
+    "post_id_ref": "post_01",
+    "category": "Agronegócio & Gestão de Caixa"
+  },
+  {
+    "success": true,
+    "post_id": "6aa29859d0a090a531054899",
+    "status": "draft",
+    "dueAt": null,
+    "saveToDraft": true,
+    "channel_id": "6aa208b4cd8b9c702c3e33cc",
+    "post_id_ref": "post_02",
+    "category": "Indústria & Gestão de Caixa"
+  },
+  {
+    "success": true,
+    "post_id": "6aa2985c59396866022d7370",
+    "status": "draft",
+    "dueAt": null,
+    "saveToDraft": true,
+    "channel_id": "6aa208b4cd8b9c702c3e33cc",
+    "post_id_ref": "post_03",
+    "category": "Médicos & Gestão de Clínicas"
+  },
+  {
+    "success": true,
+    "post_id": "6aa2985fd0a090a53105494d",
+    "status": "draft",
+    "dueAt": null,
+    "saveToDraft": true,
+    "channel_id": "6aa208b4cd8b9c702c3e33cc",
+    "post_id_ref": "post_04",
+    "category": "Síntese Estratégica"
+  }
+]

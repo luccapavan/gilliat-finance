@@ -1,0 +1,34 @@
+[
+  {
+    "success": true,
+    "post_id": "6aa2ae3a78a1026cf22bff9b",
+    "status": "scheduled",
+    "dueAt": "2026-09-11T15:00:00.000Z",
+    "category": "Agronegócio & Gestão de Caixa",
+    "post_id_ref": "post_01"
+  },
+  {
+    "success": true,
+    "post_id": "6aa2ae3c78a1026cf22bffd4",
+    "status": "scheduled",
+    "dueAt": "2026-09-14T15:00:00.000Z",
+    "category": "Indústria & Gestão de Caixa",
+    "post_id_ref": "post_02"
+  },
+  {
+    "success": true,
+    "post_id": "6aa2ae3d6a121c39ae4f6186",
+    "status": "scheduled",
+    "dueAt": "2026-09-16T15:00:00.000Z",
+    "category": "Médicos & Gestão de Clínicas",
+    "post_id_ref": "post_03"
+  },
+  {
+    "success": true,
+    "post_id": "6aa2ae3f98d1587af524841c",
+    "status": "scheduled",
+    "dueAt": "2026-09-18T15:00:00.000Z",
+    "category": "Síntese Estratégica",
+    "post_id_ref": "post_04"
+  }
+]

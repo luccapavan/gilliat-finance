@@ -1,0 +1,6 @@
+# Redirecionamentos do Netlify para a Landing Page do Curso de Análise Quantitativa
+/                          /analise_quantitativa.html    200
+/quant                     /analise_quantitativa.html    200
+/kit                       /downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf 302
+/ementa                    /downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf 302
+/portal                    /index.html                   200

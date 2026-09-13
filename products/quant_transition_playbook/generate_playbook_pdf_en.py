@@ -1,0 +1,445 @@
+"""
+Compilador Expandido do Playbook para PDF em INGLÊS (~15 Páginas)
+The Quant Transition Playbook - Complete Institutional Edition
+Author: Lucca Simeoni Pavan, Ph.D.
+"""
+import os
+import sys
+from pathlib import Path
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+from pdf_engine.builder import convert_html_to_pdf
+
+PLAYBOOK_HTML_EN_FULL = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Quant Transition Playbook - Lucca Simeoni Pavan, Ph.D.</title>
+  <link rel="stylesheet" href="../../pdf_engine/theme.css">
+  <style>
+    .section-num { color: var(--accent-cyan); font-weight: 700; margin-right: 6px; }
+    .toc-item { display: flex; justify-content: space-between; border-bottom: 1px dotted var(--border-light); padding: 5px 0; margin-bottom: 3px; font-size: 9.5pt; }
+    .toc-page { font-family: 'JetBrains Mono', monospace; font-weight: 600; color: var(--accent-blue); }
+    .formula-box {
+      background: #F8FAFC;
+      border: 1px solid #CBD5E1;
+      border-left: 4px solid var(--primary-navy);
+      padding: 12px 18px;
+      margin: 14px 0;
+      border-radius: 4px;
+      text-align: center;
+    }
+    mjx-container[jax="SVG"] {
+      font-size: 110% !important;
+    }
+    mjx-container[jax="SVG"][display="true"] {
+      margin: 6px 0 !important;
+    }
+  </style>
+
+  <!-- MathJax Configuration & Vector SVG Engine -->
+  <script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    svg: {
+      fontCache: 'local'
+    }
+  };
+  </script>
+  <script src="../../pdf_engine/mathjax/tex-svg.js"></script>
+</head>
+<body>
+
+  <!-- ================= COVER PAGE (PAGE 1) ================= -->
+  <div class="cover-page">
+    <div class="cover-header">
+      <span class="cover-badge">INSTITUTIONAL QUANTITATIVE METHODOLOGY & ASSET MANAGEMENT</span>
+      <div class="cover-title">THE QUANT TRANSITION<br>PLAYBOOK</div>
+      <div class="cover-subtitle">From Academia & Data Science to the Systematic Investment Industry</div>
+      <div class="cover-accent-line"></div>
+    </div>
+
+    <div style="margin: 20px 0;">
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #94A3B8; line-height: 2.0;">
+        <div>▪ Module 1: Global Quantitative Taxonomy & Systematic Business Models</div>
+        <div>▪ Module 2: Factor Engineering, FWL Orthogonalization & Neutralization</div>
+        <div>▪ Module 3: Institutional Anti-Bias Protocols & Purged K-Fold Validation</div>
+        <div>▪ Module 4: Portfolio Optimization, Ledoit-Wolf Shrinkage & Tail Risk</div>
+        <div>▪ Module 5: Hiring Blueprint, 48h Take-Home Challenges & GitHub Architecture</div>
+        <div>▪ Module 6: Python Execution Engine Specification & Production Guidelines</div>
+      </div>
+    </div>
+
+    <div class="cover-footer">
+      <p class="author-name">Lucca Simeoni Pavan, Ph.D.</p>
+      <p class="author-title">Former Head of Quantitative Strategies & Product/Allocation Manager</p>
+      <p class="author-desc">Ph.D. in Economics (UFPR) • Specialist in Factor Investing, Time Series, Allocation & Risk</p>
+    </div>
+  </div>
+
+  <!-- ================= PAGE 2: TABLE OF CONTENTS & PREFACE ================= -->
+  <div class="content-wrapper">
+    <h1>Table of Contents & Executive Preface</h1>
+    
+    <p>Quantitative finance represents the intellectual frontier of modern capital markets. For decades, primary asset allocation and stock selection were dominated by discretionary judgment, committee deliberations, and macroeconomic hunches. However, the exponential explosion of alternative data, algorithmic execution microstructures, and empirical econometrics has permanently crowned systematic asset management as the institutional gold standard.</p>
+
+    <p>This playbook bridges a critical, underserved gap: the distance between the theoretical mathematical rigor of academic doctoral programs (Ph.D. and M.Sc. in Economics, Statistics, Physics, or Engineering) and the ruthless day-to-day operational realities of institutional buy-side trading desks. Within these pages, you will find no superficial social media clichés, but rather foundational econometric methodologies, closed-form equations, real market pitfalls, and battle-tested production code required to thrive on quantitative desks.</p>
+
+    <h2>Playbook Structure</h2>
+    <div style="margin: 15px 0;">
+      <div class="toc-item"><span><strong>Module 1:</strong> Global Quantitative Taxonomy & Desk Business Models</span><span class="toc-page">Page 3</span></div>
+      <div class="toc-item"><span><strong>Module 2:</strong> Factor Engineering & State-of-the-Art Factor Investing</span><span class="toc-page">Page 5</span></div>
+      <div class="toc-item"><span><strong>Module 3:</strong> Institutional Protocol for Backtesting Bias Prevention</span><span class="toc-page">Page 7</span></div>
+      <div class="toc-item"><span><strong>Module 4:</strong> Convex Portfolio Optimization & Coherent Tail Risk</span><span class="toc-page">Page 10</span></div>
+      <div class="toc-item"><span><strong>Module 5:</strong> The Hiring Blueprint: 48h Take-Home Case & GitHub Mastery</span><span class="toc-page">Page 12</span></div>
+      <div class="toc-item"><span><strong>Module 6:</strong> Python Production Engine Manual & Final Synthesis</span><span class="toc-page">Page 13</span></div>
+    </div>
+
+    <div class="callout callout-info">
+      <div class="callout-title">💡 How to Maximize This Material</div>
+      Sequential reading is strongly recommended. As you advance through factor orthogonalization, shrinkage covariance, and microstructural slippage modeling, run the accompanying Python scripts (<code>backtest_multifactor.py</code> and <code>risk_performance_metrics.py</code>) to observe firsthand how abstract mathematical proofs map directly to vector execution engines.
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- ================= PAGE 3-4: MODULE 1 ================= -->
+    <h1><span class="section-num">1.</span> Quantitative Taxonomy & Business Models</h1>
+    
+    <p>Upon entering the systematic management industry, researchers encounter a diverse spectrum of mandates, investment horizons, and asset classes. Mastering this taxonomy is vital to aligning research with the right institutional fund architecture.</p>
+
+    <h2>1.1 The Four Major Systematic Families</h2>
+
+    <h3>1. Factor Investing & Smart Beta (Equities / Long-Only & Long/Short)</h3>
+    <p>The foundational thesis of factor investing is that long-term excess returns (alpha) are not generated by stock-picking luck, but through disciplined exposure to systematic risk premia empirically verified across decades (Fama-French, Carhart, Asness). Turnover ranges from low to medium (monthly/quarterly rebalancing), demanding rigorous point-in-time financial data governance and strict turnover control.</p>
+
+    <h3>2. Statistical Arbitrage (StatArb & Pairs Trading)</h3>
+    <p>Strategies exploiting short-term relative mispricings between economically connected assets (same-sector equities, term structure futures, or cross-listed ADRs vs. local shares). Core tools include Engle-Granger and Johansen cointegration tests, Kalman Filters for dynamic parameter tracking, and microstructure order book dynamics. Horizons span intraday to multi-day horizons.</p>
+
+    <h3>3. Trend-Following & CTAs (Commodity Trading Advisors)</h3>
+    <p>Systematically trading long and short positions across dozens of liquid global futures contracts (interest rate swaps, foreign exchange, equity indices, and commodities). The economic premise rests upon prolonged structural price trends induced by institutional hedging flows and delayed behavioral adjustments. Risk management relies heavily on continuous volatility targeting.</p>
+
+    <h3>4. Risk Parity & All-Weather Allocation</h3>
+    <p>Pioneered by Ray Dalio and Edward Qian, risk parity equalizes the marginal risk contribution across asset classes (equities, nominal treasuries, inflation-protected sovereign debt, and commodities) rather than allocating nominal capital equally. Leverage is judiciously applied to lower-volatility sleeves to achieve an optimized risk-return profile resilient across diverse macroeconomic regimes.</p>
+
+    <div class="page-break"></div>
+
+    <h2>1.2 Division of Quantitative Labor in Asset Management</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Role</th>
+          <th>Primary Responsibilities</th>
+          <th>Typical Technology Stack</th>
+          <th>Key Performance Indicator (KPI)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Quant Researcher</strong></td>
+          <td>Economic hypothesis formulation, factor testing and FWL orthogonalization, point-in-time hygiene, and out-of-sample cross-validation.</td>
+          <td>Python (pandas, numpy, statsmodels, scikit-learn), R, SQL, Polars.</td>
+          <td>Information Ratio (IR), Sharpe stability, and residual alpha t-statistics.</td>
+        </tr>
+        <tr>
+          <td><strong>Quant Developer</strong></td>
+          <td>High-throughput ETL pipelines, event-driven backtesting engine optimization, and low-latency broker execution connectivity.</td>
+          <td>C++, Rust, Advanced Python, Cython, Kafka, Docker, Kubernetes.</td>
+          <td>Processing latency, infrastructure uptime, and execution slippage fidelity.</td>
+        </tr>
+        <tr>
+          <td><strong>Risk / Portfolio Manager</strong></td>
+          <td>Portfolio construction and sizing, historical and macro stress testing, tail-risk metrics (VaR/CVaR), and regulatory constraint monitoring.</td>
+          <td>Python, SQL, R, conic/quadratic solvers (CVXPY, MOSEK).</td>
+          <td>Maximum Drawdown control, tracking error limits, and residual factor beta neutrality.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>1.3 The Institutional Tech Stack</h2>
+    <p>The industry observes an ironclad consensus: <strong>Python for Research, C++/Rust for Low-Latency Execution</strong>. On the research side, absolute mastery of vectorized operations (NumPy, pandas, Polars) is non-negotiable. Candidates submitting procedural <code>for</code> loops iterating row-by-row over daily time series are rejected immediately. Desk heads demand clean matrix algebra in memory.</p>
+
+    <div class="page-break"></div>
+
+    <!-- ================= PAGE 5-7: MODULE 2 ================= -->
+    <h1><span class="section-num">2.</span> Factor Engineering & State-of-the-Art Factor Investing</h1>
+
+    <p>Quantitative equity portfolio construction relies on isolating measurable characteristics that explain the cross-section of expected returns. The ultimate challenge for a senior Quant Researcher is transforming raw, noisy signals into robust, orthogonal factors.</p>
+
+    <h2>2.1 The Five Fundamental Equity Factors</h2>
+    <ul>
+      <li><strong>Momentum (Mom):</strong> The empirically verified tendency of assets outperforming over past 3 to 12 months to continue outperforming peers. The standard Jegadeesh-Titman formulation calculates 12-month trailing returns skipping the most recent month (\(t-12\) to \(t-2\)) to purge high-frequency mean-reversion noise.</li>
+      <li><strong>Value (Val):</strong> Tilting toward companies whose market valuation is depressed relative to fundamentals. Canonical metrics include Earnings Yield (\(E/P\)), Book-to-Market (\(B/M\)), and Enterprise Value to EBITDA (\(EV/EBITDA\)).</li>
+      <li><strong>Quality (Qual):</strong> Rewarding companies with high return on invested capital, consistent operating cash flows, and prudent leverage. Metrics: ROIC, ROE, Operating Margin, and Altman Z-Scores.</li>
+      <li><strong>Low Volatility (LowVol):</strong> The classic low-risk anomaly challenging standard CAPM: low-beta or low-idiosyncratic volatility equities historically generate superior risk-adjusted returns relative to speculative, high-volatility names.</li>
+      <li><strong>Size (Small-Minus-Big):</strong> The historical premium earned by small-capitalization equities over mega-cap conglomerates, compensating for illiquidity and credit cycle vulnerability.</li>
+    </ul>
+
+    <h2>2.2 Mathematical Standardization & Winsorization</h2>
+    <p>Because fundamental accounting and price ratios span wildly divergent scales (e.g., P/E ratios ranging from 5 to 30 while 12-month momentum spans -50% to +80%), every feature must be standardized at each cross-sectional timestamp:</p>
+
+    <div class="formula-box">
+      $$Z_{i,t} = \frac{X_{i,t} - \mu_t(X)}{\sigma_t(X)}$$
+    </div>
+
+    <p><strong>Winsorization:</strong> Prior to cross-sectional standardization, extreme statistical outliers must be trimmed (typically at the 1st and 99th percentiles, or clamped at \(\pm 3\sigma\)) to guarantee that a single anomalous firm does not hijack portfolio weight allocations.</p>
+
+    <div class="page-break"></div>
+
+    <h2>2.3 Orthogonalization via the Frisch-Waugh-Lovell (FWL) Theorem</h2>
+    <p>A fatal pitfall in empirical research is the proliferation of the "Factor Zoo": discovering signals that appear to generate alpha, but are merely collinear linear combinations of preexisting factors. To verify whether a novel signal offers genuine orthogonal alpha, institutional desks implement the <strong>Frisch-Waugh-Lovell Theorem</strong>.</p>
+
+    <p>Consider the linear pricing specification where we seek to estimate the pure effect of factor \(F_1\) on returns \(Y\), controlling for a design matrix of established factors \(X\):</p>
+
+    <div class="formula-box">
+      $$Y = X\beta + F_1\gamma + \varepsilon$$
+    </div>
+
+    <p>The FWL Theorem proves that the OLS estimate \(\hat{\gamma}\) is mathematically identical to that obtained through this two-stage orthogonal projection:</p>
+    <ol>
+      <li>Regress \(F_1\) upon \(X\) and extract residuals \(\tilde{F}_1 = M_X F_1\), where \(M_X\) is the orthogonal annihilator projection matrix;</li>
+      <li>Regress asset returns \(Y\) upon the orthogonal residuals \(\tilde{F}_1\). The estimated slope is precisely \(\gamma\).</li>
+    </ol>
+
+    <div class="formula-box">
+      $$\tilde{F}_1 = M_X F_1 = \left(I - X(X'X)^{-1}X'\right)F_1 \quad \implies \quad \hat{\gamma} = \left(\tilde{F}_1'\tilde{F}_1\right)^{-1}\tilde{F}_1' Y$$
+    </div>
+
+    <div class="callout callout-warning">
+      <div class="callout-title">⚠️ Institutional Application of FWL</div>
+      By projecting your experimental alpha signal onto market beta and size matrices before portfolio ranking, you guarantee that the strategy operates with <strong>strict Factor Beta Neutrality</strong> against competing market premia.
+    </div>
+
+    <h2>2.4 Portfolio Neutralization Architecture</h2>
+    <p>An institutional-grade quantitative strategy must not be a concealed directional market gamble. Desks enforce:</p>
+    <ul>
+      <li><strong>Dollar Neutrality:</strong> Gross long exposure strictly equals gross short exposure (\(\sum w_i^{\text{long}} = \sum |w_i^{\text{short}}| = 1\)).</li>
+      <li><strong>Sector Neutrality:</strong> Net exposure within every GICS sector is constrained to zero, forcing the model to extract pure intra-sector relative-value alpha rather than executing unhedged sector rotation timing.</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <!-- ================= PAGE 8-10: MODULE 3 ================= -->
+    <h1><span class="section-num">3.</span> Institutional Protocol for Bias Prevention</h1>
+
+    <p>In the seminal words of Marcos López de Prado, the vast majority of discoveries published in empirical financial backtests are spurious. This module details the four insidious biases that systematically destroy algorithmic strategies upon live capital deployment.</p>
+
+    <h2>3.1 Four Biases That Invalidate Any Backtest</h2>
+
+    <h3>1. Look-Ahead Bias</h3>
+    <p>Arises when information unavailable at historical decision timestamp \(t\) leaks into the backtesting logic. Example: incorporating Q4 corporate earnings reports (period ended Dec 31) into trading signals on the first days of January. In reality, audited financial disclosures are officially filed with regulatory bodies (SEC, CVM) 60 to 90 days after calendar quarter close. Signals utilizing unreleased data are purely fictitious.</p>
+
+    <h3>2. Survivorship Bias</h3>
+    <p>Occurs when the historical asset universe is restricted exclusively to currently trading companies. The hundreds of firms that suffered bankruptcy, delisting, or distressed acquisition over the past 15 years are erased from the sample. Testing without delisted assets inflates apparent annualized returns by 300 to 600 basis points.</p>
+
+    <h3>3. Overfitting & Data Snooping (p-hacking)</h3>
+    <p>With modern computing power, running 10,000 parameter combinations guarantees that hundreds of random rule sets will appear stellar purely by random chance. Governed by Extreme Value Theory, the maximum Sharpe ratio of independent random series increases monotonically with the number of trials. Upon live deployment, spurious correlations immediately collapse.</p>
+
+    <h3>4. Neglect of Microstructure Frictions</h3>
+    <p>Backtests assuming execution at instantaneous mid-prices without bid-ask spreads, borrow fees (short rebates), and nonlinear market impact are worthless. In real markets, large institutional orders aggressively move order book quotes against the trader.</p>
+
+    <div class="page-break"></div>
+
+    <h2>3.2 The Almgren-Chriss Market Impact Model</h2>
+    <p>In professional quantitative execution desks, execution cost is decomposed using the canonical Almgren-Chriss framework (2000):</p>
+
+    <div class="formula-box">
+      $$\text{Total Cost} = \text{Bid-Ask Half-Spread} + \eta \left(\frac{Q}{\tau}\right)^\alpha + \gamma Q$$
+    </div>
+
+    <p>The first term represents immediate spread-crossing friction; the second captures <strong>Temporary Market Impact</strong> (transient order book liquidity depletion that dissipates over time); and the third represents <strong>Permanent Market Impact</strong> (irreversible price shift caused by the information footprint of your order).</p>
+
+    <h2>3.3 The Square-Root Law of Market Impact</h2>
+    <p>Global empirical research across major exchanges (Barra, Bloomberg, AQR) demonstrates that market impact scales concavely with the square root of relative execution volume:</p>
+
+    <div class="formula-box">
+      $$\text{Impact} \approx Y \cdot \sigma_{\text{daily}} \cdot \sqrt{\frac{Q}{\text{ADV}}}$$
+    </div>
+
+    <p>Where \(Q\) is executed shares, \(\text{ADV}\) is 30-day Average Daily Volume, and \(Y \approx 0.5 - 0.7\) is an empirical constant. This fundamental relationship determines the <strong>Strategy Capacity Frontier</strong>: the maximum Assets Under Management (AUM) the model can support before transaction impact consumes 100% of generated alpha.</p>
+
+    <div class="page-break"></div>
+
+    <h2>3.4 Purged & Embargoed K-Fold Cross-Validation</h2>
+    <p>Standard shuffled K-Fold cross-validation is strictly forbidden in financial time series. Because asset returns exhibit serial correlation and factor signals utilize overlapping lookback rolling windows, testing data points leak future state information directly into the training sets.</p>
+
+    <div class="callout callout-danger">
+      <div class="callout-title">📌 The Purged K-Fold Protocol (López de Prado)</div>
+      1. <strong>Purging:</strong> Removes all training observations whose label calculation windows overlap with the boundaries of the test block.<br>
+      2. <strong>Embargoing:</strong> Enforces an exclusion period (typically 1 to 3 months) immediately following the test block before resuming training data ingestion, destroying autoregressive memory contamination.
+    </div>
+
+    <h2>3.5 The Deflated Sharpe Ratio (DSR)</h2>
+    <p>To mathematically correct for Sharpe ratio inflation resulting from multiple backtest trials over identical data, institutional quants compute the <em>Deflated Sharpe Ratio</em>:</p>
+
+    <div class="formula-box">
+      $$\text{DSR} \equiv \text{PSR}\left(\text{SR}^*\right) = \Phi\left[ \frac{\left(\widehat{\text{SR}} - \text{SR}^*\right)\sqrt{T-1}}{\sqrt{1 - \hat{\gamma}_3 \widehat{\text{SR}} + \frac{\hat{\gamma}_4 - 1}{4}\widehat{\text{SR}}^2}} \right]$$
+    </div>
+
+    <p>Where \(\widehat{\text{SR}}\) is the observed historical Sharpe ratio, \(\text{SR}^*\) is the benchmark threshold adjusted for the total number of tested models \(N\), \(\Phi\) is the standard normal cumulative distribution function, and \(\hat{\gamma}_3, \hat{\gamma}_4\) are return skewness and kurtosis.</p>
+
+    <div class="page-break"></div>
+
+    <!-- ================= PAGE 11-12: MODULE 4 ================= -->
+    <h1><span class="section-num">4.</span> Convex Optimization & Robust Tail Risk</h1>
+
+    <p>Determining final capital allocations across assets translates theoretical alpha signals into production risk budgets. Naive Mean-Variance Optimization (Markowitz) notoriously collapses under real-world estimation noise.</p>
+
+    <h2>4.1 Markowitz Instability & Ill-Conditioned Covariance</h2>
+    <p>Classical Markowitz seeks to minimize portfolio variance \(w' \Sigma w\). The analytical minimum-variance portfolio requires inverting the covariance matrix (\(\Sigma^{-1}\)):</p>
+
+    <div class="formula-box">
+      $$\min_{w} w' \Sigma w \quad \text{s.t.} \quad w'\mathbf{1} = 1 \quad \implies \quad w^* = \frac{\Sigma^{-1}\mathbf{1}}{\mathbf{1}'\Sigma^{-1}\mathbf{1}}$$
+    </div>
+
+    <p>However, when the asset dimension \(N\) approaches sample length \(T\) (e.g., \(N = 100\) stocks over \(T = 252\) trading days, \(N/T \approx 0.40\)), random matrix theory (Marchenko-Pastur) proves that sample eigenvalues are severely dispersed by pure noise. Inverting the sample covariance matrix inflates the smallest eigenvalues, allocating extreme and volatile capital weights to assets whose variances were underestimated by statistical chance.</p>
+
+    <h2>4.2 Ledoit-Wolf Linear Shrinkage</h2>
+    <p>Olivier Ledoit and Michael Wolf solved this problem through structured Bayesian shrinkage: rather than inverting the raw sample covariance matrix \(S\), the estimator shrinks \(S\) toward a well-conditioned structural target \(F\) (such as constant correlation or single-index model):</p>
+
+    <div class="formula-box">
+      $$\Sigma_{\text{LW}} = \alpha^* F + (1 - \alpha^*) S$$
+    </div>
+
+    <p>The optimal shrinkage intensity \(\alpha^* \in [0, 1]\) is computed analytically to minimize expected quadratic loss under the Frobenius norm, stabilizing inversion condition numbers and substantially reducing out-of-sample portfolio volatility.</p>
+
+    <div class="page-break"></div>
+
+    <h2>4.3 Coherent Tail Risk Metrics</h2>
+    <p>Institutional risk committees evaluate systematic portfolios via downside preservation metrics far superior to simple annualized Sharpe ratios:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Risk Metric</th>
+          <th>Mathematical Formulation</th>
+          <th>Institutional Interpretation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sortino Ratio</strong></td>
+          <td>$$\text{Sortino} = \frac{\mathbb{E}[R_p - R_f]}{\sqrt{\frac{1}{T}\sum_{t=1}^T \min(0, R_{p,t} - R_f)^2}}$$</td>
+          <td>Penalizes exclusively downside semi-variance without penalizing positive upside volatility.</td>
+        </tr>
+        <tr>
+          <td><strong>Calmar Ratio</strong></td>
+          <td>$$\text{Calmar} = \frac{\text{CAGR}}{|\text{Max Drawdown}|}$$</td>
+          <td>Quantifies geometric compounding rate relative to the worst historical peak-to-trough drawdown.</td>
+        </tr>
+        <tr>
+          <td><strong>Value at Risk (VaR 95%)</strong></td>
+          <td>$$\text{VaR}_{95\%} = \mu - 1.645 \cdot \sigma$$</td>
+          <td>Maximum expected portfolio loss over a 1-day horizon at the 95% confidence level.</td>
+        </tr>
+        <tr>
+          <td><strong>Conditional VaR (CVaR 95%)</strong></td>
+          <td>$$\text{CVaR}_{95\%} = \mathbb{E}\left[R \mid R \le \text{VaR}_{95\%}\right]$$</td>
+          <td>Expected Shortfall (average loss in the worst 5% tail). A mathematically <em>coherent</em> risk measure.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="page-break"></div>
+
+    <!-- ================= PAGE 13-14: MODULE 5 ================= -->
+    <h1><span class="section-num">5.</span> The Hiring Blueprint & 48h Take-Home Case</h1>
+
+    <p>Hiring pipelines for Quant Researchers, Portfolio Managers, and Quant Developers at premier multi-manager hedge funds hinge upon practical, 48-to-72-hour take-home technical challenges. This module provides the exact blueprint for senior-level execution.</p>
+
+    <h2>5.1 Production Repository Architecture</h2>
+    <p>Submitting an ad-hoc Jupyter Notebook packed with spaghetti code guarantees instant disqualification. The expected submission mirrors institutional production standards:</p>
+
+    <pre><code>quant_project/
+├── data/                  # ETL scripts and point-in-time local caching
+│   ├── fetcher.py         # Corporate actions and split/dividend adjustments
+│   └── universe.py        # Minimum liquidity threshold filter (e.g., $1M ADV)
+├── src/
+│   ├── factors.py         # Cross-sectional Z-Scores and winsorization
+│   ├── orthogonalize.py   # FWL matrix projection and residual isolation
+│   ├── optimizer.py       # Ledoit-Wolf shrinkage and quadratic allocation
+│   └── backtest.py        # Vectorized engine with dynamic slippage
+├── tests/
+│   ├── test_lookahead.py  # Pytest unit suite asserting strict shift(1)
+│   └── test_shapes.py     # Matrix dimensional compatibility checks
+├── notebooks/
+│   └── research_walkthrough.ipynb # High-level executive performance summary
+├── README.md              # Economic rationale, thesis, and results synthesis
+└── requirements.txt       # Pinned deterministic dependencies</code></pre>
+
+    <h2>5.2 Elite Responses to Technical Interview Inquisitions</h2>
+    <div class="callout callout-info">
+      <div class="callout-title">Q1: "Why not apply PCA directly across asset returns to extract factors?"</div>
+      <strong>Model Response:</strong> PCA is a purely unsupervised statistical decomposition. While the first principal component reliably captures broad market beta, subsequent components suffer from severe temporal instability and lack fundamental economic interpretability. Factors anchored in proven economic mechanisms deliver vastly superior out-of-sample persistence.
+    </div>
+
+    <div class="callout callout-warning">
+      <div class="callout-title">Q2: "How do you model structural regime shifts in macroeconomic series?"</div>
+      <strong>Model Response:</strong> Financial time series are non-ergodic. We deploy structural break tests (Chow, Bai-Perron) alongside exponential decay weighting schemes, dynamically tuning signal half-life to capture monetary policy regime transitions without sacrificing statistical sample power.
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- ================= PAGE 15: MODULE 6 ================= -->
+    <h1><span class="section-num">6.</span> Python Execution Engine Manual</h1>
+
+    <p>Included in this Playbook package are two production-grade Python modules built with modular architecture, academic documentation, and rigorous anti-bias protocols:</p>
+
+    <h2>6.1 `backtest_multifactor.py`</h2>
+    <p>Implements an end-to-end multi-factor cross-sectional pipeline:</p>
+    <ul>
+      <li><strong>12-2 Momentum Factor:</strong> <code>prices.shift(21) / prices.shift(252) - 1</code>.</li>
+      <li><strong>Value Factor (Earnings Yield):</strong> Inverse of Price-to-Earnings (<code>1.0 / PE</code>).</li>
+      <li><strong>Matrix Standardization:</strong> Cross-sectional Z-Score normalization per period.</li>
+      <li><strong>Look-Ahead Neutralization:</strong> <code>execution_weights = portfolio_weights.shift(1).fillna(0.0)</code>.</li>
+      <li><strong>Dynamic Friction Deduction:</strong> Turnovers scaled by basis-point market friction.</li>
+    </ul>
+
+    <h2>6.2 `risk_performance_metrics.py`</h2>
+    <p>Generates an institutional executive risk and attribution audit:</p>
+    <ul>
+      <li>Compound Annual Growth Rate (CAGR);</li>
+      <li>Annualized Volatility scaled by \(\sqrt{252}\);</li>
+      <li>Sharpe, Sortino, and Calmar Ratios;</li>
+      <li>Maximum Drawdown and high-water-mark recovery duration;</li>
+      <li>Parametric VaR, Historical VaR, and Conditional VaR (Expected Shortfall) at 95% confidence.</li>
+    </ul>
+
+    <h2>Final Executive Synthesis</h2>
+    <p>The transition from academia and data science to systematic asset management does not demand abandoning scientific rigor; rather, it requires elevating that rigor to a level where flawed assumptions are directly penalized with catastrophic capital loss. The quantitative professional who harmonizes statistical discipline, market microstructure awareness, and modern software engineering stands at the apex of global financial markets.</p>
+
+    <div style="margin-top: 50px; border-top: 2px solid var(--primary-navy); padding-top: 20px; font-size: 9pt; color: var(--text-muted); text-align: center;">
+      <strong>The Quant Transition Playbook</strong> • Authored by Lucca Simeoni Pavan, Ph.D.<br>
+      Former Head of Quantitative Strategies & Product/Allocation Manager • All rights reserved.
+    </div>
+  </div>
+
+</body>
+</html>
+"""
+
+def build_full_playbook_pdf_en():
+    html_path = Path("products/quant_transition_playbook/playbook_render_en_full.html")
+    pdf_path = Path("products/The_Quant_Transition_Playbook_EN.pdf")
+    
+    html_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(html_path, "w", encoding="utf-8") as f:
+        f.write(PLAYBOOK_HTML_EN_FULL)
+        
+    print("Compilando Playbook COMPLETO em Inglês (~15 páginas com fórmulas em LaTeX/MathJax)...")
+    success = convert_html_to_pdf(str(html_path), str(pdf_path))
+    
+    if success:
+        size_kb = pdf_path.stat().st_size / 1024
+        print(f"[OK] PDF em Inglês gerado com sucesso!")
+        print(f"Arquivo: {pdf_path.resolve()} ({size_kb:.1f} KB)")
+        return str(pdf_path)
+    else:
+        print("[!] Erro ao gerar o PDF em Inglês.")
+        return None
+
+if __name__ == "__main__":
+    build_full_playbook_pdf_en()

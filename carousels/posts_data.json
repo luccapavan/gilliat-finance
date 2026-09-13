@@ -1,0 +1,259 @@
+{
+  "posts": [
+    {
+      "id": "post_01",
+      "topic": "agro",
+      "theme_class": "agro",
+      "category_name": "Agronegócio & Gestão de Caixa",
+      "slides": [
+        {
+          "type": "cover",
+          "slide_num": "01/04",
+          "headline": "Safra recorde, caixa cheio... <span class=\"highlight-green\">e depois?</span>",
+          "subheadline": "Onde muitos produtores rurais deixam dinheiro na mesa entre a colheita e o próximo plantio.",
+          "badge_icon": "🌱",
+          "badge_text": "ALM Rural • Hedge de Commodities • Sucessão",
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "problem",
+          "slide_num": "02/04",
+          "title": "O Descompasso Entre Receita e Custeio",
+          "cards": [
+            {
+              "title": "Janelas Curtas vs. Desembolsos Contínuos",
+              "desc": "A receita da colheita entra de forma concentrada, mas o pagamento de defensivos, adubos, maquinário e custeio ocorre nos 12 meses seguintes."
+            },
+            {
+              "title": "Custo Oculto da Ineficiência de Caixa",
+              "desc": "O excedente financeiro frequentemente fica ocioso em conta corrente ou em títulos com prazos e liquidez incompatíveis com as necessidades da fazenda."
+            }
+          ],
+          "impact_text": "⚠️ Resultado: Perda real para a inflação de insumos agrícolas e vulnerabilidade a oscilações de câmbio e juros.",
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "solution",
+          "slide_num": "03/04",
+          "title": "A Engenharia Financeira da Assessoria",
+          "pillars": [
+            {
+              "title": "Casamento de Prazos (ALM)",
+              "desc": "Estruturação de títulos de renda fixa com vencimentos milimetricamente alinhados ao cronograma de pagamento dos insumos."
+            },
+            {
+              "title": "Hedge de Câmbio & Commodities",
+              "desc": "Utilização de NDF, opções e travas para blindar a margem operacional contra oscilações do dólar e preço da saca."
+            },
+            {
+              "title": "Planejamento Sucessório Rural",
+              "desc": "Estruturação de holding familiar para proteção de terras e maquinários, garantindo continuidade sem inventários onerosos."
+            }
+          ],
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "cta",
+          "slide_num": "04/04",
+          "quote": "Gerir a fazenda exige foco total na terra; rentabilizar o caixa exige estratégia financeira sob medida.",
+          "cta_icon": "🌾",
+          "cta_title": "Diagnóstico de Caixa Pós-Safra",
+          "cta_subtitle": "Envie uma mensagem no direct (DM) para conversarmos sobre a eficiência do caixa pós-safra da sua fazenda.",
+          "swipe_text": "Envie uma DM 💬"
+        }
+      ],
+      "caption": "Safra recorde, caixa cheio... e depois? Onde muitos produtores rurais deixam dinheiro na mesa.\n\nA receita do agronegócio é concentrada em janelas curtas de colheita, enquanto os custos com insumos, maquinário e custeio operacional ocorrem ao longo de todo o ano. O excedente de liquidez frequentemente fica parado na conta corrente ou em aplicações de baixíssimo retorno e baixa liquidez.\n\nA assessoria de investimentos atua diretamente nos três pilares críticos da gestão de patrimônio rural:\n\n1️⃣ Casamento de Prazos (ALM): Estruturação do caixa em instrumentos de renda fixa com vencimentos sincronizados exatamente com o calendário de desembolso de insumos e custeio.\n2️⃣ Gestão de Risco Cambial e Commodities: Utilização de derivativos (NDF, opções e travas) para proteger a margem operacional contra oscilações de dólar, fertilizantes e preço da saca.\n3️⃣ Planejamento de Sucessão Patrimonial: Criação de estruturas como holdings rurais para blindar terras e maquinários, garantindo continuidade sem inventários onerosos.\n\nGerir a fazenda exige foco total na terra; rentabilizar o caixa exige estratégia financeira sob medida.\n\n👉 Envie uma mensagem no direct (DM) aqui no perfil para agendarmos um diagnóstico da eficiência do seu caixa pós-safra e estruturar seus próximos passos com assessoria especializada.\n\n#Agronegocio #ProdutorRural #GestaoFinanceira #AgroBrasil #InvestimentosAgro #AssetLiabilityManagement #PlanejamentoSucessorio #HedgeAgro #AssessoriaDeInvestimentos #AgroBusiness"
+    },
+    {
+      "id": "post_02",
+      "topic": "industry",
+      "theme_class": "industry",
+      "category_name": "Indústria & Gestão de Caixa",
+      "slides": [
+        {
+          "type": "cover",
+          "slide_num": "01/04",
+          "headline": "Sua indústria dá lucro operacional, mas o <span class=\"highlight-blue\">resultado financeiro</span> corrói a margem?",
+          "subheadline": "O gargalo oculto do capital de giro e como recuperar o ROIC da sua operação.",
+          "badge_icon": "🏭",
+          "badge_text": "Funding Estruturado • Tesouraria Ativa • PJ x PF",
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "problem",
+          "slide_num": "02/04",
+          "title": "Ciclo Longo x Spreads Abusivos",
+          "cards": [
+            {
+              "title": "Descasamento do Ciclo Operacional",
+              "desc": "Prazos elásticos para clientes combinados com estoques pesados de insumos e custos fixos contínuos pressionam o caixa da fábrica."
+            },
+            {
+              "title": "Armadilha do Crédito Tradicional",
+              "desc": "Financiar o giro com grandes bancos drena o EBITDA com taxas abusivas; quando há excedente, ele rende abaixo do potencial de atacado."
+            }
+          ],
+          "impact_text": "⚠️ Impacto: Destruição do Retorno sobre Capital Investido (ROIC) e fragilidade do balanço fabril.",
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "solution",
+          "slide_num": "03/04",
+          "title": "Engenharia de Capital Corporativo",
+          "pillars": [
+            {
+              "title": "Funding via Mercado de Capitais",
+              "desc": "Emissão de dívida estruturada (CRIs, CRAs, debêntures ou FIDCs próprios), reduzindo o custo médio ponderado de capital (WACC)."
+            },
+            {
+              "title": "Gestão Ativa de Tesouraria",
+              "desc": "Alocação de reservas estratégicas em ativos com liquidez D+0/D+1 indexados ao CDI em condições institucionais."
+            },
+            {
+              "title": "Segregação Patrimonial PJ x PF",
+              "desc": "Construção de portfólio de preservação fora do risco do negócio, descorrelacionado dos passivos trabalhistas e operacionais."
+            }
+          ],
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "cta",
+          "slide_num": "04/04",
+          "quote": "Margem de indústria se ganha na operação e na disciplina de tesouraria.",
+          "cta_icon": "⚙️",
+          "cta_title": "Auditoria de Funding e Tesouraria",
+          "cta_subtitle": "Envie uma mensagem no direct (DM) para avaliarmos a estrutura de funding e caixa da sua indústria.",
+          "swipe_text": "Envie uma DM 💬"
+        }
+      ],
+      "caption": "Sua indústria dá lucro operacional, mas o resultado financeiro corrói a margem?\n\nIndústrias convivem com ciclos financeiros longos: prazos estendidos a clientes, estoques de matéria-prima e custos fixos pesados. Quando recorrem a crédito bancário tradicional para financiar o giro, pagam spreads abusivos; quando geram excedente, não o rentabilizam com a sofisticação devida.\n\nA assessoria de investimentos atua como uma extensão estratégica da sua diretoria financeira:\n\n1️⃣ Otimização de Crédito e Funding: Acesso ao mercado de capitais para emissão de dívida estruturada (CRIs, CRAs, debêntures ou FIDCs próprios), reduzindo o custo médio ponderado de capital (WACC) em relação aos grandes bancos.\n2️⃣ Gestão Ativa de Tesouraria: Alocação de reservas estratégicas em ativos com liquidez D+0/D+1 indexados ao CDI, capturando taxas de atacado sem travar recursos operacionais.\n3️⃣ Separação PJ x PF: Construção de uma carteira de preservação e crescimento fora do risco do negócio, garantindo que o patrimônio pessoal dos sócios permaneça descorrelacionado dos riscos operacionais e trabalhistas da fábrica.\n\nMargem de indústria se ganha na operação e na disciplina de tesouraria.\n\n📩 Envie uma mensagem direta (DM) aqui no perfil para avaliarmos a estrutura de funding e a alocação de caixa da sua indústria.\n\n#Industria #CapitalDeGiro #Tesouraria #CFO #DiretoriaFinanceira #GestaoEmpresarial #ROIC #WACC #MercadoDeCapitais #AssessoriaDeInvestimentos"
+    },
+    {
+      "id": "post_03",
+      "topic": "med",
+      "theme_class": "med",
+      "category_name": "Médicos & Gestão de Clínicas",
+      "slides": [
+        {
+          "type": "cover",
+          "slide_num": "01/04",
+          "headline": "Agenda lotada, faturamento alto... <span class=\"highlight-teal\">mas seu patrimônio</span> cresce no mesmo ritmo?",
+          "subheadline": "A armadilha clássica da alta renda sem inteligência financeira e como virar o jogo.",
+          "badge_icon": "🩺",
+          "badge_text": "Tributação Médica • Goal-Based Investing • Renda Passiva",
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "problem",
+          "slide_num": "02/04",
+          "title": "O Preço da Sobrecarga Médica",
+          "cards": [
+            {
+              "title": "60h a 80h Dedicadas a Pacientes",
+              "desc": "A dedicação exclusiva à medicina deixa a gestão dos lucros da clínica em segundo plano, acumulando caixa sem estratégia de longo prazo."
+            },
+            {
+              "title": "Sangria Tributária e Falta de Previdência",
+              "desc": "Pagamento excessivo de tributos por ausência de alinhamento societário e falta de aproveitamento de incentivos fiscais (PGBL)."
+            }
+          ],
+          "impact_text": "⚠️ Sintoma: Dependência permanente da presença física e do cansaço diário para sustentar o padrão de vida familiar.",
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "solution",
+          "slide_num": "03/04",
+          "title": "O Protocolo Patrimonial Médico",
+          "pillars": [
+            {
+              "title": "Eficiência Tributária e Sucessória",
+              "desc": "Alinhamento contábil para distribuição de lucros, previdência com dedução de até 12% do IR e estruturas de sucessão antecipada."
+            },
+            {
+              "title": "Goal-Based Investing (Alocação por Metas)",
+              "desc": "Portfólio diversificado no Brasil e no exterior focado em gerar renda passiva para que o plantão vire escolha, não obrigação."
+            },
+            {
+              "title": "Terceirização Estratégica do Tempo",
+              "desc": "Monitoramento profissional e rebalanceamento dinâmico de carteira, preservando seus finais de semana e momentos de lazer."
+            }
+          ],
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "cta",
+          "slide_num": "04/04",
+          "quote": "Cuidar da saúde dos seus pacientes é sua missão. Cuidar e multiplicar o fruto do seu trabalho é a nossa.",
+          "cta_icon": "🏥",
+          "cta_title": "Plano Patrimonial da Clínica",
+          "cta_subtitle": "Envie uma mensagem no direct (DM) para agendar uma reunião exclusiva e traçar o plano patrimonial da sua clínica.",
+          "swipe_text": "Envie uma DM 💬"
+        }
+      ],
+      "caption": "Agenda lotada, faturamento alto, mas o patrimônio não cresce no mesmo ritmo?\n\nMédicos proprietários de clínicas costumam ter jornadas de 60 a 80 horas semanais. O foco integral no atendimento a pacientes deixa a gestão dos lucros da clínica em segundo plano. O resultado clássico: dinheiro acumulado sem estratégia, pagamento excessivo de tributos por falta de planejamento e dependência contínua do esforço físico para manter o padrão de vida.\n\nA assessoria de investimentos resolve esse desafio com método e precisão:\n\n1️⃣ Eficiência Tributária e Sucessória: Alinhamento contábil-financeiro para distribuição de lucros, previdência privada com benefício fiscal (PGBL/VGBL) e estruturas de antecipação sucessória.\n2️⃣ Alocação Patrimonial Orientada a Metas (Goal-Based Investing): Construção de uma carteira diversificada (renda fixa, ações, ativos globais) focada em gerar renda passiva suficiente para que o trabalho vire uma escolha, não uma obrigação vitalícia.\n3️⃣ Terceirização Estratégica do Tempo: Monitoramento contínuo de mercado e rebalanceamento automático de carteira, devolvendo horas de descanso ao profissional.\n\nCuidar da saúde dos seus pacientes é sua missão. Cuidar e multiplicar o fruto do seu trabalho é a nossa.\n\n🩺 Envie uma mensagem no direct (DM) para agendarmos uma reunião exclusiva e traçar o plano de independência financeira da sua clínica.\n\n#Medicina #Medicos #ClinicaMedica #PatrimonioMedico #PlanejamentoFinanceiro #GoalBasedInvesting #RendaPassiva #PrevidenciaPrivada #AssessoriaDeInvestimentos #WealthManagement"
+    },
+    {
+      "id": "post_04",
+      "topic": "compare",
+      "theme_class": "compare",
+      "category_name": "Síntese Estratégica",
+      "slides": [
+        {
+          "type": "cover",
+          "slide_num": "01/04",
+          "headline": "Gerente Tradicional vs. <span class=\"highlight-gold\">Assessoria Consultiva</span>",
+          "subheadline": "O que realmente muda na gestão do patrimônio de empresários e profissionais de alta renda.",
+          "badge_icon": "⚖️",
+          "badge_text": "Arquitetura Aberta • Visão de Negócio • Governança",
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "comparison_table",
+          "slide_num": "02/04",
+          "title": "Alinhamento & Compreensão de Negócio",
+          "comparisons": [
+            {
+              "topic": "Alinhamento de Interesses",
+              "traditional": "Venda de produtos proprietários para cumprir metas da instituição financeira.",
+              "advisory": "Arquitetura 100% aberta, focada exclusivamente nos objetivos do investidor."
+            },
+            {
+              "topic": "Visão do Seu Ciclo Operacional",
+              "traditional": "Análise genérica de extrato e concessão de limites padronizados de balcão.",
+              "advisory": "Entendimento aprofundado do ciclo de caixa (Agro, Indústria, Saúde e Serviços)."
+            }
+          ],
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "comparison_table",
+          "slide_num": "03/04",
+          "title": "Proteção Global & Integração PF/PJ",
+          "comparisons": [
+            {
+              "topic": "Diversificação Internacional",
+              "traditional": "Restrita, burocrática ou inacessível no varejo e private bancário.",
+              "advisory": "Acesso direto a ativos globais, moeda forte e estruturas offshore de proteção."
+            },
+            {
+              "topic": "Integração PF e PJ",
+              "traditional": "Contas tratadas de forma desconectada e sem governança compartilhada.",
+              "advisory": "Planejamento integrado: caixa operacional, holding e planejamento sucessório."
+            }
+          ],
+          "swipe_text": "Arraste 👉"
+        },
+        {
+          "type": "cta",
+          "slide_num": "04/04",
+          "quote": "Seu negócio não é genérico. A assessoria financeira por trás dele também não deveria ser.",
+          "cta_icon": "📲",
+          "cta_title": "Assessoria Consultiva Dedicada",
+          "cta_subtitle": "Envie uma mensagem no direct (DM) para desenhar uma estratégia patrimonial personalizada e independente.",
+          "swipe_text": "Envie uma DM 💬"
+        }
+      ],
+      "caption": "Seu negócio não é genérico. A assessoria financeira por trás dele também não deveria ser.\n\nQuando uma empresa ou patrimônio familiar atinge um certo patamar, o modelo bancário tradicional atinge seu limite de eficiência. Veja a comparação direta:\n\n⚖️ Alinhamento: O banco vende produtos para bater metas institucionais; a assessoria opera em arquitetura aberta, escolhendo os melhores veículos do mercado para a sua necessidade.\n🏭 Visão de Negócio: Em vez de extratos genéricos e limites pré-fixados, compreendemos o ciclo real do seu setor (sazonalidade agrícola, capital de giro na indústria, rotina de clínicas).\n🌎 Internacionalização: Acesso transparente a ativos em moeda forte e diversificação global para proteger seu poder de compra.\n🏛️ Patrimônio PF + PJ: Conexão estratégica entre o caixa da empresa, a holding familiar e a preservação sucessória sem custos desnecessários.\n\n📲 Envie uma mensagem no direct (DM) para iniciarmos uma conversa e estruturar seu patrimônio com uma visão personalizada e independente.\n\n#AssessoriaDeInvestimentos #WealthManagement #ArquiteturaAberta #MercadoDeCapitais #PlanejamentoSucessorio #HoldingFamiliar #ConsultoriaFinanceira #InvestimentosCorporativos #IndependenciaFinanceira"
+    }
+  ]
+}

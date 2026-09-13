@@ -1,0 +1,310 @@
+/* ==========================================================================
+   IDENTIDADE VISUAL INSTITUCIONAL: LUCCA SIMEONI PAVAN, Ph.D.
+   QUANTITATIVE RESEARCH & ASSET MANAGEMENT REPORT THEME
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+
+:root {
+  --primary-navy: #0A192F;
+  --secondary-navy: #112240;
+  --accent-cyan: #00B4D8;
+  --accent-blue: #0077B6;
+  --accent-gold: #D4AF37;
+  --text-dark: #1E293B;
+  --text-muted: #64748B;
+  --text-light: #F8FAFC;
+  --bg-light: #FFFFFF;
+  --bg-soft: #F8FAFC;
+  --border-light: #E2E8F0;
+  --code-bg: #0F172A;
+}
+
+@page {
+  size: A4;
+  margin: 20mm 15mm 20mm 15mm;
+  @bottom-right {
+    content: counter(page);
+    font-family: 'Inter', sans-serif;
+    font-size: 8pt;
+    color: #94A3B8;
+  }
+  @bottom-left {
+    content: "The Quant Transition Playbook • Lucca Simeoni Pavan, Ph.D.";
+    font-family: 'Inter', sans-serif;
+    font-size: 8pt;
+    color: #94A3B8;
+  }
+}
+
+@page :first {
+  margin: 0;
+  @bottom-right { content: none; }
+  @bottom-left { content: none; }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 10pt;
+  line-height: 1.65;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+  margin: 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   CAPA EXECUTIVA (COVER PAGE)
+   ========================================================================== */
+.cover-page {
+  page-break-after: always;
+  background: linear-gradient(135deg, #0A192F 0%, #112240 60%, #0c1b33 100%);
+  color: #FFFFFF;
+  height: 297mm;
+  width: 210mm;
+  padding: 30mm 20mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.cover-page::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(0, 180, 216, 0.15) 0%, rgba(10, 25, 47, 0) 70%);
+  border-radius: 50%;
+}
+
+.cover-header {
+  border-bottom: 2px solid rgba(0, 180, 216, 0.4);
+  padding-bottom: 12px;
+}
+
+.cover-badge {
+  display: inline-block;
+  background: rgba(0, 180, 216, 0.15);
+  border: 1px solid var(--accent-cyan);
+  color: var(--accent-cyan);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.cover-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 28pt;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  margin: 15px 0 10px 0;
+  color: #FFFFFF;
+}
+
+.cover-subtitle {
+  font-size: 13pt;
+  font-weight: 300;
+  color: #94A3B8;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+.cover-accent-line {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-gold));
+  border-radius: 2px;
+}
+
+.cover-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+}
+
+.author-name {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13pt;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.author-title {
+  font-size: 9pt;
+  color: var(--accent-cyan);
+  font-weight: 500;
+  margin: 3px 0;
+}
+
+.author-desc {
+  font-size: 8pt;
+  color: #64748B;
+  margin: 0;
+}
+
+/* ==========================================================================
+   CONTEÚDO E TIPOGRAFIA
+   ========================================================================== */
+.content-wrapper {
+  padding: 0 5mm;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18pt;
+  font-weight: 800;
+  color: var(--primary-navy);
+  border-bottom: 2px solid var(--border-light);
+  padding-bottom: 6px;
+  margin-top: 25px;
+  margin-bottom: 14px;
+  page-break-after: avoid;
+}
+
+h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 13pt;
+  font-weight: 700;
+  color: var(--secondary-navy);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--accent-blue);
+  margin-top: 15px;
+  margin-bottom: 6px;
+  page-break-after: avoid;
+}
+
+p {
+  margin: 0 0 10px 0;
+  text-align: justify;
+}
+
+ul, ol {
+  margin: 0 0 12px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* ==========================================================================
+   CALLOUT BOXES & CARDS
+   ========================================================================== */
+.callout {
+  border-radius: 6px;
+  padding: 12px 15px;
+  margin: 15px 0;
+  page-break-inside: avoid;
+}
+
+.callout-info {
+  background-color: #F0F9FF;
+  border-left: 4px solid var(--accent-cyan);
+  color: #0369A1;
+}
+
+.callout-warning {
+  background-color: #FFFBEB;
+  border-left: 4px solid #F59E0B;
+  color: #92400E;
+}
+
+.callout-danger {
+  background-color: #FEF2F2;
+  border-left: 4px solid #EF4444;
+  color: #991B1B;
+}
+
+.callout-title {
+  font-weight: 700;
+  font-size: 9.5pt;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+}
+
+/* ==========================================================================
+   TABELAS PROFISSIONAIS
+   ========================================================================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 8.5pt;
+  page-break-inside: avoid;
+}
+
+th {
+  background-color: var(--primary-navy);
+  color: #FFFFFF;
+  text-align: left;
+  padding: 8px 10px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+td {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+tr:nth-child(even) {
+  background-color: var(--bg-soft);
+}
+
+/* ==========================================================================
+   BLOCO DE CÓDIGO ESTILIZADO
+   ========================================================================== */
+pre {
+  background-color: var(--code-bg);
+  color: #E2E8F0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 7.5pt;
+  line-height: 1.45;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid #1E293B;
+  overflow-x: auto;
+  margin: 14px 0;
+  page-break-inside: avoid;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 8pt;
+  background-color: #F1F5F9;
+  color: #0F172A;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.page-break {
+  page-break-after: always;
+}

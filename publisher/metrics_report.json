@@ -1,0 +1,302 @@
+[
+  {
+    "id": "6aa095563c5ae934d51d67e7",
+    "status": "sent",
+    "sentAt": "2026-09-09T15:01:22.327Z",
+    "dueAt": "2026-09-09T15:00:00.000Z",
+    "title_preview": "Um modelo com R² de 85% e Sharpe de 3.2 em backtest rarament",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 27
+      },
+      {
+        "name": "Comments",
+        "value": 1
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 1.31
+      },
+      {
+        "name": "Impressions",
+        "value": 2144
+      },
+      {
+        "name": "Reach",
+        "value": 1250
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7503467593739997185"
+  },
+  {
+    "id": "6a9ccfc3534afc9129e98f84",
+    "status": "sent",
+    "sentAt": "2026-09-08T15:01:54.295Z",
+    "dueAt": "2026-09-08T15:00:00.000Z",
+    "title_preview": "Quando concluí meu Doutorado em Economia e ingressei na gest",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 17
+      },
+      {
+        "name": "Comments",
+        "value": 0
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 0.89
+      },
+      {
+        "name": "Impressions",
+        "value": 1918
+      },
+      {
+        "name": "Reach",
+        "value": 1223
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7503105340079579138"
+  },
+  {
+    "id": "6a9cc6eb41e2718ea372f11a",
+    "status": "sent",
+    "sentAt": "2026-09-07T01:28:02.425Z",
+    "dueAt": "2026-09-07T01:28:00.000Z",
+    "title_preview": "Quando concluí meu Doutorado em Economia e ingressei na gest",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 123
+      },
+      {
+        "name": "Comments",
+        "value": 3
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 0.5
+      },
+      {
+        "name": "Impressions",
+        "value": 25427
+      },
+      {
+        "name": "Reach",
+        "value": 17460
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7502538136510586881"
+  },
+  {
+    "id": "6a9cc6e935b71c36e4739310",
+    "status": "sent",
+    "sentAt": "2026-09-07T21:30:10.037Z",
+    "dueAt": "2026-09-07T21:30:00.000Z",
+    "title_preview": "Na literatura acadêmica de finanças, estima-se que existam m",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 5
+      },
+      {
+        "name": "Comments",
+        "value": 1
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 0.9
+      },
+      {
+        "name": "Impressions",
+        "value": 664
+      },
+      {
+        "name": "Reach",
+        "value": 428
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7502840661600092160"
+  },
+  {
+    "id": "6a9cc6e785ccb3a22c0e7cc1",
+    "status": "sent",
+    "sentAt": "2026-09-07T15:01:18.972Z",
+    "dueAt": "2026-09-07T15:00:00.000Z",
+    "title_preview": "Se você colocar no seu GitHub um projeto intitulado \"Prevend",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 175
+      },
+      {
+        "name": "Comments",
+        "value": 14
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 0.44
+      },
+      {
+        "name": "Impressions",
+        "value": 43314
+      },
+      {
+        "name": "Reach",
+        "value": 30243
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7502742804280942592"
+  },
+  {
+    "id": "6a9cc6e5fba008bcd5560b5d",
+    "status": "sent",
+    "sentAt": "2026-09-06T21:30:15.497Z",
+    "dueAt": "2026-09-06T21:30:00.000Z",
+    "title_preview": "Um dos fatos estilizados mais conhecidos em finanças empíric",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 8
+      },
+      {
+        "name": "Comments",
+        "value": 0
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 0.74
+      },
+      {
+        "name": "Impressions",
+        "value": 1080
+      },
+      {
+        "name": "Reach",
+        "value": 663
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7502478296685903872"
+  },
+  {
+    "id": "6a9cc6e235b71c36e47392d9",
+    "status": "sent",
+    "sentAt": "2026-09-06T09:14:01.676Z",
+    "dueAt": "2026-09-06T09:14:00.000Z",
+    "title_preview": "O backtest mais bonito que você já viu em Python provavelmen",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 47
+      },
+      {
+        "name": "Comments",
+        "value": 4
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 0.98
+      },
+      {
+        "name": "Impressions",
+        "value": 5227
+      },
+      {
+        "name": "Reach",
+        "value": 3616
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7502293018234937344"
+  },
+  {
+    "id": "6a9cc682534afc9129e90f9e",
+    "status": "sent",
+    "sentAt": "2026-09-07T23:19:01.675Z",
+    "dueAt": "2026-09-07T23:19:00.000Z",
+    "title_preview": "O backtest mais bonito que você já viu em Python provavelmen",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 10
+      },
+      {
+        "name": "Comments",
+        "value": 0
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 0.98
+      },
+      {
+        "name": "Impressions",
+        "value": 1025
+      },
+      {
+        "name": "Reach",
+        "value": 635
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7502868057418059777"
+  },
+  {
+    "id": "6a9cc41800faff126f4c54de",
+    "status": "sent",
+    "sentAt": "2024-07-11T10:11:35.800Z",
+    "dueAt": "2024-07-11T10:11:35.800Z",
+    "title_preview": "Neste artigo os autores fazem uma excelente revisão de métod",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 112
+      },
+      {
+        "name": "Comments",
+        "value": 0
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 1.67
+      },
+      {
+        "name": "Impressions",
+        "value": 6698
+      },
+      {
+        "name": "Reach",
+        "value": 8
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7217108255712436224"
+  },
+  {
+    "id": "6a9cc41800faff126f4c54da",
+    "status": "sent",
+    "sentAt": "2024-01-11T12:23:02.695Z",
+    "dueAt": "2024-01-11T12:23:02.695Z",
+    "title_preview": "Por mais experências como esssa!",
+    "metrics": [
+      {
+        "name": "Reactions",
+        "value": 1
+      },
+      {
+        "name": "Comments",
+        "value": 0
+      },
+      {
+        "name": "Eng. Rate",
+        "value": 0.56
+      },
+      {
+        "name": "Impressions",
+        "value": 178
+      },
+      {
+        "name": "Reach",
+        "value": 0
+      }
+    ],
+    "externalLink": "https://www.linkedin.com/feed/update/urn:li:share:7151186744351043584"
+  }
+]

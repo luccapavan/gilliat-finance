@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Quant Transition Playbook - Lucca Simeoni Pavan, Ph.D.</title>
+  <link rel="stylesheet" href="../../pdf_engine/theme.css">
+</head>
+<body>
+
+  <!-- ================= COVER PAGE ================= -->
+  <div class="cover-page">
+    <div class="cover-header">
+      <span class="cover-badge">QUANTITATIVE RESEARCH & ASSET MANAGEMENT</span>
+      <div class="cover-title">THE QUANT TRANSITION<br>PLAYBOOK</div>
+      <div class="cover-subtitle">From Academia & Data Science to Systematic Asset Management</div>
+      <div class="cover-accent-line"></div>
+    </div>
+
+    <div>
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 8.5pt; color: #94A3B8; line-height: 1.8;">
+        <div>▪ Systematic Factor Investing & Market Anomalies</div>
+        <div>▪ Anti-Bias Backtesting Protocols (Look-ahead & Survivorship)</div>
+        <div>▪ Cross-Validation via Purged K-Fold with Embargo</div>
+        <div>▪ GitHub Engineering for Quants & Technical Take-Home Challenges</div>
+      </div>
+    </div>
+
+    <div class="cover-footer">
+      <p class="author-name">Lucca Simeoni Pavan, Ph.D.</p>
+      <p class="author-title">Former Head of Quantitative Strategies & Asset Allocation Manager</p>
+      <p class="author-desc">Ph.D. in Economics (UFPR) • Specialized in Time Series Econometrics, Factor Investing & Portfolio Risk</p>
+    </div>
+  </div>
+
+  <!-- ================= CONTENT BODY ================= -->
+  <div class="content-wrapper">
+
+    <!-- EXECUTIVE SUMMARY -->
+    <h1>Executive Summary</h1>
+    <p>Quantitative finance is historically one of the most lucrative and intellectually rigorous sectors in global financial markets. However, there is a recognized structural gap between graduate academic programs (Ph.D. and M.Sc. in Economics, Statistics, Physics, or Mathematics) and the day-to-day requirements of a systematic hedge fund or quantitative asset manager.</p>
+
+    <div class="callout callout-info">
+      <div class="callout-title">💡 Unique Value Proposition</div>
+      This playbook synthesizes empirical principles, critical econometric traps, and production-grade modeling practices that distinguish theoretical candidates from institutional researchers ready to deploy real risk capital.
+    </div>
+
+    <h2>Document Modules</h2>
+    <ul>
+      <li><strong>Module 1:</strong> The Quantitative Ecosystem & Business Models (Factors, StatArb, CTAs, Risk Parity).</li>
+      <li><strong>Module 2:</strong> Critical Modeling Pitfalls & Anti-Bias Protocols in Backtesting.</li>
+      <li><strong>Module 3:</strong> Technical Interview Blueprint & GitHub Portfolio Engineering.</li>
+      <li><strong>Module 4:</strong> Production Python Code Templates (Multifactor Backtester & Tail Risk Metrics).</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <!-- MODULE 1 -->
+    <h1>Module 1: The Quantitative Ecosystem & Business Models</h1>
+    <p>Unlike discretionary management—where positions are governed by qualitative committee meetings—systematic asset managers operate via disciplined, data-driven algorithms backed by refutable economic hypotheses and empirical testing.</p>
+
+    <h2>1.1 Strategic Paradigms Overview</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Strategy</th>
+          <th>Core Economic Thesis</th>
+          <th>Investment Horizon</th>
+          <th>Core Competencies</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Factor Investing</strong></td>
+          <td>Persistent systematic risk premia (Momentum, Value, Quality, Low Vol).</td>
+          <td>Medium to Long Term (Monthly)</td>
+          <td>Cross-sectional econometrics, accounting ratios, portfolio optimization.</td>
+        </tr>
+        <tr>
+          <td><strong>Statistical Arbitrage (StatArb)</strong></td>
+          <td>Mean-reverting temporary deviations in cointegrated pairs or baskets.</td>
+          <td>Intraday to Multi-Day</td>
+          <td>Cointegration tests (Johansen), Kalman Filters, market microstructure.</td>
+        </tr>
+        <tr>
+          <td><strong>Trend Following (CTAs)</strong></td>
+          <td>Directional persistence driven by institutional hedging flows.</td>
+          <td>Medium Term (Weeks to Months)</td>
+          <td>Non-linear time series, dynamic leverage constraints, drawdown control.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>1.2 Division of Institutional Labor</h2>
+    <ul>
+      <li><strong>Quant Researcher:</strong> Formulates economic hypotheses, constructs factor models, and evaluates out-of-sample statistical significance.</li>
+      <li><strong>Quant Developer:</strong> Engineers low-latency data pipelines, vectorized and event-driven backtesters, and broker/exchange execution APIs.</li>
+      <li><strong>Risk Manager:</strong> Conducts scenario stress tests, calculates coherent tail metrics (VaR/CVaR), and enforces sector concentration boundaries.</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <!-- MODULE 2 -->
+    <h1>Module 2: Critical Modeling Pitfalls & Anti-Bias Protocols</h1>
+    <p>In quantitative modeling, the primary danger is rarely the absence of profitable signals; it is the abundance of illusory signals generated by methodological flaws in the research pipeline.</p>
+
+    <div class="callout callout-danger">
+      <div class="callout-title">⚠️ The Three Biases That Destroy Production Strategies</div>
+      <ol style="margin: 0; padding-left: 15px;">
+        <li><strong>Look-Ahead Bias:</strong> Inadvertently incorporating information from time <em>t+1</em> into decisions executed at time <em>t</em> (e.g., using quarterly earnings before their SEC/CVM filing timestamp).</li>
+        <li><strong>Survivorship Bias:</strong> Testing strategies exclusively on currently active equities, thereby ignoring delisted, distressed, or liquidated firms.</li>
+        <li><strong>Frictional Disregard:</strong> Neglecting bid-ask spread expansion, non-linear market impact, exchange clearing fees, and short-selling borrow rates (locate fees).</li>
+      </ol>
+    </div>
+
+    <h2>2.1 The Institutional Cross-Validation Protocol: Purged K-Fold</h2>
+    <p>Standard randomized K-Fold cross-validation is strictly invalid in financial time series due to temporal autocorrelation and overlapping multi-period return windows.</p>
+    <p>The institutional standard requires:</p>
+    <ul>
+      <li><strong>Purging:</strong> Removing training observations whose evaluation horizons overlap with the test fold.</li>
+      <li><strong>Embargo:</strong> Imposing a post-test quarantine window to neutralize residual memory and autoregressive shocks.</li>
+    </ul>
+
+    <div class="page-break"></div>
+
+    <!-- MODULE 3 -->
+    <h1>Module 3: Technical Interview Blueprint & GitHub Engineering</h1>
+    <p>Hiring committees and portfolio managers evaluate dozens of code submissions weekly. A clean, modular GitHub repository is the single most decisive credential for passing technical screenings.</p>
+
+    <h2>3.1 Portfolio Engineering: Dos and Don'ts</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>❌ Disqualifying Submission Patterns</th>
+          <th>✅ Institutional Portfolio Hallmarks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Stock price forecasting using black-box LSTMs without friction costs.</td>
+          <td>Clean ETL pipelines with explicit point-in-time publication timestamps.</td>
+        </tr>
+        <tr>
+          <td>Monolithic, un-tested Jupyter Notebooks with hundreds of global variables.</td>
+          <td>Modular Python packages with structured classes and <code>pytest</code> unit tests.</td>
+        </tr>
+        <tr>
+          <td>Reporting Sharpe ratio alone without friction sensitivity.</td>
+          <td>Full distribution analytics: Sortino, Calmar, Max Drawdown, and Turnover.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3.2 Core Econometric Interview Question</h2>
+    <div class="callout callout-warning">
+      <div class="callout-title">📌 Interview Concept: Cross-Sectional Momentum Lag</div>
+      <strong>Question:</strong> Why does the standard academic cross-sectional Momentum factor (Jegadeesh & Titman) evaluate returns from months <em>t-12</em> to <em>t-2</em>, deliberately skipping month <em>t-1</em>?<br>
+      <strong>Answer:</strong> Month <em>t-1</em> is skipped to isolate persistent intermediate-term trend while stripping out short-term mean-reversion caused by temporary liquidity shocks and bid-ask bounce.
+    </div>
+
+    <div class="page-break"></div>
+
+    <!-- MODULE 4 -->
+    <h1>Module 4: Python Production Templates Specification</h1>
+    <p>This Playbook is accompanied by production-ready, fully vectorized Python modules:</p>
+
+    <h2>4.1 Vectorized Multifactor Backtesting Engine</h2>
+    <p>The included script <code>backtest_multifator.py</code> demonstrates cross-sectional rank standardization and transaction-cost aware rebalancing:</p>
+
+    <pre><code># Cross-Sectional Z-Score Factor Standardization
+def compute_z_score(df: pd.DataFrame) -> pd.DataFrame:
+    return df.sub(df.mean(axis=1), axis=0).div(df.std(axis=1), axis=0)
+
+# Composite Signal: 50% Momentum + 50% Value
+composite_score = 0.5 * z_momentum + 0.5 * z_value
+
+# Explicit 1-period shift to neutralize Look-Ahead Bias
+execution_weights = portfolio_weights.shift(1).fillna(0.0)</code></pre>
+
+    <h2>4.2 Coherent Tail Risk Metrics</h2>
+    <p>The companion module <code>metricas_risco_performance.py</code> calculates institutional capital-preservation metrics:</p>
+    <ul>
+      <li><strong>Maximum Drawdown & Calmar Ratio:</strong> Measures peak-to-trough capital impairment and recovery horizon.</li>
+      <li><strong>Conditional VaR (CVaR / Expected Shortfall 95%):</strong> Evaluates the expected loss magnitude beyond the VaR threshold, satisfying sub-additivity axioms.</li>
+    </ul>
+
+    <div style="margin-top: 40px; border-top: 1px solid var(--border-light); padding-top: 20px; font-size: 8.5pt; color: var(--text-muted); text-align: center;">
+      The Quant Transition Playbook • Written by Lucca Simeoni Pavan, Ph.D. • All Rights Reserved.
+    </div>
+  </div>
+
+</body>
+</html>

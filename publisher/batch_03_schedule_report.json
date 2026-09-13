@@ -1,0 +1,92 @@
+[
+  {
+    "post_idx": 1,
+    "file": "post_01.md",
+    "buffer_post_id": "6aa095563c5ae934d51d67e7",
+    "due_at_utc": "2026-09-09T15:00:00.000Z",
+    "scheduled_brt": "09/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Um modelo com R² de 85% e Sharpe de 3.2 em backtest raramente sobreviv"
+  },
+  {
+    "post_idx": 2,
+    "file": "post_02.md",
+    "buffer_post_id": "6aa09559493bbf8c2823d0b0",
+    "due_at_utc": "2026-09-10T15:00:00.000Z",
+    "scheduled_brt": "10/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Você encontrou um novo indicador que parece gerar 20% ao ano de retorn"
+  },
+  {
+    "post_idx": 3,
+    "file": "post_03.md",
+    "buffer_post_id": "6aa0955c3bd0dd9ef31e2b70",
+    "due_at_utc": "2026-09-11T15:00:00.000Z",
+    "scheduled_brt": "11/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Um backtest sem custos realistas de microestrutura não é uma estratégi"
+  },
+  {
+    "post_idx": 4,
+    "file": "post_04.md",
+    "buffer_post_id": "6aa0955f3bd0dd9ef31e2bb6",
+    "due_at_utc": "2026-09-12T15:00:00.000Z",
+    "scheduled_brt": "12/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Se você se candidatar a uma vaga de Quant Researcher em uma gestora si"
+  },
+  {
+    "post_idx": 5,
+    "file": "post_05.md",
+    "buffer_post_id": "6aa095635bcf98109f5d7f74",
+    "due_at_utc": "2026-09-13T15:00:00.000Z",
+    "scheduled_brt": "13/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Harry Markowitz ganhou o Prêmio Nobel pela fronteira eficiente de Médi"
+  },
+  {
+    "post_idx": 6,
+    "file": "post_06.md",
+    "buffer_post_id": "6aa095663c5ae934d51d6906",
+    "due_at_utc": "2026-09-14T15:00:00.000Z",
+    "scheduled_brt": "14/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Você rodou 5.000 variações de parâmetros em um backtest e encontrou um"
+  },
+  {
+    "post_idx": 7,
+    "file": "post_07.md",
+    "buffer_post_id": "6aa09569493bbf8c2823d145",
+    "due_at_utc": "2026-09-15T15:00:00.000Z",
+    "scheduled_brt": "15/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "O fator Momentum (Jegadeesh & Titman, 1993) é uma das anomalias empíri"
+  },
+  {
+    "post_idx": 8,
+    "file": "post_08.md",
+    "buffer_post_id": "6aa0956c3bd0dd9ef31e2c60",
+    "due_at_utc": "2026-09-16T15:00:00.000Z",
+    "scheduled_brt": "16/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Durante anos, o Value at Risk (VaR a 95%) foi a métrica de risco padrã"
+  },
+  {
+    "post_idx": 9,
+    "file": "post_09.md",
+    "buffer_post_id": "6aa0956f5bcf98109f5d8004",
+    "due_at_utc": "2026-09-17T15:00:00.000Z",
+    "scheduled_brt": "17/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Quando avalio códigos em desafios técnicos para contratação de quants,"
+  },
+  {
+    "post_idx": 10,
+    "file": "post_10.md",
+    "buffer_post_id": "6aa095713bd0dd9ef31e2c88",
+    "due_at_utc": "2026-09-18T15:00:00.000Z",
+    "scheduled_brt": "18/09/2026 às 12:00 BRT",
+    "status": "scheduled",
+    "first_line": "Durante anos, a transição da academia (Mestrados/Doutorados em Economi"
+  }
+]

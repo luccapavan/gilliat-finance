@@ -1,0 +1,11 @@
+# The Institutional Quant Toolkit & Playbook - Edição Intermediária
+Autor: Lucca Simeoni Pavan, Ph.D.
+
+Conteúdo deste pacote:
+1. Todos os 4 PDFs (Playbook PT/EN + Checklists Anti-Vieses PT/EN)
+2. Pasta 'code/':
+   - backtest_multifactor.py (Backtest vetorizado com lag 12-2 e turnover)
+   - risk_performance_metrics.py (Métricas de cauda CVaR 95%, VaR, Sortino e Sharpe)
+   - factor_orthogonalization_fwl.py (Ortogonalização de fatores via Teorema FWL)
+   - ledoit_wolf_covariance.py (Matriz de covariância encolhida de Ledoit-Wolf)
+   - requirements.txt & README_TOOLKIT.md

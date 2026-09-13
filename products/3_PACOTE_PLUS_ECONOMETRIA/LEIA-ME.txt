@@ -1,0 +1,10 @@
+# The Institutional Quant & Econometrics Suite - Edição Plus
+Autor: Lucca Simeoni Pavan, Ph.D.
+
+Conteúdo deste pacote:
+1. Todos os 4 PDFs (Playbook PT/EN + Checklists Anti-Vieses PT/EN)
+2. Pasta 'code/' com os 4 Motores Quant de Factor Investing
+3. Pasta 'econometrics_toolkit/' com a suíte de Econometria Financeira:
+   - analise_estilo_sharpe.py (Returns-Based Style Analysis - RBSA de William Sharpe)
+   - modelos_series_temporais.py (Vetor Autorregressivo VAR multivariado com AIC/BIC)
+   - README.md & README_EN.md

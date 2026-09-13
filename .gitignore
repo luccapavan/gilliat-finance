@@ -1,0 +1,24 @@
+# Arquivos sensíveis e de credenciais
+.env
+*.env
+*.log
+
+# Dados privados de contatos e leads
+connections.csv
+classified_connections.json
+final_report_data.json
+outreach_advisory_queue.csv
+landing_pages/leads.csv
+landing_pages/leads.json
+landing_pages/leads_testes.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+

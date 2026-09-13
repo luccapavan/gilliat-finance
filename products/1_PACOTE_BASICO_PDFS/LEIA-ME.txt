@@ -1,0 +1,8 @@
+# The Quant Transition Playbook - Edição Básica (PDFs)
+Autor: Lucca Simeoni Pavan, Ph.D.
+
+Conteúdo deste pacote:
+1. The_Quant_Transition_Playbook_PT.pdf (Dossiê conceitual de 13 páginas em Português)
+2. The_Quant_Transition_Playbook_EN.pdf (Dossiê conceitual de 13 páginas em Inglês)
+3. Quant_Anti_Bias_Checklist_PT.pdf (Checklist de bolso anti-vieses de 2 páginas em Português)
+4. Quant_Anti_Bias_Checklist_EN.pdf (Checklist de bolso anti-vieses de 2 páginas em Inglês)
