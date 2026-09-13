@@ -1,4 +1,4 @@
-﻿"""
+"""
 Script de Deploy e Gerenciamento do Netlify para o Gilliat Finance
 Publica as Landing Pages via Netlify REST API ou prepara o pacote zip para o Netlify Drop.
 
@@ -42,8 +42,10 @@ def create_zip_package():
             if "__pycache__" in root or ".git" in root:
                 continue
             for file in files:
-                # Ignora arquivos temporários locais
-                if file.endswith((".pyc", ".tmp", ".log")):
+                # Ignora arquivos desnecessários no deploy final
+                if file.endswith((".pyc", ".tmp", ".log", ".md", ".py", ".js")):
+                    continue
+                if file in ("macro_assessores.html", "portal_cursos.html"):
                     continue
                 full_path = Path(root) / file
                 rel_path = full_path.relative_to(LP_DIR)

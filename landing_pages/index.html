@@ -1,138 +1,486 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Central de Lançamento de Cursos | Landing Pages</title>
+  <title>Curso de Análise Quantitativa Aplicada | Lista de Espera VIP</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              500: '#10b981',
+              600: '#059669',
+              dark: '#0a0f1d',
+              card: '#111827',
+              border: '#1f2937',
+              accent: '#38bdf8'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html, body {
+      overflow-x: hidden;
+      max-width: 100vw;
+      width: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    /* Evita que o iPhone dê zoom automático que quebra o layout ao focar em campos */
+    @media (max-width: 768px) {
+      input, select, textarea {
+        font-size: 16px !important;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
+  </style>
 </head>
-<body class="bg-slate-950 text-slate-200 font-['Plus_Jakarta_Sans'] min-h-screen flex flex-col justify-between p-6">
-  
-  <div class="max-w-5xl mx-auto w-full pt-10">
-    <div class="text-center mb-12">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono mb-4">
-        PORTAL DE LANÇAMENTO • 2 LANDING PAGES CRIADAS
+<body class="bg-brand-dark text-slate-200 font-sans antialiased selection:bg-emerald-500 selection:text-black">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-950 border-b border-emerald-500/30 py-2 px-3 text-center text-xs font-medium text-emerald-300 flex items-center justify-center gap-2">
+    <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping shrink-0"></span>
+    <span class="leading-tight"><strong>Lista VIP:</strong> Baixe a <strong>Ementa Oficial + Guia e Teste de Nivelamento</strong> e garanta <strong>20% OFF</strong> no lançamento.</span>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-4 sm:py-6 flex items-center justify-between">
+    <div class="flex items-center gap-2.5 sm:gap-3">
+      <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-gradient-to-br from-emerald-400 to-cyan-500 flex items-center justify-center font-mono font-bold text-black text-base sm:text-lg shrink-0">
+        Q
       </div>
-      <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-        Landing Pages Prontas para Conversão
+      <div>
+        <span class="font-bold tracking-tight text-white block text-sm sm:text-base leading-tight">QUANT APPLIED</span>
+        <span class="text-[9px] sm:text-[10px] tracking-widest text-slate-400 uppercase font-mono">Institutional Training</span>
+      </div>
+    </div>
+    <a href="#cadastro" class="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs font-semibold uppercase tracking-wider text-emerald-400 bg-emerald-950/60 border border-emerald-500/40 rounded-lg hover:bg-emerald-900/50 transition">
+      Garantir 20% OFF
+    </a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="relative pt-6 sm:pt-12 pb-12 sm:pb-20 px-4 sm:px-6 overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-emerald-900/20 via-transparent to-transparent pointer-events-none"></div>
+
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-slate-300 text-[10px] sm:text-xs font-mono mb-4 sm:mb-6">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0"></span>
+        <span>MODELAGEM QUANTITATIVA & FACTOR INVESTING</span>
+      </div>
+
+      <h1 class="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-snug sm:leading-tight mb-4 sm:mb-6 break-words">
+        Domine a Modelagem Quantitativa e Eleve o Nível Técnico das Suas Decisões.
       </h1>
-      <p class="text-slate-400 text-sm sm:text-base mt-3 max-w-2xl mx-auto">
-        Clique nos cards abaixo para visualizar e testar cada uma das páginas no seu navegador. Ambas contam com captura de leads, campo de horário e liberação imediata de material gratuito.
+
+      <p class="text-xs sm:text-base lg:text-lg text-slate-300 max-w-3xl mx-auto mb-6 sm:mb-10 leading-relaxed px-1">
+        Aprenda do zero aos modelos multifatoriais e backtesting institucional em Python. Deixe para trás planilhas frágeis e suposições intuitivas para operar com o mesmo rigor das principais gestoras sistemáticas do mercado financeiro.
+      </p>
+
+      <!-- HERO STATS / BULLETS -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-10 text-left">
+        <div class="p-3.5 sm:p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+          <div class="text-emerald-400 font-mono text-xs sm:text-sm font-semibold mb-1">✓ Sem Vieses</div>
+          <p class="text-[11px] sm:text-xs text-slate-300 leading-normal">Tratamento de look-ahead bias, viés de sobrevivência e slippage realista.</p>
+        </div>
+        <div class="p-3.5 sm:p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+          <div class="text-cyan-400 font-mono text-xs sm:text-sm font-semibold mb-1">✓ Factor Investing</div>
+          <p class="text-[11px] sm:text-xs text-slate-300 leading-normal">Fatores de Momentum, Valor, Qualidade e Risco adaptados ao mercado brasileiro.</p>
+        </div>
+        <div class="p-3.5 sm:p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+          <div class="text-purple-400 font-mono text-xs sm:text-sm font-semibold mb-1">✓ Risco Avançado</div>
+          <p class="text-[11px] sm:text-xs text-slate-300 leading-normal">VaR, CVaR, Sortino, Calmar e Paridade de Risco Hierárquica (HRP).</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+        <a href="#cadastro" class="w-full sm:w-auto px-6 py-3.5 sm:py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-slate-950 font-bold text-xs sm:text-sm tracking-wide shadow-lg shadow-emerald-900/40 transition transform active:scale-95 flex items-center justify-center gap-2">
+          <span>ENTRAR NA LISTA VIP + BAIXAR EMENTA E TESTE (20% OFF)</span>
+          <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </a>
+      </div>
+
+      <p class="text-[11px] sm:text-xs text-slate-400 mt-3 flex items-center justify-center gap-1.5 text-center px-2">
+        <svg class="w-4 h-4 text-emerald-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+        <span>Download imediato do Kit (Ementa Oficial + Guia de Nivelamento + Teste Diagnóstico) + 20% de desconto garantido.</span>
       </p>
     </div>
+  </section>
 
-    <!-- CARDS -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-      
-      <!-- CARD 1 -->
-      <div class="p-8 rounded-3xl bg-slate-900 border border-slate-800 hover:border-emerald-500/60 transition group flex flex-col justify-between shadow-xl">
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <span class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 font-mono font-bold flex items-center justify-center text-lg">
-              Q
-            </span>
-            <span class="px-2.5 py-1 rounded-full text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-              PRONTA
-            </span>
-          </div>
-          <h2 class="text-xl font-bold text-white group-hover:text-emerald-400 transition">
-            Curso de Análise Quantitativa Aplicada
-          </h2>
-          <p class="text-xs text-slate-400 mt-2 mb-6 leading-relaxed">
-            Focado em economistas, cientistas de dados e analistas de mercado. Transição para assets, modelagem em Python, factor investing e backtest institucional.
-          </p>
-          <div class="space-y-1.5 text-xs text-slate-300 font-mono border-t border-slate-800 pt-4 mb-6">
-            <div>• Isca: Ementa Oficial + Guia & Teste de Nivelamento (PDF)</div>
-            <div>• Oferta: 20% de Desconto Exclusivo</div>
-            <div>• Campo de Horário: 4 opções incluídas</div>
-          </div>
-        </div>
-        <a href="analise_quantitativa.html" class="w-full py-3.5 px-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs tracking-wide text-center transition flex items-center justify-center gap-2">
-          <span>Abrir Landing Page Quant</span>
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-        </a>
+  <!-- O PROBLEMA DO MERCADO -->
+  <section class="py-16 px-6 bg-slate-950 border-y border-slate-900">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest">O Gap Institucional</span>
+        <h2 class="text-2xl sm:text-3xl font-bold text-white mt-2">A intuição já não é suficiente no mercado financeiro.</h2>
       </div>
 
-      <!-- CARD 2 -->
-      <div class="p-8 rounded-3xl bg-slate-900 border border-slate-800 hover:border-amber-500/60 transition group flex flex-col justify-between shadow-xl">
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <span class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 font-serif font-bold flex items-center justify-center text-lg">
-              M
-            </span>
-            <span class="px-2.5 py-1 rounded-full text-[10px] font-mono bg-amber-500/10 text-amber-400 border border-amber-500/20">
-              PRONTA
-            </span>
-          </div>
-          <h2 class="text-xl font-bold text-white group-hover:text-amber-400 transition">
-            Análise Econômica & Investimentos para Assessores
-          </h2>
-          <p class="text-xs text-slate-400 mt-2 mb-6 leading-relaxed">
-            Focado em AAIs, consultores CVM, bankers e CFP. Como transformar leitura macro, curvas de juros e alocação de portfólios em captação de clientes qualificados.
-          </p>
-          <div class="space-y-1.5 text-xs text-slate-300 font-mono border-t border-slate-800 pt-4 mb-6">
-            <div>• Isca: Guia de Nivelamento Macro & Alocação</div>
-            <div>• Oferta: 20% de Desconto Exclusivo</div>
-            <div>• Campo de Horário: 4 opções incluídas</div>
-          </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800">
+          <div class="w-10 h-10 rounded-lg bg-red-950/60 border border-red-800/40 text-red-400 flex items-center justify-center font-bold mb-4">✕</div>
+          <h3 class="text-white font-semibold mb-2">Cientistas de Dados Tradicionais</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">Focam em LSTMs ou modelos complexos que ignoram a baixa relação sinal-ruído e a não-estacionariedade das séries financeiras.</p>
         </div>
-        <a href="macro_assessores.html" class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-bold text-xs tracking-wide text-center transition flex items-center justify-center gap-2">
-          <span>Abrir Landing Page Assessores</span>
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
-        </a>
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800">
+          <div class="w-10 h-10 rounded-lg bg-amber-950/60 border border-amber-800/40 text-amber-400 flex items-center justify-center font-bold mb-4">✕</div>
+          <h3 class="text-white font-semibold mb-2">Analistas Presos ao Excel</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">Gastam horas em rotinas manuais e não conseguem validar estratégias em milhares de ativos simultaneamente.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800">
+          <div class="w-10 h-10 rounded-lg bg-emerald-950/60 border border-emerald-800/40 text-emerald-400 flex items-center justify-center font-bold mb-4">✓</div>
+          <h3 class="text-white font-semibold mb-2">O Analista Quant Moderno</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">Automatiza pipelines de dados, constrói fatores persistentes e gera relatórios reproduzíveis com código limpo e robusto.</p>
+        </div>
       </div>
+    </div>
+  </section>
 
+  <!-- GRADE CURRICULAR -->
+  <section class="py-20 px-6 max-w-5xl mx-auto">
+    <div class="text-center mb-16">
+      <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest">Currículo Aplicado</span>
+      <h2 class="text-2xl sm:text-4xl font-bold text-white mt-2">O Que Você Irá Construir na Prática</h2>
+      <p class="text-sm text-slate-400 mt-3 max-w-2xl mx-auto">Foco 100% em código utilizável e fundamentos de mercado, sem enrolação teórica.</p>
     </div>
 
-    <!-- PAINEL DE LEADS CAPTURADOS LOCALMENTE (TESTE) -->
-    <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 mb-8">
-      <div class="flex items-center justify-between mb-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
         <div>
-          <h3 class="text-sm font-bold text-white">Leads Capturados em Testes Locais (Navegador)</h3>
-          <p class="text-xs text-slate-400">Qualquer teste feito nas páginas acima é salvo localmente para conferência.</p>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 01</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Infraestrutura de Dados Financeiros</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>APIs institucionais (BCB, CVM, B3 e Yahoo Finance).</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Ajuste correto de dividendos, splits e calendário ANBIMA.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Eliminação rigorosa de look-ahead e viés de sobrevivência.</span></li>
+          </ul>
         </div>
-        <button onclick="exportLeads()" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs rounded-lg transition">
-          Exportar JSON
-        </button>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Base limpa de 10 anos do IBrX-100
+        </div>
       </div>
-      <div id="leadsList" class="text-xs font-mono text-slate-400 bg-slate-950 p-4 rounded-xl max-h-40 overflow-y-auto">
-        Nenhum lead testado ainda no navegador. Abra uma das páginas, preencha o formulário e volte aqui!
+
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 02</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Estatística & Métricas de Risco</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Retornos simples vs. log-retornos e propriedades aditivas.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Distribuições empíricas, caudas pesadas (fat tails) e assimetria.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Métricas além do Sharpe: Sortino, Calmar e CVaR (Expected Shortfall).</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Gerador automático de Risk Tear Sheet
+        </div>
       </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 03</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Factor Investing na Bolsa Brasileira</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Momentum na B3: Cross-Sectional vs. Time-Series (lag 12-2).</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Fatores de Valor, Qualidade, Tamanho e Baixa Volatilidade.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Neutralização do Factor Zoo: t-stat ≥ 3.0 e Teorema FWL.</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Ranking multifatorial com Z-Scores na B3
+        </div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 04</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Framework de Backtesting Realista</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Arquiteturas vetorizadas e orientadas a eventos em Python.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Atritos reais: corretagem, emolumentos B3, impostos e turnover.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Slippage sobre ADTV e Validação Purged Walk-Forward.</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Backtest de 5 anos com curva de capital auditável
+        </div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 05</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Otimização de Portfólios & Risco</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Limites de Markowitz e instabilidade em matrizes amostrais.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Regularização analítica com Ledoit-Wolf Shrinkage e RMT.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Paridade de Risco (Risk Parity) e Hierarchical Risk Parity (HRP).</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Comparativo 1/N vs. Markowitz vs. HRP
+        </div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">MÓDULO 06</span>
+          <h3 class="text-base font-bold text-white mt-1 mb-2.5">Projeto Final & Produção Quant</h3>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Estruturação modular de projetos quantitativos em Python.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Geração de relatórios executivos em PDF com dashboards.</span></li>
+            <li class="flex items-start gap-1.5"><span>▸</span> <span>Estratégia proprietária completa (dados → sinal → backtest → HRP).</span></li>
+          </ul>
+        </div>
+        <div class="mt-3 pt-2.5 border-t border-slate-800/80 text-[11px] font-mono text-emerald-400">
+          Laboratório: Estratégia sistemática ponta a ponta para portfólio
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTRUTOR -->
+  <section class="py-14 px-6 bg-slate-950 border-t border-slate-900">
+    <div class="max-w-3xl mx-auto p-6 md:p-8 rounded-2xl bg-slate-900/80 border border-slate-800 flex flex-col md:flex-row items-center gap-6">
+      <div class="w-24 h-24 rounded-2xl bg-gradient-to-tr from-emerald-600 to-cyan-600 flex items-center justify-center font-bold text-2xl text-slate-950 shadow-inner shrink-0">
+        LP
+      </div>
+      <div>
+        <span class="text-xs font-mono text-emerald-400 uppercase tracking-wider">Instrutor</span>
+        <h3 class="text-xl font-bold text-white mt-0.5">Lucca Simeoni Pavan, Ph.D.</h3>
+        <p class="text-xs text-slate-400 mt-1 mb-2">Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação • Doutor em Economia (UFPR)</p>
+        <p class="text-xs text-slate-300 leading-relaxed">
+          Especialista em econometria de séries temporais, Factor Investing e alocação quantitativa de portfólios no mercado financeiro institucional. Unindo rigor acadêmico com aplicação pragmática no mercado financeiro.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULÁRIO DE CAPTURA & HORÁRIO -->
+  <section id="cadastro" class="py-10 sm:py-20 px-3 sm:px-6 max-w-3xl mx-auto">
+    <div class="p-4 sm:p-8 md:p-10 rounded-2xl sm:rounded-3xl bg-slate-900/90 border-2 border-emerald-500/30 shadow-2xl relative">
+      
+      <div class="text-center mb-6 sm:mb-8">
+        <span class="px-3 py-1 rounded-full text-[10px] sm:text-[11px] font-mono font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 uppercase tracking-wider">
+          Kit Gratuito: Ementa + Guia + Teste de Nivelamento (20% OFF)
+        </span>
+        <h2 class="text-xl sm:text-3xl font-extrabold text-white mt-3">Cadastre-se na Lista de Espera VIP</h2>
+        <p class="text-xs sm:text-sm text-slate-400 mt-2 leading-relaxed px-1">
+          Ao preencher abaixo, você recebe acesso imediato ao <strong>Kit Institucional de Entrada</strong> e assegura <strong>20% de desconto exclusivo</strong> na 1ª Turma do curso.
+        </p>
+
+        <!-- CARDS DO KIT INCLUSO -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 mt-4 text-left">
+          <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800">
+            <span class="text-emerald-400 font-bold text-xs block">📋 Ementa Oficial</span>
+            <span class="text-[11px] text-slate-300 leading-tight">30h de imersão, 6 módulos aplicados e projetos em Python.</span>
+          </div>
+          <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800">
+            <span class="text-cyan-400 font-bold text-xs block">📘 Guia de Nivelamento</span>
+            <span class="text-[11px] text-slate-300 leading-tight">Retornos, anualização B3 (252 dias) e script pronto para rodar.</span>
+          </div>
+          <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800">
+            <span class="text-purple-400 font-bold text-xs block">🧠 Teste Diagnóstico</span>
+            <span class="text-[11px] text-slate-300 leading-tight">10 questões práticas com gabarito comentado e régua quant.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <form id="leadForm" class="space-y-3 sm:space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1" for="name">Nome Completo *</label>
+          <input type="text" id="name" required placeholder="Ex: Lucas Guimarães" class="w-full px-3.5 py-2.5 sm:py-3 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition">
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1" for="email">E-mail Corporativo ou Principal *</label>
+          <input type="email" id="email" required placeholder="Ex: lucas@asset.com.br ou seuemail@gmail.com" class="w-full px-3.5 py-2.5 sm:py-3 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition">
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1" for="phone">WhatsApp com DDD * (Para envio do cupom de 20% OFF)</label>
+          <input type="tel" id="phone" required placeholder="Ex: (11) 99999-9999" class="w-full px-3.5 py-2.5 sm:py-3 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition">
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-1" for="role">Sua Atuação Atual</label>
+            <select id="role" class="w-full px-3.5 py-2.5 sm:py-3 rounded-xl bg-slate-950 border border-slate-700 text-sm text-slate-300 focus:outline-none focus:border-emerald-500 transition">
+              <option value="Mercado Financeiro / Asset">Mercado Financeiro / Asset</option>
+              <option value="Ciência de Dados / TI">Ciência de Dados / TI</option>
+              <option value="Economista / Finanças Corporativas">Economista / Finanças Corporativas</option>
+              <option value="Estudante / Transição">Estudante / Transição de Carreira</option>
+              <option value="Outro">Outro</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-1" for="python_level">Nível em Python</label>
+            <select id="python_level" class="w-full px-3.5 py-2.5 sm:py-3 rounded-xl bg-slate-950 border border-slate-700 text-sm text-slate-300 focus:outline-none focus:border-emerald-500 transition">
+              <option value="Iniciante">Iniciante (Quero aprender do zero)</option>
+              <option value="Intermediário">Intermediário (Já uso Pandas/Numpy)</option>
+              <option value="Avançado">Avançado (Já programo estratégias)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- CAMPO OBRIGATÓRIO DE HORÁRIO -->
+        <div class="pt-2">
+          <label class="block text-xs font-semibold text-emerald-400 mb-1 flex items-center gap-1.5">
+            <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <span>Qual a sua melhor disponibilidade de horário para as aulas? *</span>
+          </label>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
+            <label class="flex items-center gap-2.5 p-2.5 sm:p-3 rounded-xl bg-slate-950 border border-slate-800 cursor-pointer hover:border-slate-700 transition">
+              <input type="radio" name="availability" value="Noite (19h30 às 21h30)" checked class="text-emerald-500 focus:ring-emerald-500 shrink-0">
+              <span class="text-[11px] sm:text-xs text-slate-300 leading-tight"><strong>Noite</strong> (Dias úteis, 19h30 - 21h30)</span>
+            </label>
+            <label class="flex items-center gap-2.5 p-2.5 sm:p-3 rounded-xl bg-slate-950 border border-slate-800 cursor-pointer hover:border-slate-700 transition">
+              <input type="radio" name="availability" value="Sábados pela manhã" class="text-emerald-500 focus:ring-emerald-500 shrink-0">
+              <span class="text-[11px] sm:text-xs text-slate-300 leading-tight"><strong>Sábados</strong> (09h00 às 12h00)</span>
+            </label>
+            <label class="flex items-center gap-2.5 p-2.5 sm:p-3 rounded-xl bg-slate-950 border border-slate-800 cursor-pointer hover:border-slate-700 transition">
+              <input type="radio" name="availability" value="Gravado + Plantão Quinzenal" class="text-emerald-500 focus:ring-emerald-500 shrink-0">
+              <span class="text-[11px] sm:text-xs text-slate-300 leading-tight"><strong>Gravado</strong> + Plantão Quinzenal</span>
+            </label>
+            <label class="flex items-center gap-2.5 p-2.5 sm:p-3 rounded-xl bg-slate-950 border border-slate-800 cursor-pointer hover:border-slate-700 transition">
+              <input type="radio" name="availability" value="Flexível (Noite ou Sábado)" class="text-emerald-500 focus:ring-emerald-500 shrink-0">
+              <span class="text-[11px] sm:text-xs text-slate-300 leading-tight"><strong>Flexível</strong> (Qualquer horário)</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="pt-3 sm:pt-4">
+          <button type="submit" id="submitBtn" class="w-full py-3.5 sm:py-4 px-3 sm:px-6 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-slate-950 font-bold text-xs sm:text-sm tracking-wide shadow-lg shadow-emerald-900/30 transition transform active:scale-98 flex items-center justify-center gap-2 text-center">
+            <span>BAIXAR KIT COMPLETO (EMENTA + TESTE) + 20% OFF</span>
+            <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </button>
+        </div>
+
+        <p class="text-[10px] sm:text-[11px] text-center text-slate-500 pt-1">
+          🔒 Seus dados estão seguros e protegidos. Sem spam comercial.
+        </p>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- MODAL DE SUCESSO / DOWNLOAD IMEDIATO -->
+  <div id="successModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+    <div class="bg-slate-900 border border-emerald-500/50 rounded-3xl max-w-md w-full p-6 sm:p-8 text-center shadow-2xl relative">
+      <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto mb-4">
+        <svg class="w-7 h-7 sm:w-8 sm:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+      </div>
+
+      <h3 class="text-xl sm:text-2xl font-bold text-white mb-2">Inscrição Confirmada!</h3>
+      <p class="text-xs text-slate-300 mb-4">
+        Sua vaga na lista VIP foi reservada com <strong class="text-emerald-400">20% de desconto exclusivo</strong>. O seu Kit Institucional Completo está liberado:
+      </p>
+
+      <div class="p-3.5 sm:p-4 rounded-xl bg-slate-950 border border-slate-800 mb-5 text-left space-y-2">
+        <div class="flex items-center gap-2">
+          <span class="text-emerald-400 font-mono text-xs">✓</span>
+          <span class="text-xs text-slate-200"><strong>Ementa Oficial:</strong> Grade de 30h dos 6 Módulos</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-cyan-400 font-mono text-xs">✓</span>
+          <span class="text-xs text-slate-200"><strong>Guia de Nivelamento:</strong> Python + Métricas B3</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-purple-400 font-mono text-xs">✓</span>
+          <span class="text-xs text-slate-200"><strong>Teste Diagnóstico:</strong> 10 Questões + Gabarito</span>
+        </div>
+      </div>
+
+      <a id="downloadPdfLink" href="downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf" download="Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf" target="_blank" class="flex items-center justify-center gap-2 w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-emerald-400 to-emerald-500 hover:from-emerald-300 hover:to-emerald-400 text-slate-950 font-bold text-xs sm:text-sm shadow-lg shadow-emerald-900/40 transition mb-2.5">
+        <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+        <span>BAIXAR KIT COMPLETO (PDF)</span>
+      </a>
+
+      <a href="downloads/kit_nivelamento_e_ementa_analise_quantitativa.html" target="_blank" class="block text-[11px] sm:text-xs text-emerald-400 hover:underline mb-4">
+        Ou visualizar versão interativa no navegador ▸
+      </a>
+
+      <button onclick="closeModal()" class="text-xs text-slate-400 hover:text-white transition">
+        Fechar Janela
+      </button>
     </div>
   </div>
 
-  <footer class="text-center text-xs text-slate-600 py-4">
-    Linkedin Money Machine • Ecossistema de Landing Pages
+  <!-- FOOTER -->
+  <footer class="py-8 text-center text-xs text-slate-600 border-t border-slate-900">
+    <p>© 2026 Quant Applied • Todos os direitos reservados.</p>
   </footer>
 
   <script>
-    function renderLeads() {
-      const qLeads = JSON.parse(localStorage.getItem('quant_leads') || '[]');
-      const aLeads = JSON.parse(localStorage.getItem('advisory_leads') || '[]');
-      const total = [...qLeads, ...aLeads];
-      const container = document.getElementById('leadsList');
-      if (total.length === 0) {
-        container.innerHTML = 'Nenhum lead testado ainda no navegador. Abra uma das páginas acima, preencha o formulário e confira aqui!';
-      } else {
-        container.innerHTML = total.map((l, i) => `
-          <div class="py-1 border-b border-slate-800">
-            [${l.course}] ${l.name} - ${l.email} | Tel: ${l.phone} | Horário: <strong>${l.availability}</strong>
-          </div>
-        `).join('');
+    // =========================================================================
+    // INTEGRAÇÃO COM GOOGLE SHEETS (Conectado e Testado):
+    // =========================================================================
+    const GOOGLE_SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbz7iNMaYy1JUofjwpnb7e8RlKVMYn0bFDdv8sRU3drDMvc6q0aiXswRjOFGKjYbTRDJ/exec";
+
+    const form = document.getElementById('leadForm');
+    const modal = document.getElementById('successModal');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const leadData = {
+        course: "Analise Quantitativa",
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        role: document.getElementById('role').value,
+        python_level: document.getElementById('python_level').value,
+        availability: document.querySelector('input[name="availability"]:checked')?.value || "Não informado",
+        timestamp: new Date().toISOString()
+      };
+
+      // 1. Salva no localStorage para redundância e teste local imediato
+      const storedLeads = JSON.parse(localStorage.getItem('quant_leads') || '[]');
+      storedLeads.push(leadData);
+      localStorage.setItem('quant_leads', JSON.stringify(storedLeads));
+
+      // 2. Se a URL do Google Sheets estiver configurada, envia diretamente
+      if (GOOGLE_SHEETS_WEBHOOK_URL && GOOGLE_SHEETS_WEBHOOK_URL.trim() !== "") {
+        fetch(GOOGLE_SHEETS_WEBHOOK_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+          body: JSON.stringify(leadData)
+        }).catch(err => console.log("Google Sheets Webhook:", err));
       }
+
+      // 3. Envia também para a API local em Python (se rodando via server.py)
+      fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(leadData)
+      }).catch(err => {
+        // Fallback silencioso se rodando estático sem servidor
+      });
+
+      // 4. Abre o modal com o download imediato do material de nivelamento
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    });
+
+    function closeModal() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      form.reset();
     }
-    function exportLeads() {
-      const qLeads = JSON.parse(localStorage.getItem('quant_leads') || '[]');
-      const aLeads = JSON.parse(localStorage.getItem('advisory_leads') || '[]');
-      const blob = new Blob([JSON.stringify({ quant: qLeads, advisory: aLeads }, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'leads_testes.json';
-      a.click();
-    }
-    renderLeads();
   </script>
 </body>
 </html>

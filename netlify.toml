@@ -1,34 +1,26 @@
-﻿# Configuração Oficial do Netlify para o Gilliat Finance
-# Publicação das Landing Pages e materiais para download
+﻿# Configuração Oficial do Netlify para o Curso Quant Research
+# Publicação exclusiva da Landing Page de Análise Quantitativa Aplicada
 
 [build]
   publish = "landing_pages"
 
-# Rota principal direcionando para a Landing Page de Análise Quantitativa
-[[redirects]]
-  from = "/"
-  to = "/analise_quantitativa.html"
-  status = 200
-
-# Atalho /quant
+# Redirecionamentos para rotas canônicas
 [[redirects]]
   from = "/quant"
-  to = "/analise_quantitativa.html"
-  status = 200
-
-# Atalho /macro para a Landing Page de Macroeconomia para Assessores
-[[redirects]]
-  from = "/macro"
-  to = "/macro_assessores.html"
-  status = 200
-
-# Atalho /portal para a Central de Landing Pages
-[[redirects]]
-  from = "/portal"
   to = "/index.html"
-  status = 200
+  status = 301
 
-# Atalhos diretos para download do Kit de Nivelamento (PDF)
+[[redirects]]
+  from = "/analise_quantitativa"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/analise_quantitativa.html"
+  to = "/index.html"
+  status = 301
+
+# Atalhos diretos para download do Kit de Nivelamento e Ementa (PDF)
 [[redirects]]
   from = "/kit"
   to = "/downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf"

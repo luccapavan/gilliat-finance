@@ -38,5 +38,5 @@ PRODUCT_LINKS = {
     "playbook": os.getenv("PLAYBOOK_GUMROAD_URL", "https://warrenjax.gumroad.com/l/fsrcmj"),
     "newsletter": os.getenv("NEWSLETTER_URL", "https://factormacro.substack.com"),
     "toolkit": os.getenv("TOOLKIT_GUMROAD_URL", "https://gumroad.com/l/econometrics-python-toolkit"),
-    "quant_course_lp": os.getenv("QUANT_COURSE_LP_URL", "https://analise-quantitativa.netlify.app"),
+    "quant_course_lp": os.getenv("QUANT_COURSE_LP_URL", "https://curso-quant-research.netlify.app"),
 }
