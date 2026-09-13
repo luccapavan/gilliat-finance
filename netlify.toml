@@ -1,0 +1,56 @@
+﻿# Configuração Oficial do Netlify para o Gilliat Finance
+# Publicação das Landing Pages e materiais para download
+
+[build]
+  publish = "landing_pages"
+
+# Rota principal direcionando para a Landing Page de Análise Quantitativa
+[[redirects]]
+  from = "/"
+  to = "/analise_quantitativa.html"
+  status = 200
+
+# Atalho /quant
+[[redirects]]
+  from = "/quant"
+  to = "/analise_quantitativa.html"
+  status = 200
+
+# Atalho /macro para a Landing Page de Macroeconomia para Assessores
+[[redirects]]
+  from = "/macro"
+  to = "/macro_assessores.html"
+  status = 200
+
+# Atalho /portal para a Central de Landing Pages
+[[redirects]]
+  from = "/portal"
+  to = "/index.html"
+  status = 200
+
+# Atalhos diretos para download do Kit de Nivelamento (PDF)
+[[redirects]]
+  from = "/kit"
+  to = "/downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf"
+  status = 302
+
+[[redirects]]
+  from = "/ementa"
+  to = "/downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf"
+  status = 302
+
+# Cabeçalhos de Segurança e Performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/downloads/*"
+  [headers.values]
+    Content-Type = "application/pdf"
+    Content-Disposition = "inline"
+    Cache-Control = "public, max-age=31536000"

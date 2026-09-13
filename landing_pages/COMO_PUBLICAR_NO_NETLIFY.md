@@ -1,30 +1,59 @@
-# Como Publicar a Landing Page no Netlify em Menos de 1 Minuto
+# Como Publicar as Landing Pages no Netlify
 
-A pasta `landing_pages/` está 100% autossuficiente e configurada para o Netlify, com redirecionamentos automáticos (`_redirects`) e downloads dos materiais em PDF.
+A estrutura das Landing Pages está totalmente configurada e compatível com o Netlify, contando com:
+* `netlify.toml` na raiz do repositório (direcionamento automático para a pasta `landing_pages`);
+* Redirecionamentos oficiais configurados em `_redirects` (`/` -> `analise_quantitativa.html`, `/macro` -> `macro_assessores.html`, `/portal` -> `index.html`, `/kit` e `/ementa` -> PDF do Kit);
+* Cabeçalhos de segurança e cache otimizados para PDFs e assets;
+* Script de deploy automatizado via Python (`publisher/deploy_netlify.py`).
 
 ---
 
-### Opção 1: Método Mais Rápido (Netlify Drop - Sem Código nem Git)
+## 🚀 Método 1: Integração Contínua com GitHub (Recomendado)
 
-1. Acesse: **[https://app.netlify.com/drop](https://app.netlify.com/drop)** (faça login ou crie sua conta gratuita).
+Como o repositório já está conectado ao GitHub (`luccapavan/gilliat-finance`):
+1. Acesse o painel do [Netlify](https://app.netlify.com).
+2. Clique em **Add new site** > **Import an existing project** > **GitHub**.
+3. Selecione o repositório `luccapavan/gilliat-finance`.
+4. As configurações de build serão preenchidas automaticamente pelo `netlify.toml` (`publish = landing_pages`).
+5. Clique em **Deploy site**.
+6. A cada `git push` no repositório, o Netlify atualizará a Landing Page automaticamente.
+
+---
+
+## ⚡ Método 2: Netlify Drop (Deploy Instantâneo em 10 Segundos - Sem Git)
+
+1. Acesse: **[https://app.netlify.com/drop](https://app.netlify.com/drop)**.
 2. Abra a pasta do projeto no Windows Explorer:
-   `c:\Users\CLIENTE\gilliat-finance\landing_pages`
-3. **Arraste e solte a pasta `landing_pages`** diretamente na área pontilhada da tela do Netlify.
-4. O Netlify publicará o site instantaneamente e gerará uma URL (ex: `https://heuristic-darwin-123456.netlify.app`).
-5. No painel do Netlify, clique em **Site configuration** > **Change site name** e renomeie para:
-   👉 `analise-quantitativa` (ficando `https://analise-quantitativa.netlify.app`).
+   `c:\Users\CLIENTE\gilliat-finance`
+3. Arraste e solte o arquivo **`landing_pages.zip`** (ou a pasta **`landing_pages`**) na tela do Netlify.
+4. O site estará no ar imediatamente com HTTPS!
+5. No painel do Netlify, clique em **Site configuration** > **Change site name** e defina o nome (ex: `analise-quantitativa`).
 
 ---
 
-### Opção 2: Se o nome do seu site no Netlify for diferente
+## 💻 Método 3: Deploy Direto via Terminal (Python REST API)
 
-Se o Netlify gerar uma URL diferente (ex: `https://quant-pavan.netlify.app` ou seu domínio próprio):
-1. Abra o arquivo `.env` na raiz do projeto e altere a linha:
-   ```bash
-   QUANT_COURSE_LP_URL=https://seu-link-real.netlify.app
+Se você preferir rodar tudo direto pelo terminal:
+1. Obtenha um Personal Access Token no Netlify: **User Settings > Applications > Personal Access Tokens**.
+2. Adicione no seu arquivo `.env`:
+   ```env
+   NETLIFY_AUTH_TOKEN=seu_token_aqui
    ```
-2. Execute o script de sincronização instantânea no terminal:
+3. Execute no terminal:
+   ```bash
+   python publisher/deploy_netlify.py --sync
+   ```
+   *O script publica o site, captura a URL oficial gerada e já sincroniza todos os posts agendados no Buffer!*
+
+---
+
+## 🔄 Sincronização dos Links no Buffer
+
+Sempre que alterar o domínio ou nome do site no Netlify:
+1. Atualize a linha `QUANT_COURSE_LP_URL` no `.env`.
+2. Rode no terminal:
    ```bash
    python publisher/sync_lp_url.py
    ```
-   *Em 5 segundos, todos os posts agendados no Buffer serão atualizados automaticamente via API oficial com a nova URL!*
+   *Todos os posts agendados no LinkedIn via Buffer serão atualizados instantaneamente.*
+

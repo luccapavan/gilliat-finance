@@ -22,3 +22,6 @@ venv/
 .venv/
 env/
 
+# Pacotes temporários de deploy
+*.zip
+
