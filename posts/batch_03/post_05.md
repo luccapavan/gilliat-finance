@@ -27,8 +27,8 @@ Nós "encolhemos" a matriz amostral barulhenta em direção a um alvo estruturad
 
 Você ainda inverte matriz de covariância pura nos seus modelos ou já aplica encolhimento estatístico?
  
-No "The Institutional Quant Toolkit & Playbook", disponibilizo o motor em Python de Ledoit-Wolf pronto para produção, com a matriz de covariância encolhida analiticamente:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+No "The Institutional Quant Toolkit & Playbook", disponibilizo o motor em Python de Ledoit-Wolf pronto para produção, com a matriz de covariância encolhida analiticamente. Baixe a Ementa Oficial e o Kit de Nivelamento do curso:
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.

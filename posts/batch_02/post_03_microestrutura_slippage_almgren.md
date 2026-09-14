@@ -31,6 +31,9 @@ Em modelagem institucional, um bom Quant Researcher não testa apenas retornos: 
 Antes de se entusiasmar com um Sharpe de 2.5 no backtest, pergunte-se:
 "Quantos dias de volume médio diário eu preciso para desmontar essa carteira sem movimentar o mercado?"
 
-Como você modela fricções de microestrutura nos seus testes de backtest?
+Como você modela fricções de microestrutura nos seus backtests?
+
+Para aprender a modelar custos reais de execução, slippage não-linear e auditar pipelines institucionais, baixe a Ementa Oficial e o Kit de Nivelamento do curso:
+👉 https://curso-quant-research.netlify.app/
 
 #Microestrutura #TradingQuantitativo #Execucao #MercadoFinanceiro #FinancasQuantitativas

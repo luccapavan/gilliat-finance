@@ -24,7 +24,7 @@ O que você encontrará nos 6 módulos:
 ▪ Módulo 6: Manual dos Motores em Python (4 scripts prontos para produção inclusos).
 
 O material está disponível com acesso imediato e download dos códigos de produção no link oficial:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+👉 https://curso-quant-research.netlify.app/
 
 Se o seu objetivo é atuar na fronteira intelectual e quantitativa do mercado de capitais, este é o seu mapa de navegação.
 

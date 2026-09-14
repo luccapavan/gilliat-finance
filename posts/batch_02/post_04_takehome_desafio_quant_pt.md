@@ -21,4 +21,7 @@ O que um candidato sênior entrega para ser contratado?
 
 No mercado financeiro quantitativo, maturidade metodológica vale dez vezes mais do que complexidade algorítmica cega.
 
+No Módulo 5 do nosso curso, abrimos a rubrica exata e o repositório modelo para aprovação em desafios de 48h. Baixe a Ementa Oficial e o Kit de Nivelamento gratuito:
+👉 https://curso-quant-research.netlify.app/
+
 #CarreiraQuant #DataScience #ProcessoSeletivo #MercadoFinanceiro #Python

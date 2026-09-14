@@ -25,8 +25,8 @@ Isso define a Fronteira de Capacidade da Estratégia: o teto de patrimônio (AUM
 Antes de celebrar a rentabilidade acumulada de um backtest, responda a uma pergunta:
 Seu modelo sobrevive a 15 bps de custo fixo mais 20 bps de slippage não-linear?
 
-No "The Institutional Quant Toolkit & Playbook", disponibilizo o Checklist Anti-Vieses com os 10 testes de auditoria de microestrutura e motores em Python prontos para produção:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+No "The Institutional Quant Toolkit & Playbook", disponibilizo o Checklist Anti-Vieses com os 10 testes de auditoria de microestrutura e motores em Python prontos para produção. Baixe a Ementa Oficial e o Kit de Nivelamento do curso:
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.

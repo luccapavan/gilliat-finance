@@ -21,4 +21,7 @@ Em Python, com poucas linhas usando a biblioteca `arch`, é possível estimar mo
 
 Você já utiliza volatilidade condicional na modelagem de risco da sua carteira ou ainda usa desvio padrão rolante?
 
+Para aprender a implementar modelos avançados de risco e volatilidade e baixar a Ementa Oficial do curso com o Kit de Nivelamento em Python:
+👉 https://curso-quant-research.netlify.app/
+
 #Risco #Econometria #GARCH #Python #MercadoFinanceiro

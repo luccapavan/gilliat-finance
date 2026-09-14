@@ -27,6 +27,9 @@ Menos ajuste forçado de hiperparâmetros. Mais tese econômica e governança de
 
 Você já viu um backtest "perfeito" desmanchar no primeiro mês de execução? O que falhou no seu modelo?
 
+Para aprender a estruturar protocolos anti-vieses profissionais (Purged K-Fold com Embargo) e baixar a Ementa Oficial do curso com o Kit de Nivelamento gratuito:
+👉 https://curso-quant-research.netlify.app/
+
 ---
 Lucca Simeoni Pavan, Ph.D.
 Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação

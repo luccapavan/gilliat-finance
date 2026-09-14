@@ -26,6 +26,7 @@ O material inclui o passo a passo metodológico mais 3 repositórios com código
 
 Se você quer acelerar sua transição para a Faria Lima ou mesas de operações com base sólida e código real:
 
-🔗 Link com todos os detalhes e templates: https://warrenjax.gumroad.com/l/fsrcmj
+Para baixar gratuitamente o Kit de Nivelamento (Ementa de 30h + Guia Técnico em Python + Teste Diagnóstico) e garantir 20% OFF no curso:
+👉 https://curso-quant-research.netlify.app/
 
 #QuantFinance #Carreira #Econometria #Python #AssetManagement

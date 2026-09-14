@@ -22,4 +22,7 @@ Modelar mercado não é prever o próximo candle com uma rede neural profunda. �
 
 Qual viés já te deu mais dor de cabeça em projetos de modelagem?
 
+Para aprender a blindar seus backtests contra esses vieses e baixar gratuitamente o Kit de Nivelamento com a Ementa Oficial de 30h e scripts em Python:
+👉 https://curso-quant-research.netlify.app/
+
 #QuantFinance #DataScience #Python #InvestimentoSistematico #FinancasQuantitativas

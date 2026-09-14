@@ -29,7 +29,7 @@ Pequenos detalhes econométricos de duas linhas no código são a diferença exa
 Você aplica o lag de reversão de curto prazo nos seus fatores em Python?
 
 No "The Institutional Quant Toolkit & Playbook", o script em Python do backtest multifator já vem com o lag 12-2, Z-Score transversal e turnover vetorizados:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.

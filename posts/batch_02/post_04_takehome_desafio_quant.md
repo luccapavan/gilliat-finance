@@ -31,7 +31,10 @@ Estruturado em módulos Python com classes (`UniverseSelector`, `SignalGenerator
 4. Decomposição Detalhada de Risco:
 O relatório final não exibe apenas retorno: exibe correlação com o CDI e Ibov, Turnover médio mensal, Max Drawdown por subperíodos de crise (ex: 2020, 2022) e análise de sensibilidade a custos.
 
-No mercado financeiro quantitativo, maturidade metodológica vale dez vezes mais do que sofisticação algorítmica cega.
+No mercado financeiro quantitativo, maturidade metodológica vale dez vezes mais do que complexidade algorítmica cega.
+
+No Módulo 5 do nosso curso, abrimos a rubrica exata e o repositório modelo para aprovação em desafios de 48h. Baixe a Ementa Oficial e o Kit de Nivelamento gratuito:
+👉 https://curso-quant-research.netlify.app/
 
 Você já participou de um processo seletivo com teste prático take-home? O que achou mais desafiador?
 

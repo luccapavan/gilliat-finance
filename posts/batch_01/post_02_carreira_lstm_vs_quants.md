@@ -26,5 +26,8 @@ O que os gestores e heads de modelagem realmente querem ver no seu portfólio?
 No mercado financeiro quantitativo, o domínio do problema econômico e da estatística clássica sempre vem antes da complexidade do algoritmo.
 
 Você já tentou rodar modelos complexos em séries financeiras? Como foi a experiência fora da amostra?
-
+ 
+Quer estruturar um portfólio de projetos quant que realmente impressiona gestores institucionais? Baixe gratuitamente o Kit de Nivelamento com a Ementa Oficial de 30h e os templates em Python:
+👉 https://curso-quant-research.netlify.app/
+ 
 #CarreiraQuant #MachineLearning #CienciadeDados #DataScience #Financas

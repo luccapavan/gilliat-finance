@@ -28,7 +28,7 @@ O que está incluso:
 
 Se você quer estruturar seu portfólio de modelagem quantitativa com o mesmo rigor exigido pelas grandes assets:
 
-🔗 Link com acesso imediato ao Playbook e aos scripts:
-https://warrenjax.gumroad.com/l/fsrcmj
+🔗 Acesse a Ementa Oficial de 30h, baixe o Kit de Nivelamento gratuito e garanta 20% OFF no curso:
+👉 https://curso-quant-research.netlify.app/
 
 #FinancasQuantitativas #FactorInvesting #DataScience #Econometria #Python #Carreira

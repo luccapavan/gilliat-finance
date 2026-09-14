@@ -28,7 +28,7 @@ No buy-side, velocidade de computação vetorial não é estética; é a diferen
 Domine operações matriciais e broadcasting em NumPy/pandas. É o pré-requisito silencioso de qualquer processo seletivo institucional.
 
 No "The Institutional Quant Toolkit & Playbook", todos os 4 motores em Python foram escritos com vetorização pura (zero loops lentos), prontos para produção e processos seletivos:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.

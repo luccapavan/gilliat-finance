@@ -27,8 +27,8 @@ Se o t-stat colapsar para próximo de zero, o seu modelo estava apenas pegando c
 
 Ortogonalidade não é capricho matemático. É o filtro de sobrevivência profissional no buy-side.
 
-No "The Institutional Quant Toolkit & Playbook", dedico um módulo inteiro à formulação matricial do FWL e disponibilizo o código em Python pronto para rodar (`factor_orthogonalization_fwl.py` incluso):
-👉 https://chk.eduzz.com/7sfhtm2a
+No "The Institutional Quant Toolkit & Playbook", dedico um módulo inteiro à formulação matricial do FWL e disponibilizo o código em Python pronto para rodar (`factor_orthogonalization_fwl.py` incluso). Baixe a Ementa Oficial e o Kit de Nivelamento do curso:
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.

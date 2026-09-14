@@ -27,7 +27,7 @@ O CVaR calcula a média das perdas condicionadas aos 5% piores cenários histór
 No comitê de risco da sua instituição, qual métrica tem o poder de veto final?
 
 No "The Institutional Quant Toolkit & Playbook", disponibilizo o motor em Python para cálculo vetorizado de CVaR 95%, VaR e métricas de cauda institucionais:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.

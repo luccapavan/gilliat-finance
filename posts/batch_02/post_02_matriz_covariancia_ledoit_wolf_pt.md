@@ -26,4 +26,7 @@ cov_clean = LedoitWolf().fit(returns).covariance_
 
 Qual método de regularização de matriz de risco você tem utilizado em produção?
 
+Quer dominar algoritmos robustos de otimização de portfólios (Ledoit-Wolf, HRP e CVaR)? Baixe gratuitamente o Kit de Nivelamento e a Ementa Oficial do curso:
+👉 https://curso-quant-research.netlify.app/
+
 #AssetManagement #Risco #OtimizacaoDePortfolio #MachineLearning #Estatistica

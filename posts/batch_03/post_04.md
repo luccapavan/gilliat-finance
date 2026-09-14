@@ -18,8 +18,8 @@ O que separa os 5% que são contratados dos 95% que são reprovados de imediato?
 3. Tratamento de Sobrevivência e Fricção: Considerar custos de empréstimo (BTC) na ponta vendida e descontar slippage conservador.
 4. Racional Econômico: Explicar POR QUE a anomalia existe, quem está do outro lado perdendo dinheiro e qual o risco de cauda do portfólio.
 
-No "The Institutional Quant Toolkit & Playbook", incluí o blueprint exato desse desafio técnico de 48h, a rubrica de avaliação dos gestores e os 4 motores completos em Python para você nunca começar do zero:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+No "The Institutional Quant Toolkit & Playbook", incluí o blueprint exato desse desafio técnico de 48h, a rubrica de avaliação dos gestores e os 4 motores completos em Python para você nunca começar do zero. Acesse a Ementa Oficial e o Kit de Nivelamento do curso:
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.

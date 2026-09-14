@@ -22,4 +22,7 @@ Com R$ 100 mil simulados, a estratégia parece incrível. Com R$ 10 milhões sob
 
 Como você modela fricções de microestrutura nos seus backtests?
 
+Para aprender a modelar custos reais de execução, slippage não-linear e auditar pipelines institucionais, baixe a Ementa Oficial e o Kit de Nivelamento do curso:
+👉 https://curso-quant-research.netlify.app/
+
 #Microestrutura #TradingQuantitativo #Execucao #MercadoFinanceiro #FinancasQuantitativas

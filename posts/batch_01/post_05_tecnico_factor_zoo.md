@@ -26,4 +26,7 @@ Em factor investing profissional, menos é mais: concentre-se nos pilares compro
 
 Qual o seu fator favorito na bolsa brasileira?
 
+Quer aprender a purificar fatores e eliminar o Factor Zoo com econometria rigorosa e código em Python? Baixe gratuitamente o Kit de Nivelamento e a Ementa Oficial de 30h:
+👉 https://curso-quant-research.netlify.app/
+
 #FactorInvesting #Quant #Investimentos #MercadoDeCapitais #Economia

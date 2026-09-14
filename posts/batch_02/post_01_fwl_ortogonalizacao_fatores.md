@@ -32,4 +32,7 @@ Quando você roda esse teste, descobre que muitos fatores aclamados no "Factor Z
 
 Você costuma rodar ortogonalização prévia nos seus sinais ou joga todas as features diretamente num regressor linear/lasso?
 
+Para aprender o Teorema FWL na prática, baixar a Ementa Oficial do curso e receber os scripts em Python com dados da B3:
+👉 https://curso-quant-research.netlify.app/
+
 #QuantFinance #Econometria #FactorInvesting #Python #AlgebraMatricial

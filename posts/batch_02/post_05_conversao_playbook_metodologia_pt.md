@@ -20,7 +20,7 @@ O que está incluso:
    - `backtest_multifactor.py`: seleção multifator (Value + Momentum) com Z-Scores e turnover real.
    - `risk_performance_metrics.py`: motor estatístico de métricas institucionais (Sharpe, Sortino, Calmar, Drawdown e CVaR).
 
-🔗 Acesse o Playbook e os scripts com entrega imediata:
-https://warrenjax.gumroad.com/l/fsrcmj
+🔗 Acesse a Ementa Oficial de 30h, baixe o Kit de Nivelamento gratuito e garanta 20% OFF no curso:
+👉 https://curso-quant-research.netlify.app/
 
 #FinancasQuantitativas #FactorInvesting #DataScience #Econometria #Python #Carreira

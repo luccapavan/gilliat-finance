@@ -26,7 +26,7 @@ Uma estratégia com Sharpe 1.8 pode ter DSR próximo de zero se foi selecionada 
 Nunca avalie um algoritmo quantitativo pelo Sharpe Ratio isolado. Pergunte quantas tentativas foram descartadas para chegar até ele.
 
 No "The Institutional Quant Toolkit & Playbook", detalho o protocolo de Purged K-Fold com Embargo e o cálculo do Deflated Sharpe Ratio (DSR):
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.
