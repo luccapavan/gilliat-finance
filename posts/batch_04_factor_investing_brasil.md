@@ -33,7 +33,7 @@ Esse é o pilar central do investimento sistemático: transformar a tomada de de
 Você já opera ou estuda estratégias de Factor Investing na B3? Qual prêmio de risco tem sido mais desafiador de modelar no mercado local?
 
 Para se inscrever na lista VIP, baixar gratuitamente o Kit Institucional de Entrada (Ementa Oficial de 30h + Guia Técnico em Python + Teste Diagnóstico de Nivelamento) e garantir 20% OFF no lançamento:
-👉 https://analise-quantitativa.netlify.app
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.
@@ -75,7 +75,7 @@ A diferença entre um modelo de academia e um modelo institucional de buy-side e
 Você utiliza defasagens de tempo para neutralizar ruídos de curto prazo nos seus modelos?
 
 Para auditar seus backtests, entender a modelagem vetorial de Momentum e acessar os códigos em Python prontos para a B3:
-👉 https://analise-quantitativa.netlify.app
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.
@@ -116,7 +116,7 @@ Em Finanças Quantitativas, o papel do pesquisador sênior não é encontrar mai
 Como você valida se as variáveis do seu modelo têm significância econômica real ou são fruto de data snooping?
 
 Para dominar os testes estatísticos de purificação de fatores e os frameworks de validação institucional:
-👉 https://analise-quantitativa.netlify.app
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.
@@ -154,7 +154,7 @@ Disciplina metodológica e ceticismo científico são os verdadeiros ativos de u
 Você já teve a experiência de colocar um modelo para rodar na prática e perceber que os custos de execução comeram a maior parte do resultado teórico?
 
 Para auditar seus pipelines contra as 10 principais armadilhas metodológicas e utilizar nossos códigos de backtesting vetorizado em Python:
-👉 https://analise-quantitativa.netlify.app
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.
@@ -197,7 +197,7 @@ Em finanças institucionais, a matemática sofisticada não serve para prometer 
 Você ainda utiliza a fronteira eficiente tradicional ou já migrou para técnicas de alocação robusta como Ledoit-Wolf e HRP?
 
 Para dominar esses algoritmos de alocação e rodar os scripts completos de engenharia de risco em Python:
-👉 https://analise-quantitativa.netlify.app
+👉 https://curso-quant-research.netlify.app/
 
 ---
 Lucca Simeoni Pavan, Ph.D.
