@@ -87,8 +87,10 @@ Antes mesmo do curso começar, nós preparamos um material completo para nivelar
 * **📘 Guia Técnico de Nivelamento:** Fundamentos de retornos (simples vs. log), convenção B3 (252 dias úteis), métricas de risco (Sharpe, Sortino, MDD) e script Python completo pronto para rodar.
 * **🧠 Teste Diagnóstico de Nivelamento:** 10 questões práticas baseadas em desafios reais de buy-side, gabarito detalhado comentado e régua de avaliação para descobrir seu nível quant (Iniciante, Intermediário ou Avançado).
 
-#### 🏷️ Vantagem Exclusiva de Lançamento:
-> **Garantia de Desconto VIP:** Os alunos inscritos nesta lista de espera receberão um link com **condição comercial inédita e 20% de desconto exclusivo** 48 horas antes da abertura geral ao público no LinkedIn. As vagas com mentoria e suporte direto são rigorosamente limitadas.
+#### 🏷️ Estrutura de Preço & Desconto VIP:
+* **Preço por Módulo Avulso:** **R$ 239,90** / módulo (PIX ou em até 12x)
+* **Curso Completo (6 Módulos ao Vivo):** De ~~R$ 1.439,40~~ por **R$ 1.151,50** à vista (ou 12x de ~R$ 114,80) com **20% de desconto exclusivo** (Economia direta de R$ 287,90).
+* **Garantia de Desconto VIP:** Os alunos inscritos nesta lista de espera receberão o link de matrícula com a condição garantida 48 horas antes da abertura geral ao público.
 
 ---
 
@@ -212,8 +214,10 @@ Cadastre-se na lista de espera e receba gratuitamente no seu e-mail:
 * **Mapa de Decisão de Ciclos Econômicos:** Matriz visual para saber rapidamente para onde direcionar o capital conforme o ciclo de juros e PIB.
 * **Script de Defesa de Carteira:** O roteiro exato para usar com o cliente em dias de circuit breaker ou forte estresse de mercado.
 
-#### 🎟️ Desconto Exclusivo Garantido:
-> Ao confirmar seu interesse antecipado, você garante acesso prioritário com um **desconto exclusivo de lançamento** que não estará disponível para o público geral no LinkedIn. 
+#### 🏷️ Estrutura de Preço & Desconto de Lançamento:
+* **Preço por Módulo Avulso:** **R$ 239,90** / módulo (PIX ou em até 12x)
+* **Curso Completo (6 Módulos ao Vivo):** De ~~R$ 1.439,40~~ por **R$ 1.151,50** à vista (ou 12x de ~R$ 114,80) com **20% de desconto exclusivo** (Economia direta de R$ 287,90).
+* **Vantagem da Lista de Espera:** Acesso prioritário às vagas e garantia do desconto de 20% antes da abertura geral no LinkedIn.
 
 ---
 

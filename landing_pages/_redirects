@@ -1,6 +1,10 @@
-﻿# Redirecionamentos do Netlify para o Curso de Análise Quantitativa
+# Redirecionamentos do Netlify para o Curso de Análise Quantitativa
 /quant                     /index.html                                                   301
 /analise_quantitativa      /index.html                                                   301
 /analise_quantitativa.html /index.html                                                   301
+/macro                     /macro_assessores.html                                        301
+/assessores                /macro_assessores.html                                        301
+/portal                    /portal_cursos.html                                           301
 /kit                       /downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf   302
 /ementa                    /downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf   302
+
