@@ -1,4 +1,5 @@
 # Redirecionamentos do Netlify para o Curso de Análise Quantitativa
+# Rotas em Português
 /quant                     /index.html                                                   301
 /analise_quantitativa      /index.html                                                   301
 /analise_quantitativa.html /index.html                                                   301
@@ -8,3 +9,10 @@
 /kit                       /downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf   302
 /ementa                    /downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf   302
 
+# Rotas em Inglês (English Track)
+/en                        /index_en.html                                                301
+/en/                       /index_en.html                                                301
+/english                   /index_en.html                                                301
+/quant/en                  /index_en.html                                                301
+/kit/en                    /downloads/kit_quant_research_syllabus_leveling_guide_en.html 302
+/syllabus                  /downloads/kit_quant_research_syllabus_leveling_guide_en.html 302

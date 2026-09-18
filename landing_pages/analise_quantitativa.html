@@ -52,9 +52,13 @@
 <body class="bg-brand-dark text-slate-200 font-sans antialiased selection:bg-emerald-500 selection:text-black">
 
   <!-- TOP ANNOUNCEMENT BAR -->
-  <div class="bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-950 border-b border-emerald-500/30 py-2 px-3 text-center text-xs font-medium text-emerald-300 flex items-center justify-center gap-2">
+  <div class="bg-gradient-to-r from-emerald-950 via-slate-900 to-emerald-950 border-b border-emerald-500/30 py-2 px-3 text-center text-xs font-medium text-emerald-300 flex items-center justify-center gap-2 flex-wrap">
     <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping shrink-0"></span>
     <span class="leading-tight"><strong>Lista VIP:</strong> Baixe a <strong>Ementa Oficial + Guia e Teste de Nivelamento</strong> e garanta <strong>20% OFF</strong> no lançamento.</span>
+    <span class="hidden sm:inline text-slate-600">•</span>
+    <a href="index_en.html" class="inline-flex items-center gap-1 text-[11px] text-cyan-400 hover:text-cyan-300 underline font-mono transition">
+      <span>🇺🇸 Looking for English ($239/mod)? Click here</span>
+    </a>
   </div>
 
   <!-- NAVIGATION -->
@@ -68,9 +72,20 @@
         <span class="text-[9px] sm:text-[10px] tracking-widest text-slate-400 uppercase font-mono">Institutional Training</span>
       </div>
     </div>
-    <a href="#cadastro" class="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs font-semibold uppercase tracking-wider text-emerald-400 bg-emerald-950/60 border border-emerald-500/40 rounded-lg hover:bg-emerald-900/50 transition">
-      Garantir 20% OFF
-    </a>
+    <div class="flex items-center gap-2 sm:gap-3">
+      <!-- LANGUAGE SWITCHER TOGGLE -->
+      <div class="flex items-center bg-slate-900 border border-slate-700/80 rounded-lg p-0.5 text-xs font-mono shadow-sm">
+        <a href="index.html" class="px-2 py-1 rounded-md text-emerald-400 bg-slate-800 font-bold flex items-center gap-1 transition" title="Versão em Português">
+          <span>🇧🇷 PT</span>
+        </a>
+        <a href="index_en.html" class="px-2 py-1 rounded-md text-slate-400 hover:text-white flex items-center gap-1 transition" title="Switch to English (USD $)">
+          <span>🇺🇸 EN ($)</span>
+        </a>
+      </div>
+      <a href="#cadastro" class="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs font-semibold uppercase tracking-wider text-emerald-400 bg-emerald-950/60 border border-emerald-500/40 rounded-lg hover:bg-emerald-900/50 transition">
+        Garantir 20% OFF
+      </a>
+    </div>
   </nav>
 
   <!-- HERO SECTION -->
@@ -250,6 +265,79 @@
     </div>
   </section>
 
+  <!-- INVESTIMENTO & PLANOS -->
+  <section id="investimento" class="py-16 px-4 sm:px-6 max-w-5xl mx-auto">
+    <div class="text-center mb-12">
+      <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest">Investimento & Planos</span>
+      <h2 class="text-2xl sm:text-4xl font-bold text-white mt-2">Condições Especiais para a 1ª Turma</h2>
+      <p class="text-xs sm:text-sm text-slate-400 mt-2 max-w-xl mx-auto">
+        Flexibilidade para cursar módulos avulsos de seu interesse ou realizar a formação institucional completa com 20% de desconto na Lista VIP.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+      <!-- PLANO 1: MÓDULOS AVULSOS -->
+      <div class="p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-slate-900/70 border border-slate-800 flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded-full bg-slate-800 text-slate-300 border border-slate-700">TRILHA MODULAR</span>
+            <span class="text-[11px] font-mono text-slate-400">Flexibilidade Total</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Módulos Avulsos</h3>
+          <p class="text-xs text-slate-400 mb-6 leading-relaxed">
+            Escolha apenas os tópicos específicos que você precisa dominar no momento (ex: Factor Investing, Otimização de Risco ou Backtesting).
+          </p>
+          <div class="mb-6 p-4 rounded-xl bg-slate-950/80 border border-slate-800/80">
+            <div class="text-3xl font-extrabold text-white">R$ 239,90 <span class="text-xs font-normal text-slate-400">/ módulo</span></div>
+            <div class="text-[11px] text-slate-500 mt-1 font-mono">Pagamento avulso por módulo selecionado</div>
+          </div>
+          <ul class="space-y-2.5 text-xs text-slate-300 mb-6">
+            <li class="flex items-start gap-2"><span class="text-emerald-400">✓</span> <span>Aulas ao vivo + gravações do módulo escolhido</span></li>
+            <li class="flex items-start gap-2"><span class="text-emerald-400">✓</span> <span>Códigos em Python e base de dados do módulo</span></li>
+            <li class="flex items-start gap-2"><span class="text-emerald-400">✓</span> <span>Acesso aos plantões de dúvidas do módulo</span></li>
+            <li class="flex items-start gap-2"><span class="text-emerald-400">✓</span> <span>Certificado modular de conclusão</span></li>
+          </ul>
+        </div>
+        <a href="#cadastro" class="block w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-xs text-center transition">
+          Selecionar Módulos Avulsos
+        </a>
+      </div>
+
+      <!-- PLANO 2: FORMAÇÃO COMPLETA (20% OFF) -->
+      <div class="p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-gradient-to-b from-slate-900 to-emerald-950/40 border-2 border-emerald-500/60 shadow-xl shadow-emerald-950/50 flex flex-col justify-between relative">
+        <div class="absolute -top-3.5 right-6 bg-gradient-to-r from-emerald-500 to-teal-400 text-slate-950 text-[10px] font-extrabold uppercase font-mono px-3 py-1 rounded-full shadow">
+          MELHOR VALOR • 20% OFF VIP
+        </div>
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-mono font-semibold px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">FORMAÇÃO COMPLETA</span>
+            <span class="text-[11px] font-mono text-emerald-400 font-bold">30h • 6 Módulos</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Programa Institucional Completo</h3>
+          <p class="text-xs text-slate-300 mb-6 leading-relaxed">
+            A formação completa de ponta a ponta: da ingestão e tratamento de dados até a produção de modelos multifatoriais e alocação de carteiras.
+          </p>
+          <div class="mb-6 p-4 rounded-xl bg-slate-950/90 border border-emerald-500/30">
+            <div class="text-xs text-slate-400 line-through">De R$ 1.439,40 (6 × R$ 239,90)</div>
+            <div class="text-3xl font-extrabold text-emerald-400 mt-0.5">R$ 1.151,50 <span class="text-xs font-semibold text-white">à vista</span></div>
+            <div class="text-[11px] text-emerald-300/90 mt-1 font-mono">ou 12× com condições facilitadas no lançamento (Economia de R$ 287,90)</div>
+          </div>
+          <ul class="space-y-2.5 text-xs text-slate-200 mb-6">
+            <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">✓</span> <span><strong>Todos os 6 Módulos inclusos</strong> (30 horas totais de imersão)</span></li>
+            <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">✓</span> <span><strong>Download imediato do Kit de Entrada</strong> (Ementa + Guia + Teste)</span></li>
+            <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">✓</span> <span><strong>Repositório Python de Produção</strong> (FWL, Ledoit-Wolf, HRP, Backtest)</span></li>
+            <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">✓</span> <span><strong>Blueprint do Desafio Técnico de 48h</strong> com rubrica de avaliação</span></li>
+            <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">✓</span> <span><strong>Revisão de Código 1-on-1</strong> do seu Projeto Final proprietário</span></li>
+            <li class="flex items-start gap-2"><span class="text-emerald-400 font-bold">✓</span> <span><strong>Certificado Executivo Oficial</strong> de Conclusão</span></li>
+          </ul>
+        </div>
+        <a href="#cadastro" class="block w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-slate-950 font-bold text-xs sm:text-sm text-center shadow-lg shadow-emerald-900/50 transition">
+          Garantir 20% OFF na Lista VIP
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- INSTRUTOR -->
   <section class="py-14 px-6 bg-slate-950 border-t border-slate-900">
     <div class="max-w-3xl mx-auto p-6 md:p-8 rounded-2xl bg-slate-900/80 border border-slate-800 flex flex-col md:flex-row items-center gap-6">
@@ -315,6 +403,14 @@
         <div>
           <label class="block text-xs font-semibold text-slate-300 mb-1" for="phone">WhatsApp com DDD * (Para envio do cupom de 20% OFF)</label>
           <input type="tel" id="phone" name="phone" required placeholder="Ex: (11) 99999-9999" class="w-full px-3.5 py-2.5 sm:py-3 rounded-xl bg-slate-950 border border-slate-700 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition">
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1" for="interest_plan">Formato de Interesse *</label>
+          <select id="interest_plan" name="interest_plan" class="w-full px-3.5 py-2.5 sm:py-3 rounded-xl bg-slate-950 border border-slate-700 text-sm text-slate-300 focus:outline-none focus:border-emerald-500 transition">
+            <option value="Formação Completa (20% OFF - R$ 1.151,50)">Formação Completa com 20% OFF (De R$ 1.439,40 por R$ 1.151,50)</option>
+            <option value="Módulos Avulsos (R$ 239,90 / módulo)">Módulos Avulsos (R$ 239,90 cada módulo)</option>
+          </select>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
@@ -442,9 +538,12 @@
       
       const leadData = {
         course: "Analise Quantitativa",
+        language: "pt",
+        currency: "BRL",
         name: document.getElementById('name').value,
         email: document.getElementById('email').value,
         phone: document.getElementById('phone').value,
+        interest_plan: document.getElementById('interest_plan') ? document.getElementById('interest_plan').value : "Formação Completa (20% OFF)",
         role: document.getElementById('role').value,
         python_level: document.getElementById('python_level').value,
         availability: document.querySelector('input[name="availability"]:checked')?.value || "Não informado",

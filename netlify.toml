@@ -1,10 +1,10 @@
-﻿# Configuração Oficial do Netlify para o Curso Quant Research
-# Publicação exclusiva da Landing Page de Análise Quantitativa Aplicada
+# Configuração Oficial do Netlify para o Curso Quant Research
+# Publicação da Landing Page (PT & EN)
 
 [build]
   publish = "landing_pages"
 
-# Redirecionamentos para rotas canônicas
+# Redirecionamentos para rotas canônicas em Português
 [[redirects]]
   from = "/quant"
   to = "/index.html"
@@ -20,7 +20,28 @@
   to = "/index.html"
   status = 301
 
-# Atalhos diretos para download do Kit de Nivelamento e Ementa (PDF)
+# Redirecionamentos para rotas em Inglês (English Track)
+[[redirects]]
+  from = "/en"
+  to = "/index_en.html"
+  status = 301
+
+[[redirects]]
+  from = "/en/"
+  to = "/index_en.html"
+  status = 301
+
+[[redirects]]
+  from = "/english"
+  to = "/index_en.html"
+  status = 301
+
+[[redirects]]
+  from = "/quant/en"
+  to = "/index_en.html"
+  status = 301
+
+# Atalhos diretos para download do Kit de Nivelamento e Ementa
 [[redirects]]
   from = "/kit"
   to = "/downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf"
@@ -29,6 +50,16 @@
 [[redirects]]
   from = "/ementa"
   to = "/downloads/Kit_Nivelamento_e_Ementa_Analise_Quantitativa.pdf"
+  status = 302
+
+[[redirects]]
+  from = "/kit/en"
+  to = "/downloads/kit_quant_research_syllabus_leveling_guide_en.html"
+  status = 302
+
+[[redirects]]
+  from = "/syllabus"
+  to = "/downloads/kit_quant_research_syllabus_leveling_guide_en.html"
   status = 302
 
 # Cabeçalhos de Segurança e Performance
@@ -43,6 +74,4 @@
 [[headers]]
   for = "/downloads/*"
   [headers.values]
-    Content-Type = "application/pdf"
-    Content-Disposition = "inline"
     Cache-Control = "public, max-age=31536000"
