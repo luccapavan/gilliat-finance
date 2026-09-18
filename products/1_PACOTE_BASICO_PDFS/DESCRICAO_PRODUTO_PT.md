@@ -71,4 +71,4 @@ Versão bilíngue do checklist de bolso para consulta ágil no dia a dia.
 
 ### 👤 Sobre o Autor
 **Lucca Simeoni Pavan, Ph.D.**  
-Doutor em Economia pela PUCRS com período sanduíche na University of Illinois Urbana-Champaign. Atuou como Head de Estratégias Quant e Gerente de Produtos e Alocação no mercado financeiro brasileiro, liderando o desenvolvimento de estratégias sistemáticas de ações, alocação de fundos e modelos econométricos institucionais.
+Doutor em Economia. Atuou como Head de Estratégias Quant e Gerente de Produtos e Alocação no mercado financeiro brasileiro, liderando o desenvolvimento de estratégias sistemáticas de ações, alocação de fundos e modelos econométricos institucionais.

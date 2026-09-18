@@ -1,4 +1,4 @@
-# Configuração Oficial do Netlify para o Curso Quant Research
+﻿# Configuração Oficial do Netlify para o Curso Quant Research
 # Publicação exclusiva da Landing Page de Análise Quantitativa Aplicada
 
 [build]
@@ -18,22 +18,6 @@
 [[redirects]]
   from = "/analise_quantitativa.html"
   to = "/index.html"
-  status = 301
-
-# Atalhos para Landing Page de Macro & Assessores e Portal
-[[redirects]]
-  from = "/macro"
-  to = "/macro_assessores.html"
-  status = 301
-
-[[redirects]]
-  from = "/assessores"
-  to = "/macro_assessores.html"
-  status = 301
-
-[[redirects]]
-  from = "/portal"
-  to = "/portal_cursos.html"
   status = 301
 
 # Atalhos diretos para download do Kit de Nivelamento e Ementa (PDF)
@@ -57,7 +41,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[headers]]
-  for = "/downloads/*.pdf"
+  for = "/downloads/*"
   [headers.values]
     Content-Type = "application/pdf"
     Content-Disposition = "inline"

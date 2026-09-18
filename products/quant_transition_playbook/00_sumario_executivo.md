@@ -2,7 +2,7 @@
 ## Da Academia & Ciência de Dados para o Mercado Financeiro Quantitativo
 
 **Autor:** Lucca Simeoni Pavan, Ph.D.  
-*Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação | Doutor em Economia (UFPR)*
+*Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação | Doutor em Economia*
 
 ---
 

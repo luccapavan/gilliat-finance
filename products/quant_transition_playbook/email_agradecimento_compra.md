@@ -51,7 +51,7 @@ Caso tenha qualquer dúvida de implementação ou precise de suporte sobre o ace
 Um grande abraço e excelente estudo!
 
 **Lucca Simeoni Pavan, Ph.D.**  
-*Doutor em Economia pela UFPR*  
+*Doutor em Economia*  
 *Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação*  
 
 ---
@@ -105,5 +105,5 @@ If you have any questions or require support regarding your download, simply rep
 Best regards,
 
 **Lucca Simeoni Pavan, Ph.D.**  
-*Ph.D. in Economics (UFPR)*  
+*Ph.D. in Economics*  
 *Former Head of Quantitative Strategies & Product/Allocation Manager*  

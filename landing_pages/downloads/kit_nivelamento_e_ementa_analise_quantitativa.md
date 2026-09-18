@@ -2,7 +2,7 @@
 ### *Curso de Análise Quantitativa Aplicada: Modelagem Sistemática, Factor Investing e Gestão de Risco em Python*
 
 **Autor e Instrutor:** Lucca Simeoni Pavan, Ph.D.  
-*Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação • Doutor em Economia (UFPR)*  
+*Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação • Doutor em Economia*  
 **Material Exclusivo para Inscritos na Lista de Espera VIP**
 
 ---

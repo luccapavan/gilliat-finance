@@ -15,8 +15,8 @@ AUTHOR_INFO = {
     "name": "Lucca Simeoni Pavan, Ph.D.",
     "role_pt": "Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação",
     "role_en": "Former Head of Quantitative Strategies & Asset Allocation Manager",
-    "background_pt": "Doutor em Economia (UFPR) com ampla vivência em modelagem quantitativa, Factor Investing e alocação de portfólios no mercado financeiro",
-    "background_en": "Ph.D. in Economics (UFPR), specialized in Time Series Econometrics, Systematic Factor Investing, Risk & Portfolio Allocation",
+    "background_pt": "Doutor em Economia com ampla vivência em modelagem quantitativa, Factor Investing e alocação de portfólios no mercado financeiro",
+    "background_en": "Ph.D. in Economics, specialized in Time Series Econometrics, Systematic Factor Investing, Risk & Portfolio Allocation",
     "tone": "Técnico, sóbrio, analítico, baseado em dados empíricos e código reproduzível (PT e EN)",
     "bilingual": True
 }

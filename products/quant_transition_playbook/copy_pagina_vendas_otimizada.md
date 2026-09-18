@@ -23,7 +23,7 @@ O resultado? **95% desses backtests quebram no primeiro mês de conta real** dev
 
 Praticamente nenhum material ensina **como uma gestora de fundos sistemáticos institucional realmente opera por dentro**.
 
-Desenvolvido por **Lucca Simeoni Pavan, Ph.D.** (Doutor em Economia pela UFPR, Ex-Head de Estratégias Quant e Gerente de Produtos e Alocação), este pacote foi desenhado para entregar a você o código, a teoria e a postura esperada pelas melhores mesas quantitativas da Faria Lima e do exterior.
+Desenvolvido por **Lucca Simeoni Pavan, Ph.D.** (Doutor em Economia, Ex-Head de Estratégias Quant e Gerente de Produtos e Alocação), este pacote foi desenhado para entregar a você o código, a teoria e a postura esperada pelas melhores mesas quantitativas da Faria Lima e do exterior.
 
 ---
 

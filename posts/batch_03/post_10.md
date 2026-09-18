@@ -11,7 +11,7 @@ Durante anos, a transição da academia (Mestrados/Doutorados em Economia, Estat
 
 Quase não existem materiais em português que ensinem como as gestoras da Faria Lima e do exterior realmente operam por dentro.
 
-Por isso, consolidei minha trajetória como Doutor em Economia (PUCRS / University of Illinois) e ex-Head de Estratégias Quant & Gerente de Alocação no material mais completo e rigoroso que já produzi:
+Por isso, consolidei minha trajetória como Doutor em Economia e ex-Head de Estratégias Quant & Gerente de Produtos e Alocação no material mais completo e rigoroso que já produzi:
 
 📘 **The Institutional Quant Toolkit & Playbook (Dossiê Estratégico + Códigos em Python)**
 
@@ -24,7 +24,7 @@ O que você encontrará nos 6 módulos:
 ▪ Módulo 6: Manual dos Motores em Python (4 scripts prontos para produção inclusos).
 
 O material está disponível com acesso imediato e download dos códigos de produção no link oficial:
-👉 https://curso-quant-research.netlify.app/
+👉 https://warrenjax.gumroad.com/l/fsrcmj
 
 Se o seu objetivo é atuar na fronteira intelectual e quantitativa do mercado de capitais, este é o seu mapa de navegação.
 

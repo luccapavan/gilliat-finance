@@ -63,4 +63,4 @@ A **Edição Plus** é o nosso produto topo de linha. Ela consolida em um único
 
 ### 👤 Sobre o Autor
 **Lucca Simeoni Pavan, Ph.D.**  
-Doutor em Economia pela PUCRS com período sanduíche na University of Illinois Urbana-Champaign. Ex-Head de Estratégias Quant e Gerente de Produtos e Alocação no mercado financeiro brasileiro. Liderou a modelagem de estratégias sistemáticas, criação de produtos de investimento e gestão quantitativa de risco.
+Doutor em Economia. Ex-Head de Estratégias Quant e Gerente de Produtos e Alocação no mercado financeiro brasileiro. Liderou a modelagem de estratégias sistemáticas, criação de produtos de investimento e gestão quantitativa de risco.

@@ -43,7 +43,7 @@ O guia de bolso executivo com as 10 verificações obrigatórias divididas em 3 
 
 ### 👤 Sobre o Autor
 **Lucca Simeoni Pavan, Ph.D.**  
-Doutor em Economia pela PUCRS com período sanduíche na University of Illinois Urbana-Champaign. Atuou como Head de Estratégias Quant e Gerente de Produtos e Alocação no mercado financeiro brasileiro, liderando a pesquisa de estratégias sistemáticas de ações, alocação de fundos e modelagem quantitativa institucional.
+Doutor em Economia. Atuou como Head de Estratégias Quant e Gerente de Produtos e Alocação no mercado financeiro brasileiro, liderando a pesquisa de estratégias sistemáticas de ações, alocação de fundos e modelagem quantitativa institucional.
 
 
 # ============================================================
@@ -91,4 +91,4 @@ The institutional pocket guide covering the 10 mandatory checks:
 
 ### 👤 About the Author
 **Lucca Simeoni Pavan, Ph.D.**  
-Ph.D. in Economics (PUCRS / Visiting Scholar at the University of Illinois Urbana-Champaign). Former Head of Quantitative Strategies and Investment Product Manager in Brazilian asset management, specializing in systematic equities, multi-factor models, and institutional portfolio construction.
+Ph.D. in Economics. Former Head of Quantitative Strategies and Investment Product Manager in Brazilian asset management, specializing in systematic equities, multi-factor models, and institutional portfolio construction.

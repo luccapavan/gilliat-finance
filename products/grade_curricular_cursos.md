@@ -1,7 +1,7 @@
 # Grade Curricular e Conteúdo Programático dos Cursos
 
 **Instrutor:** Lucca Simeoni Pavan, Ph.D.  
-*Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação • Doutor em Economia (UFPR)*
+*Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação • Doutor em Economia*
 
 ---
 

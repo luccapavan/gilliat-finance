@@ -1,6 +1,6 @@
 """
 Templates de Copys Consultivas para Prospecção de Assessoria de Investimentos (Wealth Management)
-Persona: Lucca Simeoni Pavan, Ph.D. em Economia (UFPR), especialista em modelagem quantitativa e alocação de portfólios.
+Persona: Lucca Simeoni Pavan, Ph.D. em Economia, especialista em modelagem quantitativa e alocação de portfólios.
 """
 
 def clean_company_name(comp):
@@ -23,7 +23,7 @@ TEMPLATES = {
             (
                 "Olá {first_name}, tudo bem?\n\n"
                 "Acompanho de perto a atuação da {company_clean} no agro. Aqui na mesa, desenvolvemos uma análise quantitativa focada exatamente no ciclo produtivo do agronegócio: como rentabilizar a sobra de caixa da safra e proteger margens de insumos/câmbio sem imobilizar a liquidez do giro.\n\n"
-                "Como economista com doutorado pela UFPR e atuação em alocação patrimonial, estruturamos soluções com títulos incentivados (CRAs/LCIs com isenção) e operações de hedge sob medida para produtores e líderes do setor.\n\n"
+                "Como economista com doutorado e atuação em alocação patrimonial, estruturamos soluções com títulos incentivados (CRAs/LCIs com isenção) e operações de hedge sob medida para produtores e líderes do setor.\n\n"
                 "Gostaria de compartilhar um diagnóstico comparativo rápido sobre rentabilidade real para a cadeia do agro. Vale um papo rápido de 10 minutos na próxima semana?",
                 # Follow up
                 "Olá {first_name}, tudo bem? Imagino a correria por aí. Só passando para saber se conseguiu dar uma olhada na mensagem anterior sobre as alternativas de otimização de caixa e proteção cambial para a {company_clean}. Se fizer sentido, podemos marcar uma breve conversa quando for mais conveniente."
@@ -69,7 +69,7 @@ TEMPLATES = {
             (
                 "Olá {first_name}, tudo bem?\n\n"
                 "Vejo sua liderança na {company_clean} e sei como o tempo para cuidar das finanças pessoais costuma ser escasso nessa rotina. O padrão mais comum que encontro em executivos é a carteira concentrada em poucos ativos ou alocada em fundos caros de private banking que cobram taxas abusivas para entregar pouco acima do CDI.\n\n"
-                "Sou Doutor em Economia pela UFPR e atuo com gestão patrimonial e alocação sistemática independente, ajudando diretores a blindar o patrimônio, otimizar previdência fechada e estruturar alocações globais (offshore).\n\n"
+                "Sou Doutor em Economia e atuo com gestão patrimonial e alocação sistemática independente, ajudando diretores a blindar o patrimônio, otimizar previdência fechada e estruturar alocações globais (offshore).\n\n"
                 "Teria disponibilidade para uma conversa breve de 15 minutos na próxima semana?",
                 # Follow up
                 "Olá {first_name}, tudo certo? Imagino que a agenda corporativa na {company_clean} esteja corrida. Só reforçando que fico à disposição caso queira um diagnóstico independente e sem custos da sua estrutura atual de investimentos."
@@ -106,7 +106,7 @@ TEMPLATES = {
         "messages": [
             (
                 "Olá {first_name}, tudo bem?\n\n"
-                "Notei seu perfil como investidor ativo e com visão estratégica de mercado. Minha trajetória é dedicada à econometria e estratégias quantitativas de investimento (Doutor em Economia pela UFPR e ex-Head de Estratégias Quant).\n\n"
+                "Notei seu perfil como investidor ativo e com visão estratégica de mercado. Minha trajetória é dedicada à econometria e estratégias quantitativas de investimento (Doutor em Economia e ex-Head de Estratégias Quant).\n\n"
                 "Atuo auxiliando investidores qualificados a implementar alocações sistemáticas baseadas em fatores macro e microeconômicos, com acesso a ativos institucionais, operações estruturadas e controle rigoroso de drawdown.\n\n"
                 "Seria um prazer trocar insights sobre o cenário atual de juros e oportunidades assimétricas. Vale um papo de 15 minutos na próxima semana?",
                 # Follow up

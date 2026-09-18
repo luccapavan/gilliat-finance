@@ -63,4 +63,4 @@ The **Plus Edition** is our flagship offering. It merges **The Institutional Qua
 
 ### 👤 About the Author
 **Lucca Simeoni Pavan, Ph.D.**  
-Ph.D. in Economics (PUCRS / Visiting Scholar at the University of Illinois Urbana-Champaign). Former Head of Quantitative Strategies and Investment Product Manager in Brazilian asset management, specializing in systematic equities, multi-factor models, and institutional portfolio construction.
+Ph.D. in Economics. Former Head of Quantitative Strategies and Investment Product Manager in Brazilian asset management, specializing in systematic equities, multi-factor models, and institutional portfolio construction.

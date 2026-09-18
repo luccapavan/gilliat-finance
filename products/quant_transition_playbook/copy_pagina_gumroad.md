@@ -13,7 +13,7 @@ O guia definitivo de preparação metodológica, boas práticas de modelagem e p
 ### Descrição:
 A maioria dos cursos de Data Science ensina a ajustar modelos no Scikit-Learn ou rodar LSTMs em preços de fechamento. Praticamente nenhum ensina **como uma gestora de fundos sistemáticos (quant asset management) realmente opera no dia a dia**.
 
-Desenvolvido por **Lucca Simeoni Pavan, Ph.D.** (Doutor em Economia pela UFPR, Ex-Head de Estratégias Quant e Gerente de Produtos e Alocação), este playbook foi desenhado para eliminar a distância entre o rigor teórico e os desafios práticos da Faria Lima.
+Desenvolvido por **Lucca Simeoni Pavan, Ph.D.** (Doutor em Economia, Ex-Head de Estratégias Quant e Gerente de Produtos e Alocação), este playbook foi desenhado para eliminar a distância entre o rigor teórico e os desafios práticos da Faria Lima.
 
 **O que você vai receber:**
 * 📘 **Livro Digital em PDF Diagramado (Edições em Português e Inglês inclusas);**
