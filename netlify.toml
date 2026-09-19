@@ -54,12 +54,12 @@
 
 [[redirects]]
   from = "/kit/en"
-  to = "/downloads/kit_quant_research_syllabus_leveling_guide_en.html"
+  to = "/downloads/Kit_Quant_Research_Syllabus_Leveling_Guide_EN.pdf"
   status = 302
 
 [[redirects]]
   from = "/syllabus"
-  to = "/downloads/kit_quant_research_syllabus_leveling_guide_en.html"
+  to = "/downloads/Kit_Quant_Research_Syllabus_Leveling_Guide_EN.pdf"
   status = 302
 
 # Cabeçalhos de Segurança e Performance

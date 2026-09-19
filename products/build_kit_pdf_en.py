@@ -1,4 +1,20 @@
-<!DOCTYPE html>
+"""
+Institutional PDF Builder for the Quantitative Research Syllabus, Leveling Guide & Diagnostic Test (English Edition)
+Generates styled HTML and compiles into high-resolution A4 PDF via Chrome/Edge headless.
+Author: Lucca Simeoni Pavan, Ph.D.
+"""
+import os
+import sys
+from pathlib import Path
+import shutil
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding='utf-8')
+sys.path.append(str(ROOT_DIR))
+from pdf_engine.builder import convert_html_to_pdf
+
+KIT_HTML_TEMPLATE_EN = r"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -511,3 +527,33 @@ print(returns.apply(compute_scorecard).to_string())
 
 </body>
 </html>
+"""
+
+def main():
+    print("=" * 60)
+    print("🚀 Institutional English Entrance Kit PDF Generator")
+    print("=" * 60)
+    
+    html_prod = ROOT_DIR / "products" / "kit_quant_research_syllabus_leveling_guide_en.html"
+    html_down = ROOT_DIR / "landing_pages" / "downloads" / "kit_quant_research_syllabus_leveling_guide_en.html"
+    
+    html_prod.write_text(KIT_HTML_TEMPLATE_EN, encoding="utf-8")
+    html_down.write_text(KIT_HTML_TEMPLATE_EN, encoding="utf-8")
+    print("✅ HTML written to products/ and landing_pages/downloads/")
+    
+    pdf_prod = ROOT_DIR / "products" / "Kit_Quant_Research_Syllabus_Leveling_Guide_EN.pdf"
+    pdf_down = ROOT_DIR / "landing_pages" / "downloads" / "Kit_Quant_Research_Syllabus_Leveling_Guide_EN.pdf"
+    
+    print("⏳ Converting HTML to high-resolution PDF via headless browser...")
+    success = convert_html_to_pdf(str(html_prod), str(pdf_prod))
+    
+    if success and pdf_prod.exists():
+        size_kb = pdf_prod.stat().st_size / 1024
+        print(f"✅ English PDF generated successfully! Size: {size_kb:.1f} KB")
+        shutil.copy2(str(pdf_prod), str(pdf_down))
+        print(f"✅ English PDF copied to landing_pages/downloads/Kit_Quant_Research_Syllabus_Leveling_Guide_EN.pdf")
+    else:
+        print("❌ Failed to compile PDF.")
+
+if __name__ == "__main__":
+    main()
