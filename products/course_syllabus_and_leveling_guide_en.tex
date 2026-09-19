@@ -1,0 +1,369 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{amsmath,amsfonts,amssymb,mathtools}
+\usepackage{booktabs,array,xcolor,hyperref}
+\usepackage{listings,tcolorbox}
+\usepackage{enumitem,titlesec}
+\usepackage{microtype}
+
+% Color definitions
+\definecolor{primarynavy}{HTML}{0A192F}
+\definecolor{accentblue}{HTML}{00B4D8}
+\definecolor{darkslate}{HTML}{1E293B}
+\definecolor{cardbg}{HTML}{F8FAFC}
+\definecolor{cardborder}{HTML}{CBD5E1}
+\definecolor{answertitle}{HTML}{166534}
+\definecolor{answerbox}{HTML}{F0FDF4}
+\definecolor{answerborder}{HTML}{BBF7D0}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accentblue,
+    urlcolor=accentblue,
+    citecolor=primarynavy,
+    pdftitle={Applied Quantitative Research: Course Syllabus & Technical Leveling Guide},
+    pdfauthor={Lucca Simeoni Pavan, Ph.D.}
+}
+
+% Section styling
+\titleformat{\section}{\color{primarynavy}\Large\bfseries}{\thesection.}{0.5em}{}[\titlerule]
+\titleformat{\subsection}{\color{primarynavy}\large\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\color{darkslate}\normalsize\bfseries}{\thesubsubsection}{0.5em}{}
+
+% Listings styling for Python
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{primarynavy}\bfseries,
+    commentstyle=\color{gray}\itshape,
+    stringstyle=\color{accentblue},
+    backgroundcolor=\color{cardbg},
+    frame=single,
+    rulecolor=\color{cardborder},
+    breaklines=true,
+    showstringspaces=false,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    numbersep=8pt,
+    tabsize=4
+}
+\lstset{style=pythonstyle}
+
+% Box definitions
+\newtcolorbox{infobox}[1][]{
+    colback=cardbg,
+    colframe=primarynavy,
+    fonttitle=\bfseries\color{white},
+    title=#1,
+    arc=3mm,
+    boxrule=1pt,
+    left=10pt, right=10pt, top=8pt, bottom=8pt
+}
+
+\newtcolorbox{answerbox}[1][]{
+    colback=answerbox,
+    colframe=answerborder,
+    coltitle=answertitle,
+    title=#1,
+    arc=2mm,
+    boxrule=1pt,
+    left=8pt, right=8pt, top=6pt, bottom=6pt
+}
+
+\begin{document}
+
+% ----------------- TITLE BLOCK -----------------
+\begin{center}
+    {\Huge \textbf{\color{primarynavy} APPLIED QUANTITATIVE RESEARCH}}\\[6pt]
+    {\Large \textbf{\color{accentblue} Systematic Modeling, Multi-Factor Investing \& Risk Allocation in Python}}\\[10pt]
+    \rule{\textwidth}{1.5pt}\\[8pt]
+    {\normalsize \textbf{Lucca Simeoni Pavan, Ph.D.}}\\
+    {\small Former Head of Quantitative Strategies \& Portfolio Allocation Manager $\bullet$ Ph.D. in Economics}\\
+    {\small \textit{Official Course Curriculum, Technical Leveling Guide \& Diagnostic Assessment (30h Institutional Formation)}}\\[4pt]
+    \rule{\textwidth}{0.8pt}
+\end{center}
+
+\vspace{10pt}
+
+% ----------------- SECTION 1: SYLLABUS -----------------
+\section{Official Course Curriculum \& Syllabus}
+
+\begin{infobox}[Program Overview]
+\textbf{Program Name:} Applied Quantitative Research: Systematic Modeling, Factor Investing \& Risk Management in Python\\
+\textbf{Workload:} 30 Hours (Live Sessions + Recorded Architecture Reviews + Coding Laboratories)\\
+\textbf{Tech Stack:} Python 3.10+, Pandas, NumPy, Statsmodels, SciPy, Matplotlib, Seaborn, yfinance\\
+\textbf{Core Objective:} Empower researchers, economists, data scientists, and investment analysts to architect end-to-end institutional quantitative pipelines---from point-in-time financial data hygiene to bias-free walk-forward backtesting and Ledoit-Wolf / HRP risk parity portfolio optimization.
+\end{infobox}
+
+\subsection*{Module 1: Financial Data Pipelines \& Point-in-Time Hygiene (5 Hours)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Lecture 1.1:} Pipeline Architecture: Multidimensional time-series structures (multi-index DataFrames and panels).
+    \item \textbf{Lecture 1.2:} Institutional Data Ingestion: Automated feeds from central bank APIs, SEC/CVM filings, and exchanges.
+    \item \textbf{Lecture 1.3:} Corporate Actions: Cash dividends, splits, reverse splits, spin-offs, and ANBIMA/NYSE calendar conventions.
+    \item \textbf{Lecture 1.4:} Eliminating Modeling Biases: Eradicating survivorship bias and look-ahead bias via Point-in-Time (PIT) lags.
+    \item \textbf{Hands-on Laboratory:} Building an auditable, survivorship-free 10-year historical equity data universe.
+\end{itemize}
+
+\subsection*{Module 2: Return Mathematics \& Institutional Risk Metrics (5 Hours)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Lecture 2.1:} Simple vs. Logarithmic Returns: Algebraic properties, cross-sectional vs. temporal additivity.
+    \item \textbf{Lecture 2.2:} Empirical Return Distributions: Heavy tails, negative skewness, excess kurtosis, and non-normality.
+    \item \textbf{Lecture 2.3:} Asymmetric Metrics: Sharpe Ratio, Sortino Ratio (downside semi-variance), Calmar Ratio, Information Ratio.
+    \item \textbf{Lecture 2.4:} Maximum Drawdown Dynamics: Analytical peak-to-trough computation, drawdown duration, and recovery paths.
+    \item \textbf{Lecture 2.5:} Tail Risk: Parametric/Historical Value at Risk ($\text{VaR}_{95\%}$) and Conditional VaR ($\text{CVaR}$ / Expected Shortfall).
+    \item \textbf{Hands-on Laboratory:} Automated pipeline generating institutional Risk Tear Sheets from any input price matrix.
+\end{itemize}
+
+\subsection*{Module 3: Multi-Factor Investing \& Alpha Engineering (5 Hours)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Lecture 3.1:} Evolution of Asset Pricing: From Markowitz-Sharpe Single-Index CAPM to Fama-French 5 Factors and Carhart.
+    \item \textbf{Lecture 3.2:} Momentum Anomalies: Cross-Sectional Momentum (winners vs. losers) vs. Time-Series Momentum (trend-following).
+    \item \textbf{Lecture 3.3:} Fundamental Factors: Value ($E/P$, $B/M$, $EV/EBITDA$) and Quality ($ROE$, $ROIC$, Operating Margin, Accruals).
+    \item \textbf{Lecture 3.4:} Risk Premia: Low Beta / Low Volatility anomaly and Size (Small-Cap premium).
+    \item \textbf{Lecture 3.5:} Surviving the ``Factor Zoo'': Multiple hypothesis testing, Harvey-Liu-Bikker $t > 3.0$ thresholds, Bonferroni adjustments.
+    \item \textbf{Hands-on Laboratory:} Multi-factor scoring engine with cross-sectional Z-Scores and Frisch-Waugh-Lovell (FWL) orthogonalization.
+\end{itemize}
+
+\subsection*{Module 4: Realistic Institutional Backtesting Frameworks (5 Hours)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Lecture 4.1:} Backtest Paradigms: Vectorized (rapid research screening) vs. Event-Driven (microstructure and execution fidelity).
+    \item \textbf{Lecture 4.2:} Friction Accounting: Brokerage commissions, exchange fees, settlement costs, short-borrow rates, and taxes.
+    \item \textbf{Lecture 4.3:} Slippage \& Market Impact: Average Daily Trading Volume (ADTV) participation bounds and Almgren-Chriss square-root impact.
+    \item \textbf{Lecture 4.4:} Dynamic Rebalancing: Turnover constraints, buffer zones, transaction fee drag, and optimal trade scheduling.
+    \item \textbf{Lecture 4.5:} Cross-Validation: Purged \& Embargoed K-Fold cross-validation (de Prado) avoiding leakage in serial correlation.
+    \item \textbf{Hands-on Laboratory:} Full 5-year multi-factor equity strategy backtest under institutional execution constraints.
+\end{itemize}
+
+\subsection*{Module 5: Portfolio Optimization \& Risk Allocation (5 Hours)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Lecture 5.1:} Markowitz Mean-Variance Optimization: Sample covariance instability and the ``error maximization'' trap.
+    \item \textbf{Lecture 5.2:} Covariance Regularization: Ledoit-Wolf analytical shrinkage and Random Matrix Theory (RMT) eigenvalue cleaning.
+    \item \textbf{Lecture 5.3:} Risk Parity \& Equal Risk Contribution: Decomposing marginal risk contributions across volatile asset baskets.
+    \item \textbf{Lecture 5.4:} Hierarchical Risk Parity (HRP): Unsupervised machine learning dendrogram clustering bypassing matrix inversion.
+    \item \textbf{Hands-on Laboratory:} Empirical horse-race benchmark: $1/N$ Equal Weight vs. Markowitz vs. Ledoit-Wolf vs. HRP.
+\end{itemize}
+
+\subsection*{Module 6: Capstone Project \& Production Quant Deployment (5 Hours)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Lecture 6.1:} Production Code Architecture: Modular classes, static typing, unit testing, and reproducible research notebooks.
+    \item \textbf{Lecture 6.2:} Automated Reporting: Compiling interactive HTML/PDF institutional risk sheets for investment committees.
+    \item \textbf{Capstone Challenge:} End-to-end development of a proprietary systematic trading strategy with 1-on-1 code review.
+\end{itemize}
+
+\vspace{10pt}
+
+% ----------------- SECTION 2: TECHNICAL LEVELING GUIDE -----------------
+\section{Technical Leveling Guide \& Mathematical Formulations}
+
+\subsection{Simple Returns vs. Logarithmic Returns}
+A foundational axiom in quantitative finance is the strict separation between arithmetic (simple) and logarithmic returns:
+\begin{align}
+R_t &= \frac{P_t - P_{t-1}}{P_{t-1}} = \frac{P_t}{P_{t-1}} - 1 \quad \text{(Simple Arithmetic Return)} \\
+r_t &= \ln\left(\frac{P_t}{P_{t-1}}\right) = \ln(P_t) - \ln(P_{t-1}) \quad \text{(Logarithmic Continuously-Compounded Return)}
+\end{align}
+
+\subsubsection*{The Golden Rules of Quantitative Return Aggregation}
+\begin{enumerate}
+    \item \textbf{Cross-Sectional Additivity (Across Assets):} Simple returns aggregate linearly across assets in a portfolio weighted by $w_i \in \mathbb{R}^N$:
+    \begin{equation}
+    R_{p,t} = \sum_{i=1}^N w_i R_{i,t} \quad \text{where } \sum_{i=1}^N w_i = 1
+    \end{equation}
+    \textit{Never average or sum weighted log returns to compute portfolio value!}
+    \item \textbf{Temporal Additivity (Across Time):} Log returns aggregate linearly across time intervals. The total compound return over $T$ periods is simply:
+    \begin{equation}
+    r_{\text{total}} = \sum_{t=1}^T r_t \implies R_{\text{total}} = \exp\left(\sum_{t=1}^T r_t\right) - 1
+    \end{equation}
+    Use log returns for time-series econometric regressions, volatility modeling (GARCH), and Brownian motion assumptions.
+\end{enumerate}
+
+\subsection{Annualization Conventions (252 Business Days)}
+Under the assumption of independent and identically distributed ($i.i.d.$) returns:
+\begin{equation}
+\bar{R}_{\text{annual}} = (1 + \bar{R}_{\text{daily}})^{252} - 1, \qquad \sigma_{\text{annual}} = \sigma_{\text{daily}} \times \sqrt{252}
+\end{equation}
+
+\subsection{Institutional Performance \& Tail Risk Metrics}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Sharpe Ratio:} Measures excess return over the risk-free rate ($R_f$) per unit of total standard deviation:
+    \begin{equation}
+    \text{Sharpe} = \frac{\bar{R}_p - R_f}{\sigma_p}
+    \end{equation}
+    \item \textbf{Sortino Ratio:} Replaces total volatility with downside semi-deviation ($\sigma_{\text{down}}$), isolating adverse volatility:
+    \begin{equation}
+    \text{Sortino} = \frac{\bar{R}_p - R_f}{\sigma_{\text{down}}}, \quad \text{where } \sigma_{\text{down}} = \sqrt{\frac{1}{T}\sum_{t=1}^T \min(0, R_{p,t} - R_f)^2} \times \sqrt{252}
+    \end{equation}
+    \item \textbf{Maximum Drawdown (MDD):} The greatest historical peak-to-trough capital decline:
+    \begin{equation}
+    \text{MDD} = \min_{t \in [0, T]} \left( \frac{\text{NAV}_t - \max_{\tau \le t} \text{NAV}_\tau}{\max_{\tau \le t} \text{NAV}_\tau} \right)
+    \end{equation}
+    \item \textbf{Conditional Value at Risk ($\text{CVaR}_\alpha$ / Expected Shortfall):} Expected loss conditional on exceeding the $\text{VaR}_\alpha$ threshold:
+    \begin{equation}
+    \text{CVaR}_\alpha = \mathbb{E}\left[ L \mid L \ge \text{VaR}_\alpha \right] = \frac{1}{1-\alpha} \int_\alpha^1 \text{VaR}_u \, du
+    \end{equation}
+\end{itemize}
+
+\subsection{Factor Orthogonalization (Frisch-Waugh-Lovell Theorem)}
+To isolate pure idiosyncratic alpha from known systematic factors (e.g. Market Beta, Size, Value):
+\begin{equation}
+M_X = I - X(X^T X)^{-1} X^T \implies \tilde{y} = M_X y, \quad \tilde{Z} = M_X Z \implies \hat{\gamma} = (\tilde{Z}^T \tilde{Z})^{-1} \tilde{Z}^T \tilde{y}
+\end{equation}
+
+\subsection{Ledoit-Wolf Covariance Shrinkage}
+Shrinking an empirical sample covariance matrix $S$ toward a highly structured shrinkage target $F$ (constant correlation matrix) with optimal shrinkage intensity $\delta^* \in [0, 1]$:
+\begin{equation}
+\hat{\Sigma}_{\text{LW}} = \delta^* F + (1 - \delta^*) S
+\end{equation}
+
+\subsection{Python Production Scorecard Engine}
+The following script executes institutional return and tail-risk calculations:
+
+\begin{lstlisting}
+import numpy as np
+import pandas as pd
+import yfinance as yf
+
+# 1. Download adjusted closing prices
+tickers = ['SPY', 'QQQ', 'AAPL', 'NVDA', 'TLT']
+data = yf.download(tickers, start='2021-01-01', end='2026-01-01', progress=False)
+prices = data['Adj Close'].dropna()
+returns = prices.pct_change().dropna()
+
+# 2. Institutional Quantitative Risk Function
+def compute_scorecard(series: pd.Series, rf_annual: float = 0.045) -> pd.Series:
+    rf_daily = (1 + rf_annual) ** (1 / 252) - 1
+    ann_return = (1 + series.mean()) ** 252 - 1
+    ann_vol = series.std() * np.sqrt(252)
+    sharpe = (ann_return - rf_annual) / ann_vol if ann_vol > 0 else 0.0
+    
+    excess_ret = series - rf_daily
+    downside_vol = excess_ret[excess_ret < 0].std() * np.sqrt(252)
+    sortino = (ann_return - rf_annual) / downside_vol if downside_vol > 0 else 0.0
+    
+    cum_ret = (1 + series).cumprod()
+    mdd = ((cum_ret - cum_ret.cummax()) / cum_ret.cummax()).min()
+    
+    return pd.Series({
+        'Ann. Return': f"{ann_return * 100:.2f}%",
+        'Ann. Volatility': f"{ann_vol * 100:.2f}%",
+        'Sharpe Ratio': f"{sharpe:.2f}",
+        'Sortino Ratio': f"{sortino:.2f}",
+        'Max Drawdown': f"{mdd * 100:.2f}%"
+    })
+
+print(returns.apply(compute_scorecard).to_string())
+\end{lstlisting}
+
+\vspace{10pt}
+
+% ----------------- SECTION 3: DIAGNOSTIC TEST -----------------
+\section{Diagnostic Assessment: 10 Institutional Questions}
+
+\begin{infobox}[Question 1 $\bullet$ Return Mathematics]
+When constructing a portfolio allocating 40\% in Asset A and 60\% in Asset B, which formulation correctly computes the daily total return?\\
+A) The weighted arithmetic average of the logarithmic returns.\\
+\textbf{B) The weighted arithmetic average of the simple arithmetic returns: $R_{p,t} = \sum w_i R_{i,t}$.}\\
+C) The geometric product of simple returns.\\
+D) The logarithm of closing prices divided by volume.
+\end{infobox}
+
+\begin{infobox}[Question 2 $\bullet$ Backtest Biases \& Microstructure]
+A researcher builds a multi-factor strategy using Q4 financial statements (fiscal period ending Dec 31) to rebalance stock holdings on the first trading session of January. What fatal quantitative error has occurred?\\
+A) Survivorship bias due to delisted companies.\\
+\textbf{B) Look-ahead bias, because audited annual 10-K financial statements are publicized months later in March or April.}\\
+C) Specification error by using calendar days instead of trading days.\\
+D) Convexity bias in volatility annualization.
+\end{infobox}
+
+\begin{infobox}[Question 3 $\bullet$ Python Vectorization]
+Given a date-indexed DataFrame \texttt{df} containing adjusted prices in column \texttt{'close'}, which statement correctly computes daily simple arithmetic returns?\\
+A) \texttt{df['close'].diff() / df['close']}\\
+B) \texttt{np.log(df['close']) - np.log(df['close'].shift(-1))}\\
+\textbf{C) \texttt{df['close'].pct_change().dropna()}}\\
+D) \texttt{df['close'].rolling(252).mean()}
+\end{infobox}
+
+\begin{infobox}[Question 4 $\bullet$ Volatility Annualization Standards]
+An equity asset displays a daily return standard deviation of 2.0\% in a market with 252 business days. Under the $i.i.d.$ assumption, what is its annualized volatility?\\
+A) $2.0\% \times 252 = 504.0\%$\\
+\textbf{B) $2.0\% \times \sqrt{252} \approx 31.75\%$}\\
+C) $2.0\% / \sqrt{252} \approx 0.126\%$\\
+D) $(1 + 0.02)^{252} - 1 \approx 145.2\%$
+\end{infobox}
+
+\begin{infobox}[Question 5 $\bullet$ Asymmetric Risk Metrics]
+Why do quantitative managers favor the Sortino Ratio over the Sharpe Ratio for strategies displaying positive return skewness?\\
+A) The Sortino Ratio ignores the risk-free rate entirely.\\
+\textbf{B) The Sharpe Ratio penalizes upside return spikes identically to drawdowns, whereas Sortino penalizes only downside volatility.}\\
+C) The Sortino Ratio is independent of sample size.\\
+D) The Sharpe Ratio cannot be calculated when returns are non-negative.
+\end{infobox}
+
+\begin{infobox}[Question 6 $\bullet$ Cross-Validation in Financial Time Series]
+Why is standard Scikit-Learn K-Fold cross-validation invalid and dangerous for financial asset pricing models?\\
+\textbf{A) Standard K-Fold shuffles observations and trains on future data to predict the past, causing temporal data leakage.}\\
+B) K-Fold is computationally restricted to classification tasks.\\
+C) The number of folds must match the number of assets.\\
+D) K-Fold artificially doubles transaction fee estimates.
+\end{infobox}
+
+\begin{infobox}[Question 7 $\bullet$ Factor Modeling Paradigms]
+What is the core distinction between Cross-Sectional Momentum and Time-Series Momentum?\\
+A) Cross-Sectional is applied to fixed income and Time-Series is applied to equities.\\
+\textbf{B) Cross-Sectional ranks assets relative to peers at a timestamp (buying top decile, shorting bottom decile), while Time-Series evaluates each asset's own historical trend in absolute terms.}\\
+C) Cross-Sectional uses moving averages while Time-Series uses regressions.\\
+D) Both terms are synonymous in empirical asset pricing literature.
+\end{infobox}
+
+\begin{infobox}[Question 8 $\bullet$ Microstructure Frictions \& Execution]
+When backtesting a systematic small-cap strategy with \$20M in AUM, which parameter is crucial to prevent illusory alpha?\\
+A) CPI inflation lags.\\
+\textbf{B) Average Daily Trading Volume (ADTV) limits (e.g. max 5--10\% ADTV) and nonlinear market impact models.}\\
+C) Social media follower count of listed management.\\
+D) Book-to-market ratio divided by shares outstanding.
+\end{infobox}
+
+\begin{infobox}[Question 9 $\bullet$ Covariance Estimation \& Markowitz]
+What is the central empirical drawback of traditional Markowitz Mean-Variance Optimization applied to sample covariance matrices?\\
+A) The algorithm cannot process positive returns.\\
+\textbf{B) Inverting an ill-conditioned sample covariance matrix acts as an ``error maximizer'', concentrating extreme unstable weights on noisy assets; solved by Ledoit-Wolf shrinkage.}\\
+C) Markowitz requires that all portfolio returns be zero.\\
+D) The solver requires unconstrained shorting.
+\end{infobox}
+
+\begin{infobox}[Question 10 $\bullet$ Hierarchical Risk Parity (HRP)]
+What breakthrough did Marcos L\'opez de Prado's Hierarchical Risk Parity (HRP) algorithm introduce?\\
+\textbf{A) It uses machine learning tree clustering on the correlation matrix to allocate risk recursively, completely bypassing covariance matrix inversion.}\\
+B) It guarantees 0\% drawdown across all market regimes.\\
+C) It replaces mathematical solvers with NLP models.\\
+D) It optimizes option strike prices for high-frequency trading.
+\end{infobox}
+
+\vspace{10pt}
+
+% ----------------- SECTION 4: DIAGNOSTIC RUBRIC -----------------
+\section{Diagnostic Rubric \& Program Fit}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{0.2\textwidth} p{0.35\textwidth} p{0.38\textwidth}}
+\toprule
+\textbf{Score} & \textbf{Institutional Diagnostic Level} & \textbf{Recommended Program Focus} \\
+\midrule
+\textbf{0 to 4 Correct} & \textbf{Level 1: Foundations / In Transition}\newline Analytical background, but generic habits from classical data science. & \textbf{Modules 1 \& 2} are critical for building point-in-time data hygiene, clean series, and tail risk metrics. \\
+\midrule
+\textbf{5 to 7 Correct} & \textbf{Level 2: Intermediate Quant Analyst}\newline Solid Python syntax and basic stats, with gaps in friction modeling and multi-factor isolation. & \textbf{Modules 3 \& 4} will elevate backtesting to buy-side desk standards (FWL partialing, slippage, and factor spreads). \\
+\midrule
+\textbf{8 to 10 Correct} & \textbf{Level 3: Quant Desk Ready}\newline Strong conceptual maturity and sharpened intuition for microstructure and risk budgeting. & \textbf{Modules 4, 5 \& 6} will solidify mastery of Ledoit-Wolf, HRP allocators, and production-grade take-home challenges. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{10pt}
+
+\begin{answerbox}[Exclusive VIP Waitlist Advantage]
+By registering your email on the official landing page, you have secured your priority spot for the 1st Cohort of the \textbf{Applied Quantitative Research Program} with an \textbf{exclusive 20\% launch discount} and direct code review mentoring sessions with Dr. Lucca Simeoni Pavan.
+\end{answerbox}
+
+\end{document}

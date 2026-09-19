@@ -1,0 +1,365 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{amsmath,amsfonts,amssymb,mathtools}
+\usepackage{booktabs,array,xcolor,hyperref}
+\usepackage{listings,tcolorbox}
+\usepackage{enumitem,titlesec}
+\usepackage{microtype}
+
+% Definição de Cores Institucionais
+\definecolor{primarynavy}{HTML}{0A192F}
+\definecolor{accentblue}{HTML}{00B4D8}
+\definecolor{darkslate}{HTML}{1E293B}
+\definecolor{cardbg}{HTML}{F8FAFC}
+\definecolor{cardborder}{HTML}{CBD5E1}
+\definecolor{answertitle}{HTML}{166534}
+\definecolor{answerbox}{HTML}{F0FDF4}
+\definecolor{answerborder}{HTML}{BBF7D0}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accentblue,
+    urlcolor=accentblue,
+    citecolor=primarynavy,
+    pdftitle={Análise Quantitativa Aplicada: Ementa Oficial e Guia Técnico de Nivelamento},
+    pdfauthor={Lucca Simeoni Pavan, Ph.D.}
+}
+
+% Estilização de Seções
+\titleformat{\section}{\color{primarynavy}\Large\bfseries}{\thesection.}{0.5em}{}[\titlerule]
+\titleformat{\subsection}{\color{primarynavy}\large\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\color{darkslate}\normalsize\bfseries}{\thesubsubsection}{0.5em}{}
+
+% Estilização de Código Python
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{primarynavy}\bfseries,
+    commentstyle=\color{gray}\itshape,
+    stringstyle=\color{accentblue},
+    backgroundcolor=\color{cardbg},
+    frame=single,
+    rulecolor=\color{cardborder},
+    breaklines=true,
+    showstringspaces=false,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    numbersep=8pt,
+    tabsize=4
+}
+\lstset{style=pythonstyle}
+
+% Definição de Caixas
+\newtcolorbox{infobox}[1][]{
+    colback=cardbg,
+    colframe=primarynavy,
+    fonttitle=\bfseries\color{white},
+    title=#1,
+    arc=3mm,
+    boxrule=1pt,
+    left=10pt, right=10pt, top=8pt, bottom=8pt
+}
+
+\newtcolorbox{answerbox}[1][]{
+    colback=answerbox,
+    colframe=answerborder,
+    coltitle=answertitle,
+    title=#1,
+    arc=2mm,
+    boxrule=1pt,
+    left=8pt, right=8pt, top=6pt, bottom=6pt
+}
+
+\begin{document}
+
+% ----------------- CAPA / CABEÇALHO -----------------
+\begin{center}
+    {\Huge \textbf{\color{primarynavy} ANÁLISE QUANTITATIVA APLICADA}}\\[6pt]
+    {\Large \textbf{\color{accentblue} Modelagem Sistemática, Factor Investing e Gestão de Risco em Python}}\\[10pt]
+    \rule{\textwidth}{1.5pt}\\[8pt]
+    {\normalsize \textbf{Lucca Simeoni Pavan, Ph.D.}}\\
+    {\small Ex-Head de Estratégias Quant \& Gerente de Produtos e Alocação $\bullet$ Doutor em Economia}\\
+    {\small \textit{Ementa Oficial, Guia Técnico de Nivelamento em Python e Teste Diagnóstico (Formação Institucional de 30h)}}\\[4pt]
+    \rule{\textwidth}{0.8pt}
+\end{center}
+
+\vspace{10pt}
+
+% ----------------- SEÇÃO 1: EMENTA -----------------
+\section{Ementa Oficial do Curso}
+
+\begin{infobox}[Visão Geral do Programa]
+\textbf{Nome do Curso:} Análise Quantitativa Aplicada: Modelagem Sistemática, Factor Investing e Gestão de Risco em Python\\
+\textbf{Carga Horária:} 30 Horas (Aulas ao vivo/gravadas + Laboratórios Práticos de Programação)\\
+\textbf{Stack Tecnológica:} Python 3.10+, Pandas, NumPy, Statsmodels, SciPy, Matplotlib, Seaborn, yfinance, python-bcb\\
+\textbf{Objetivo Geral:} Capacitar analistas, economistas e cientistas de dados a estruturarem pipelines quantitativos completos, desde a ingestão e limpeza point-in-time de dados da B3 até o backtesting realista sem vieses e a alocação robusta de portfólios sistemáticos (Ledoit-Wolf e HRP).
+\end{infobox}
+
+\subsection*{Módulo 1: Infraestrutura de Dados e Engenharia Financeira em Python (5 Horas)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Aula 1.1:} Arquitetura do pipeline quant: estruturas de dados multidimensionais (DataFrames multi-index e painéis).
+    \item \textbf{Aula 1.2:} Conexão com fontes institucionais: APIs do Banco Central (SGS), CVM (informes diários) e cotações de mercado.
+    \item \textbf{Aula 1.3:} Tratamento crítico de dados da B3: ajuste ex-dividendos, bonificações, splits e calendário ANBIMA (dias úteis).
+    \item \textbf{Aula 1.4:} O perigo invisível: neutralização do viés de sobrevivência (\textit{survivorship bias}) e viés de antecipação (\textit{look-ahead bias}).
+    \item \textbf{Laboratório Prático:} Construção de base limpa com os últimos 10 anos das ações do IBrX-100.
+\end{itemize}
+
+\subsection*{Módulo 2: Estatística de Retornos e Métricas Institucionais de Risco (5 Horas)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Aula 2.1:} Retornos simples vs. log-retornos: propriedades matemáticas e aditividade espacial vs. temporal.
+    \item \textbf{Aula 2.2:} Distribuições empíricas de ativos: não-normalidade, caudas pesadas (\textit{fat tails}), assimetria e curtose.
+    \item \textbf{Aula 2.3:} Métricas de performance além do Sharpe: Ratio de Sortino, Ratio de Calmar e Information Ratio.
+    \item \textbf{Aula 2.4:} Dinâmica de rebaixamento: cálculo analítico de Maximum Drawdown (MDD), duração e recuperação.
+    \item \textbf{Aula 2.5:} Modelos de Risco de Cauda: Value at Risk ($\text{VaR}_{95\%}$) e Conditional VaR ($\text{CVaR}$ / Expected Shortfall).
+    \item \textbf{Laboratório Prático:} Módulo automatizado que gera um \textit{Risk Tear Sheet} institucional a partir de matrizes de preço.
+\end{itemize}
+
+\subsection*{Módulo 3: Factor Investing e Modelagem Multifatorial no Brasil (5 Horas)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Aula 3.1:} Evolução das teorias de apreçamento: do CAPM aos modelos multifatoriais de Fama-French e Carhart.
+    \item \textbf{Aula 3.2:} Fator de Momentum na B3: Cross-Sectional Momentum (vencedores vs. perdedores) e Time-Series Momentum.
+    \item \textbf{Aula 3.3:} Fatores Fundamentistas: Valor (P/L, EV/EBITDA, Book-to-Market) e Qualidade (ROE, ROIC, Margem Líquida).
+    \item \textbf{Aula 3.4:} Fatores de Risco: Baixa Volatilidade (\textit{Low Vol}) e Tamanho (\textit{Size / Small Caps}).
+    \item \textbf{Aula 3.5:} O problema do \textit{Factor Zoo}: testes $t > 3.0$, correção de Bonferroni e validação Out-of-Sample.
+    \item \textbf{Laboratório Prático:} Ranking multifatorial com Z-Scores padronizados e ortogonalização de Frisch-Waugh-Lovell (FWL).
+\end{itemize}
+
+\subsection*{Módulo 4: Framework de Backtesting Institucional Realista (5 Horas)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Aula 4.1:} Arquiteturas de Backtest: Vetorizado (rápido para prototipagem) vs. Orientado a Eventos (preciso para execução).
+    \item \textbf{Aula 4.2:} Modelagem de atritos de mercado: corretagem, emolumentos B3, taxa de liquidação, aluguel de ações e impostos.
+    \item \textbf{Aula 4.3:} Slippage e Impacto de Mercado: limites de participação no ADTV e modelo de impacto não-linear (Almgren-Chriss).
+    \item \textbf{Aula 4.4:} Rebalanceamento periódico: frequências ótimas, bandas de tolerância (\textit{turnover}) e controle de rotação.
+    \item \textbf{Aula 4.5:} Validação Cruzada: Purged \& Embargoed K-Fold cross-validation (de Prado) para séries temporais financeiras.
+    \item \textbf{Laboratório Prático:} Backtest de 5 anos de carteira de fatores na B3 com custos reais e curva de capital auditável.
+\end{itemize}
+
+\subsection*{Módulo 5: Otimização de Portfólios e Alocação de Risco (5 Horas)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Aula 5.1:} Otimização de Média-Variância de Markowitz: limites práticos e armadilha da ``maximização de erros''.
+    \item \textbf{Aula 5.2:} Regularização de matrizes de covariância: método Ledoit-Wolf Shrinkage e Random Matrix Theory (RMT).
+    \item \textbf{Aula 5.3:} Paridade de Risco (\textit{Risk Parity}) e Contribuição Marginal de Risco: equalizando orçamentos de volatilidade.
+    \item \textbf{Aula 5.4:} \textit{Hierarchical Risk Parity} (HRP): alocação via machine learning hierárquico sem inversão matricial.
+    \item \textbf{Laboratório Prático:} Comparação empírica: $1/N$ vs. Média-Variância vs. Ledoit-Wolf vs. HRP com ativos da B3.
+\end{itemize}
+
+\subsection*{Módulo 6: Projeto Final e Produção Quant (5 Horas)}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Aula 6.1:} Estruturação de projetos em Python: modularização, tipagem estática, testes unitários e reprodutibilidade.
+    \item \textbf{Aula 6.2:} Relatórios Executivos: Geração de relatórios em HTML/PDF com dashboards institucionais para comitês.
+    \item \textbf{Projeto de Conclusão:} Construção de pipeline completo ponta a ponta com mentoria e rubrica de avaliação de buy-side.
+\end{itemize}
+
+\vspace{10pt}
+
+% ----------------- SEÇÃO 2: GUIA TÉCNICO DE NIVELAMENTO -----------------
+\section{Guia Técnico de Nivelamento \& Formulações Matemáticas}
+
+\subsection{Retornos Simples vs. Retornos Logarítmicos}
+\begin{align}
+R_t &= \frac{P_t - P_{t-1}}{P_{t-1}} = \frac{P_t}{P_{t-1}} - 1 \quad \text{(Retorno Simples Aritmético)} \\
+r_t &= \ln\left(\frac{P_t}{P_{t-1}}\right) = \ln(P_t) - \ln(P_{t-1}) \quad \text{(Retorno Logarítmico Contínuo)}
+\end{align}
+
+\subsubsection*{Regras Fundamentais de Agregação Quantitativa}
+\begin{enumerate}
+    \item \textbf{Aditividade no Espaço (Cross-Section):} Retornos simples agregam-se linearmente entre ativos ponderados por $w_i \in \mathbb{R}^N$:
+    \begin{equation}
+    R_{p,t} = \sum_{i=1}^N w_i R_{i,t} \quad \text{onde } \sum_{i=1}^N w_i = 1
+    \end{equation}
+    \textit{Nunca some retornos logarítmicos ponderados para calcular o valor de uma carteira!}
+    \item \textbf{Aditividade no Tempo (Série Temporal):} Log-retornos somam-se linearmente no tempo. O retorno acumulado de $T$ períodos é:
+    \begin{equation}
+    r_{\text{total}} = \sum_{t=1}^T r_t \implies R_{\text{total}} = \exp\left(\sum_{t=1}^T r_t\right) - 1
+    \end{equation}
+    Utilize log-retornos para regressões econométricas, estimação de volatilidade condicional (GARCH) e testes estatísticos.
+\end{enumerate}
+
+\subsection{Convenção de Anualização no Brasil (252 Dias Úteis)}
+Sob a premissa de retornos independentes e identicamente distribuídos ($i.i.d.$):
+\begin{equation}
+\bar{R}_{\text{anual}} = (1 + \bar{R}_{\text{diário}})^{252} - 1, \qquad \sigma_{\text{anual}} = \sigma_{\text{diária}} \times \sqrt{252}
+\end{equation}
+
+\subsection{Métricas Institucionais de Risco e Performance}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Sharpe Ratio:} Mede o retorno excedente sobre o ativo livre de risco ($R_f$, CDI) por unidade de volatilidade:
+    \begin{equation}
+    \text{Sharpe} = \frac{\bar{R}_p - R_f}{\sigma_p}
+    \end{equation}
+    \item \textbf{Sortino Ratio:} Penaliza exclusivamente a semi-variância negativa ($\sigma_{\text{down}}$):
+    \begin{equation}
+    \text{Sortino} = \frac{\bar{R}_p - R_f}{\sigma_{\text{down}}}, \quad \text{onde } \sigma_{\text{down}} = \sqrt{\frac{1}{T}\sum_{t=1}^T \min(0, R_{p,t} - R_f)^2} \times \sqrt{252}
+    \end{equation}
+    \item \textbf{Maximum Drawdown (MDD):} A maior queda percentual entre topo e fundo histórico:
+    \begin{equation}
+    \text{MDD} = \min_{t \in [0, T]} \left( \frac{\text{NAV}_t - \max_{\tau \le t} \text{NAV}_\tau}{\max_{\tau \le t} \text{NAV}_\tau} \right)
+    \end{equation}
+    \item \textbf{Conditional Value at Risk ($\text{CVaR}_\alpha$ / Expected Shortfall):} Perda média esperada além do limiar de $\text{VaR}_\alpha$:
+    \begin{equation}
+    \text{CVaR}_\alpha = \mathbb{E}\left[ L \mid L \ge \text{VaR}_\alpha \right] = \frac{1}{1-\alpha} \int_\alpha^1 \text{VaR}_u \, du
+    \end{equation}
+\end{itemize}
+
+\subsection{Ortogonalização de Fatores (Teorema Frisch-Waugh-Lovell)}
+Isolamento de alfa puro e descorrelação de betas conhecidos de mercado:
+\begin{equation}
+M_X = I - X(X^T X)^{-1} X^T \implies \tilde{y} = M_X y, \quad \tilde{Z} = M_X Z \implies \hat{\gamma} = (\tilde{Z}^T \tilde{Z})^{-1} \tilde{Z}^T \tilde{y}
+\end{equation}
+
+\subsection{Encolhimento de Covariância de Ledoit-Wolf}
+\begin{equation}
+\hat{\Sigma}_{\text{LW}} = \delta^* F + (1 - \delta^*) S
+\end{equation}
+
+\subsection{Script de Nivelamento em Python: Scorecard B3}
+\begin{lstlisting}
+import numpy as np
+import pandas as pd
+import yfinance as yf
+
+# 1. Download de cotacoes B3 ajustadas por proventos
+tickers = ['ITUB4.SA', 'VALE3.SA', 'PETR4.SA', 'WEGE3.SA', '^BVSP']
+data = yf.download(tickers, start='2021-01-01', end='2026-01-01', progress=False)
+prices = data['Adj Close'].dropna()
+returns = prices.pct_change().dropna()
+
+# 2. Scorecard Institucional de Risco
+def calcular_scorecard(series: pd.Series, rf_anual: float = 0.105) -> pd.Series:
+    rf_diario = (1 + rf_anual) ** (1 / 252) - 1
+    retorno_anual = (1 + series.mean()) ** 252 - 1
+    vol_anual = series.std() * np.sqrt(252)
+    sharpe = (retorno_anual - rf_anual) / vol_anual if vol_anual > 0 else 0.0
+    
+    ret_excesso = series - rf_diario
+    downside = ret_excesso[ret_excesso < 0].std() * np.sqrt(252)
+    sortino = (retorno_anual - rf_anual) / downside if downside > 0 else 0.0
+    
+    cum_ret = (1 + series).cumprod()
+    mdd = ((cum_ret - cum_ret.cummax()) / cum_ret.cummax()).min()
+    
+    return pd.Series({
+        'Retorno Anual': f"{retorno_anual * 100:.2f}%",
+        'Vol Anual': f"{vol_anual * 100:.2f}%",
+        'Sharpe': f"{sharpe:.2f}",
+        'Sortino': f"{sortino:.2f}",
+        'Max Drawdown': f"{mdd * 100:.2f}%"
+    })
+
+print(returns.apply(calcular_scorecard).to_string())
+\end{lstlisting}
+
+\vspace{10pt}
+
+% ----------------- SEÇÃO 3: TESTE DIAGNÓSTICO -----------------
+\section{Teste Diagnóstico de Nivelamento (10 Questões)}
+
+\begin{infobox}[Questão 1 $\bullet$ Matemática de Retornos]
+Ao montar uma carteira quantitativa com 40\% em PETR4 e 60\% em VALE3, qual metodologia matemática calcula o retorno total diário do portfólio?\\
+A) A média aritmética ponderada dos log-retornos dos ativos.\\
+\textbf{B) A média aritmética ponderada dos retornos simples dos ativos: $R_{p,t} = \sum w_i R_{i,t}$.}\\
+C) A raiz quadrada do produto dos retornos simples.\\
+D) O logaritmo da soma dos preços de fechamento dividido pelo volume.
+\end{infobox}
+
+\begin{infobox}[Questão 2 $\bullet$ Vieses de Backtest e Microestrutura]
+Um analista cria um modelo multifatorial que utiliza a divulgação do balanço do 4T (data-base 31/12) para comprar ações no primeiro pregão de janeiro. Qual erro metodológico fatal ocorreu?\\
+A) Viés de Sobrevivência (\textit{Survivorship Bias}).\\
+\textbf{B) Viés de Antecipação (\textit{Look-Ahead Bias}), pois balanços do 4T são protocolados na CVM em março ou abril.}\\
+C) Erro de Especificação de Volatilidade por utilizar raiz de 365 dias.\\
+D) Erro de Curvatura de Juros por desconsiderar o cupom limpo.
+\end{infobox}
+
+\begin{infobox}[Questão 3 $\bullet$ Manipulação de Séries em Python / Pandas]
+Dado um DataFrame \texttt{df} indexado por datas com preços em \texttt{'close'}, qual comando calcula corretamente os retornos diários simples?\\
+A) \texttt{df['close'].diff() / df['close']}\\
+B) \texttt{np.log(df['close']) - np.log(df['close'].shift(-1))}\\
+\textbf{C) \texttt{df['close'].pct_change().dropna()}}\\
+D) \texttt{df['close'].rolling(252).mean()}
+\end{infobox}
+
+\begin{infobox}[Questão 4 $\bullet$ Anualização de Volatilidade na B3]
+Uma ação brasileira possui desvio-padrão diário de 2,0\% em um mercado com 252 dias úteis. Sob hipótese de retornos $i.i.d.$, qual a sua volatilidade anualizada?\\
+A) $2,0\% \times 252 = 504,0\%$\\
+\textbf{B) $2,0\% \times \sqrt{252} \approx 31,75\%$}\\
+C) $2,0\% / \sqrt{252} \approx 0,126\%$\\
+D) $(1 + 0,02)^{252} - 1 \approx 145,2\%$
+\end{infobox}
+
+\begin{infobox}[Questão 5 $\bullet$ Métricas de Risco Assimétricas]
+Por que gestores sistemáticos preferem o Sortino Ratio ao Sharpe Ratio para estratégias com assimetria positiva (\textit{positive skewness})?\\
+A) O Sortino desconsidera a taxa livre de risco.\\
+\textbf{B) O Sharpe penaliza volatilidade de alta de forma idêntica a quedas, enquanto o Sortino penaliza apenas retornos negativos.}\\
+C) O Sortino independe do tamanho amostral.\\
+D) O Sharpe não pode ser computado para retornos positivos.
+\end{infobox}
+
+\begin{infobox}[Questão 6 $\bullet$ Validação Cruzada em Séries Temporais]
+Por que o K-Fold Cross-Validation clássico do Scikit-Learn é inválido e perigoso para séries temporais financeiras?\\
+\textbf{A) O K-Fold clássico embaralha os dados e treina no futuro para prever o passado, gerando vazamento temporal (\textit{data leakage}).}\\
+B) O K-Fold é restrito computacionalmente a classificações binárias.\\
+C) O número de folds precisa coincidir com o número de ativos da carteira.\\
+D) O K-Fold duplica artificialmente as taxas de custódia.
+\end{infobox}
+
+\begin{infobox}[Questão 7 $\bullet$ Paradigmas de Modelagem de Fatores]
+Qual a distinção fundamental entre \textit{Cross-Sectional Momentum} e \textit{Time-Series Momentum}?\\
+A) Cross-Sectional é renda fixa e Time-Series é ações.\\
+\textbf{B) Cross-Sectional gera rankings relativos entre ativos em um mesmo instante, enquanto Time-Series avalia a trajetória histórica do próprio ativo em termos absolutos.}\\
+C) Cross-Sectional usa médias móveis e Time-Series usa regressões múltiplas.\\
+D) Ambos os termos são sinônimos.
+\end{infobox}
+
+\begin{infobox}[Questão 8 $\bullet$ Microestrutura e Atritos de Execução]
+Ao testar uma estratégia de Small Caps com R\$ 100 milhões sob gestão, qual parâmetro impede a captura de alfa ilusório?\\
+A) Defasagem do IPCA.\\
+\textbf{B) Capping de participação no volume financeiro médio diário (ADTV) e modelo de impacto não-linear (Almgren-Chriss).}\\
+C) Contagem de seguidores da diretoria nas redes sociais.\\
+D) Preço/Lucro dividido pelo número de ações em tesouraria.
+\end{infobox}
+
+\begin{infobox}[Questão 9 $\bullet$ Estimação de Covariância e Markowitz]
+Qual a principal deficiência empírica da Otimização de Média-Variância de Markowitz aplicada diretamente à matriz amostral?\\
+A) O algoritmo é incapaz de processar retornos positivos.\\
+\textbf{B) Inverter uma matriz amostral ruidosa atua como um ``maximizador de erros'', concentrando pesos extremos em ativos ruidosos; falha corrigida pelo encolhimento de Ledoit-Wolf.}\\
+C) Markowitz exige que o retorno de todos os ativos seja zero.\\
+D) O solver exige venda a descoberto irrestrita.
+\end{infobox}
+
+\begin{infobox}[Questão 10 $\bullet$ Hierarchical Risk Parity (HRP)]
+Qual a grande inovação do algoritmo de Hierarchical Risk Parity (HRP) proposto por Marcos López de Prado?\\
+\textbf{A) Utiliza machine learning (clusterização hierárquica) na matriz de correlação para alocar risco recursivamente, eliminando a inversão de matrizes.}\\
+B) Garante 0\% de drawdown em qualquer regime de mercado.\\
+C) Substitui modelos matemáticos por processamento de linguagem natural.\\
+D) Otimiza o strike de opções em alta frequência.
+\end{infobox}
+
+\vspace{10pt}
+
+% ----------------- SEÇÃO 4: RÉGUA DE AUTOAVALIAÇÃO -----------------
+\section{Régua de Autoavaliação \& Diagnóstico Institucional}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{0.2\textwidth} p{0.35\textwidth} p{0.38\textwidth}}
+\toprule
+\textbf{Pontuação} & \textbf{Nível Diagnóstico Institucional} & \textbf{Recomendação de Foco no Programa} \\
+\midrule
+\textbf{0 a 4 Acertos} & \textbf{Nível 1: Fundamentos / Em Transição}\newline Background analítico, mas vícios comuns de ciência de dados genérica ou planilhas. & \textbf{Módulos 1 e 2} serão transformadores para construir infraestrutura point-in-time, dados sem viés e métricas de cauda. \\
+\midrule
+\textbf{5 a 7 Acertos} & \textbf{Nível 2: Analista Quant Intermediário}\newline Boa fluência em Python e estatística, com lacunas em atritos de execução e isolamento de fatores. & \textbf{Módulos 3 e 4} elevarão seu backtesting ao nível de mesas buy-side (ortogonalização FWL, slippage e spreads de fatores). \\
+\midrule
+\textbf{8 a 10 Acertos} & \textbf{Nível 3: Pronto para Mesas Quant}\newline Maturidade conceitual e intuição apurada para microestrutura e alocação de risco. & \textbf{Módulos 4, 5 e 6} consolidarão seu domínio em Ledoit-Wolf, HRP e desafios práticos take-home. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\vspace{10pt}
+
+\begin{answerbox}[Vantagem Exclusiva da Lista VIP]
+Ao preencher seus dados na landing page oficial, sua vaga na Turma 1 da formação de \textbf{Análise Quantitativa Aplicada} está pré-reservada com \textbf{20\% de desconto de lançamento} e mentoria direta de código com o Dr. Lucca Simeoni Pavan.
+\end{answerbox}
+
+\end{document}
