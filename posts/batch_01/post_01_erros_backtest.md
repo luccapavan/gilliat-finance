@@ -82,4 +82,4 @@ Fast-track your buy-side quant career with institutional templates:
 Lucca Simeoni Pavan, Ph.D.  
 Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics  
 
-#QuantFinance #DataScience #Python #SystematicTrading #Microstructure\n
+#QuantFinance #DataScience #Python #SystematicTrading #Microstructure
