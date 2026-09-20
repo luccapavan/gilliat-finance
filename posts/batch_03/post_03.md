@@ -28,7 +28,7 @@ Seu modelo sobrevive a 15 bps de custo fixo mais 20 bps de slippage não-linear?
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -69,7 +69,7 @@ Does your algorithm survive realistic non-linear execution frictions in emerging
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 

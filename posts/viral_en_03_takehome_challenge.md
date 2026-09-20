@@ -20,7 +20,7 @@ In systematic asset management, methodological discipline and statistical hygien
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 

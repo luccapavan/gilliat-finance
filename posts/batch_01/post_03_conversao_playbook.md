@@ -21,14 +21,14 @@ Questões essenciais como:
 Organizei essa vivência empírica, erros comuns e as melhores práticas do buy-side em dois recursos complementares:
 
 1. **The Quant Transition Playbook:** O blueprint prático com o passo a passo metodológico e repositórios em Python para acelerar sua entrada no buy-side.
-2. **Curso de Análise Quantitativa Aplicada:** Treinamento executivo e institucional de 30h de pesquisa aplicada com dados reais de mercado.
+2. **Curso de Análise Quantitativa Aplicada:** Treinamento executivo e institucional de pesquisa aplicada com dados reais de mercado.
 
 Se você busca fazer uma transição de carreira sólida e embasada para mesas quantitativas:
 
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -59,7 +59,7 @@ Critical industry realities like:
 I synthesized this buy-side empirical experience, institutional risk protocols, and production code into two comprehensive resources:
 
 1. **The Quant Transition Playbook:** The complete operational career blueprint and vectorized Python repository designed for PhDs, quants, and data scientists.
-2. **Applied Quantitative Research Course:** An intensive 30-hour master curriculum built on production-grade market data.
+2. **Applied Quantitative Research Course:** An intensive master curriculum built on production-grade market data.
 
 Whether you are targeting global systematic desks or regional funds navigating volatile market regimes, methodological precision is your greatest competitive moat.
 
@@ -67,7 +67,7 @@ Which aspect of the transition to quantitative finance has proven the most chall
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 

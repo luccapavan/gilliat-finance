@@ -32,7 +32,7 @@ Você já participou de um desafio técnico desse tipo? Qual foi sua maior dific
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -73,7 +73,7 @@ Have you ever taken an institutional quant take-home test? What was the hardest 
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 

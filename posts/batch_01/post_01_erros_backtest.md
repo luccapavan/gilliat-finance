@@ -30,7 +30,7 @@ Qual desses vieses já te deu mais dor de cabeça em projetos de modelagem?
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -70,7 +70,7 @@ Which backtesting bias has caused you the most unexpected headaches in live trad
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 

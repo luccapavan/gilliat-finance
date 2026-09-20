@@ -36,7 +36,7 @@ Você costuma rodar ortogonalização prévia nos seus sinais ou joga todas as f
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**

@@ -1,7 +1,7 @@
 # Lote 04 de Posts: Investimento Sistemático e Factor Investing Aplicado a Economias Emergentes (com Estudo de Caso no Brasil / B3)
 
 **Autor:** Lucca Simeoni Pavan, Ph.D. | Ex-Head de Estratégias Quant & Gerente de Alocação de Recursos • Doutor em Economia  
-**Objetivo:** Aquecimento de audiência qualificada e geração de autoridade institucional com ganchos estratégicos para o **Curso de Análise Quantitativa Aplicada** (30h) e para o **The Quant Transition Playbook** (E-book + Repositórios em Python no Gumroad).  
+**Objetivo:** Aquecimento de audiência qualificada e geração de autoridade institucional com ganchos estratégicos para o **Curso de Análise Quantitativa Aplicada** e para o **The Quant Transition Playbook** (E-book + Repositórios em Python no Gumroad).  
 **Formato:** Bilíngue (🇧🇷 Português e 🇺🇸 Inglês), parágrafos concisos de 1-2 linhas para máxima escaneabilidade mobile, bullets estruturados e CTAs duplos padronizados.  
 **Adaptação Internacional:** Nas versões em inglês, todos os tópicos são contextualizados sob a ótica de **economias emergentes** (*emerging markets*), utilizando o mercado brasileiro (B3, Ibovespa, DI/Selic) como estudo de caso prático de alta relevância.
 
@@ -35,7 +35,7 @@ Você já opera ou estuda estratégias de Factor Investing na B3? Qual prêmio d
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -74,7 +74,7 @@ Are you running or researching Factor Investing strategies in emerging markets? 
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 
@@ -124,7 +124,7 @@ Você utiliza defasagens de tempo para neutralizar ruídos de curto prazo nos se
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -171,7 +171,7 @@ Do you implement operational lags to purge short-term noise from your momentum p
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 
@@ -219,7 +219,7 @@ Como você valida se as variáveis do seu modelo têm significância econômica 
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -263,7 +263,7 @@ How do you verify whether candidate variables possess true economic causality or
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 
@@ -306,7 +306,7 @@ Você já teve a experiência de colocar um modelo para rodar na prática e perc
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -346,7 +346,7 @@ Have you ever launched a strategy live only to watch execution frictions consume
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 
@@ -393,7 +393,7 @@ Você ainda utiliza a fronteira eficiente tradicional ou já migrou para técnic
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -436,7 +436,7 @@ Are you still relying on traditional mean-variance frontiers, or have you upgrad
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 

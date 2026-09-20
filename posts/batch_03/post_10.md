@@ -21,7 +21,7 @@ Para eliminar esse gap, consolidei minha vivência empírica como Doutor em Econ
 ▪ Módulo 5: O Blueprint do Desafio de 48h de Contratação (Rubrica de avaliação e repositório modelo);
 ▪ Módulo 6: Manual dos Motores em Python (4 scripts prontos para produção inclusos).
 
-🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora - 30 Horas de Aulas):**
+🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora - Formação Completa):**
 Treinamento avançado e imersivo com dados reais de mercado, cobrindo microestrutura, backtest vetorial e alocação dinâmica.
 
 Se o seu objetivo é atuar na fronteira intelectual e quantitativa do mercado de capitais:
@@ -29,7 +29,7 @@ Se o seu objetivo é atuar na fronteira intelectual e quantitativa do mercado de
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
@@ -60,14 +60,14 @@ To eliminate this divide, I distilled my career as a Ph.D. in Economics and form
 ▪ Module 5: The 48h Take-Home Hiring Blueprint (Grading rubrics and production repo architecture);
 ▪ Module 6: Python Execution Engine Specification (Includes 4 production-grade Python scripts).
 
-🎓 **Applied Quantitative Research Course (30-Hour Master Curriculum):**
+🎓 **Applied Quantitative Research Course (Master Curriculum):**
 Executive institutional training utilizing real-world financial data, covering market microstructure, vectorized backtesting, and dynamic risk allocation.
 
 Whether targeting global systematic funds or regional desks navigating volatile emerging market regimes:
 
 ---
 
-🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
 👉 https://curso-quant-research.netlify.app/
 

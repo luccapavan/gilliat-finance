@@ -12,7 +12,7 @@ Mas isso não é ciência. É apenas mineração de dados (data snooping).
 Depois de anos atuando na gestão quantitativa de recursos — da pesquisa acadêmica no doutorado até a liderança de modelagem sistemática e alocação de portfólios no mercado financeiro —, condensei os pilares que realmente funcionam no mundo real em dois materiais integrados:
 
 📘 "The Quant Transition Playbook" — Da Academia & Data Science para o Mercado Financeiro Quantitativo (Edição Bilíngue PT/EN).
-🎓 "Curso de Análise Quantitativa Aplicada" — Formação executiva de 30h de pesquisa quantitativa com dados reais.
+🎓 "Curso de Análise Quantitativa Aplicada" — Formação executiva de pesquisa quantitativa com dados reais.
 
 O que está incluso:
 1. Livro Digital em PDF com diagramação executiva completa (versões em Português e Inglês).
@@ -26,7 +26,7 @@ Se você quer acelerar sua transição para o buy-side quantitativo com base só
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
 📘 **The Quant Transition Playbook:**
