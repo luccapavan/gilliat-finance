@@ -27,11 +27,18 @@ In quantitative asset management, economic intuition and classical statistical d
 
 Have you ever deployed complex machine learning models on live market data? What was your out-of-sample experience?
 
-To audit your systematic models against these 10 structural biases and explore production-grade vectorized Python factor engines:
+---
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
 👉 https://warrenjax.gumroad.com/l/fsrcmj
 
 ---
-Lucca Simeoni Pavan, Ph.D.
-Former Head of Quantitative Strategies & Portfolio Allocation Manager
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics
 
 #QuantFinance #MachineLearning #DataScience #HedgeFunds #Python #QuantitativeResearch

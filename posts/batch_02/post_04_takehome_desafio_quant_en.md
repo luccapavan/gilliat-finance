@@ -1,11 +1,10 @@
 # The Anatomy of a 48-Hour Quant Take-Home Challenge
 
-- **Pillar:** carreira_senior
-- **Suggested Time:** Quinta-feira / Thursday (09:00)
+- **Pilar:** carreira_senior
+- **Suggested Time:** Quinta-feira / Thursday (09:00 BRT / 13:00 UTC)
 - **Language:** English
 
----
-
+---\n
 You passed initial screening and received: "Here is a 10-year market dataset. You have 48 hours to deliver a systematic multifactor strategy."
 
 What do most candidates submit?
@@ -20,5 +19,21 @@ What do senior candidates submit to secure the offer?
 4. Comprehensive Risk Attribution: benchmark correlation, turnover decay, and regime drawdowns during historical crises.
 
 In quantitative finance, methodological rigor is worth ten times blind algorithmic complexity.
+
+Have you ever taken an institutional quant take-home test? What was the hardest challenge?
+
+---
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
+---
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics  
 
 #QuantCareers #DataScience #HedgeFunds #FinTech #Python

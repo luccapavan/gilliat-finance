@@ -1,7 +1,7 @@
 # Slippage Não-Linear: Por que 90% dos Backtests Morrem na Produção
 
 - **Pilar:** microestrutura
-- **Horário Sugerido:** Quarta-feira / Wednesday (09:00)
+- **Horário Sugerido:** Quarta-feira / Wednesday (09:00 BRT / 13:00 UTC)
 - **Idioma:** Português
 
 ---
@@ -18,11 +18,23 @@ O impacto temporário decorre do consumo imediato do book. O permanente ocorre p
 O impacto de preço escala proporcionalmente à raiz quadrada do volume negociado em relação ao volume médio diário (ADV):
 Impacto ≈ Y * σ * sqrt(Q / ADV)
 
-Com R$ 100 mil simulados, a estratégia parece incrível. Com R$ 10 milhões sob gestão, o custo de impacto consome 100% do alfa.
+Em economias emergentes como o Brasil (B3), onde a liquidez fora do índice principal é estreita e os spreads são amplos, operar 10% a 20% do volume diário consome 100% do alfa teórico.
+Com R$ 100 mil simulados, a estratégia parece incrível. Com R$ 10 milhões sob gestão, o custo de impacto destrói a estratégia.
 
 Como você modela fricções de microestrutura nos seus backtests?
 
-Para aprender a modelar custos reais de execução, slippage não-linear e auditar pipelines institucionais, baixe a Ementa Oficial e o Kit de Nivelamento do curso:
+---
+
+🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
+Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook:**
+Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
+---
+Lucca Simeoni Pavan, Ph.D.  
+Ex-Head de Estratégias Quant & Gerente de Alocação de Recursos • Doutor em Economia  
 
 #Microestrutura #TradingQuantitativo #Execucao #MercadoFinanceiro #FinancasQuantitativas

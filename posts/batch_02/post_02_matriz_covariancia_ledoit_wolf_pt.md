@@ -1,7 +1,7 @@
 # Por que a Matriz de Covariância Amostral é o Calcanhar de Aquiles de Markowitz
 
 - **Pilar:** tecnico_avancado
-- **Horário Sugerido:** Terça-feira / Tuesday (08:30)
+- **Horário Sugerido:** Terça-feira / Tuesday (08:30 BRT / 12:30 UTC)
 - **Idioma:** Português
 
 ---
@@ -16,8 +16,10 @@ Quando você otimiza uma carteira com N = 100 ativos usando uma janela históric
 2. A razão N/T ≈ 0.40 significa que a matriz está severamente mal-condicionada.
 3. Os menores autovalores — que contêm puro ruído amostral — viram os maiores pesos ao inverter a matriz (Σ⁻¹).
 
+Em economias emergentes como o Brasil, onde choques de juros e viradas fiscais alteram correlações abruptamente, a matriz amostral desmancha na primeira crise.
+
 Soluções institucionais com rigor estatístico:
-1. Encolhimento de Ledoit-Wolf (Shrinkage): combina a matriz amostral com um alvo estruturado analiticamente sob norma de Frobenius.
+1. Encolhimento de Ledoit-Wolf (Shrinkage): combina a matriz amostral com um alvo estruturado analiticamente sob norma de Frobenius, estabilizando os autovalores.
 2. Hierarchical Risk Parity (HRP de López de Prado): usa teoria dos grafos e clustering hierárquico, dispensando qualquer inversão matricial.
 
 Em Python com scikit-learn:
@@ -26,7 +28,18 @@ cov_clean = LedoitWolf().fit(returns).covariance_
 
 Qual método de regularização de matriz de risco você tem utilizado em produção?
 
-Quer dominar algoritmos robustos de otimização de portfólios (Ledoit-Wolf, HRP e CVaR)? Baixe gratuitamente o Kit de Nivelamento e a Ementa Oficial do curso:
+---
+
+🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
+Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook:**
+Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
+---
+Lucca Simeoni Pavan, Ph.D.  
+Ex-Head de Estratégias Quant & Gerente de Alocação de Recursos • Doutor em Economia  
 
 #AssetManagement #Risco #OtimizacaoDePortfolio #MachineLearning #Estatistica

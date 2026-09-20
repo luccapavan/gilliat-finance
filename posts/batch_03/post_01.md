@@ -1,6 +1,6 @@
-# Post 01: Por que 95% dos backtests com Machine Learning quebram em conta real
+# Post 01: Por que 95% dos backtests com Machine Learning quebram em conta real / Why 95% of ML Backtests Fail in Production
 **Pilar:** Técnico / Desmistificação  
-**Horário Recomendado:** 12:00 BRT  
+**Horário Recomendado:** 12:00 BRT / 15:00 UTC  
 **Chamada:** Engajamento / Reflexão  
 
 ---
@@ -9,7 +9,7 @@
 
 Um modelo com R² de 85% e Sharpe de 3.2 em backtest raramente sobrevive a 30 dias de execução real.
 
-Nos últimos anos liderando mesas quantitativas e comitês de alocação, cansei de ver pesquisadores talentosos cometerem o mesmo erro:
+Nos últimos anos liderando mesas quantitativas e alocação de ativos, cansei de ver pesquisadores talentosos cometerem o mesmo erro:
 
 Tratar séries financeiras como se fossem problemas comuns de visão computacional ou NLP.
 
@@ -27,12 +27,21 @@ Menos ajuste forçado de hiperparâmetros. Mais tese econômica e governança de
 
 Você já viu um backtest "perfeito" desmanchar no primeiro mês de execução? O que falhou no seu modelo?
 
-Para aprender a estruturar protocolos anti-vieses profissionais (Purged K-Fold com Embargo) e baixar a Ementa Oficial do curso com o Kit de Nivelamento gratuito:
+---
+
+🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
+Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
+📘 **The Quant Transition Playbook:**
+Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
 ---
-Lucca Simeoni Pavan, Ph.D.
-Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação
+Lucca Simeoni Pavan, Ph.D.  
+Ex-Head de Estratégias Quant & Gerente de Alocação de Recursos • Doutor em Economia
+
+#QuantFinance #MachineLearning #Python #DataScience #InvestimentoSistematico
 
 ---
 
@@ -59,5 +68,17 @@ Less hyperparameter curve-fitting. More economic rationale and point-in-time hyg
 Have you ever witnessed a "bulletproof" backtest crumble upon live capital deployment? What was the root cause?
 
 ---
-Lucca Simeoni Pavan, Ph.D.
-Former Head of Quantitative Strategies & Product/Allocation Manager
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
+---
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics
+
+#QuantFinance #MachineLearning #DataScience #SystematicTrading #Python

@@ -25,13 +25,18 @@ What you receive inside:
 ▪ **Anti-Bias Backtesting Audit Checklist:** 10 mandatory microstructure and statistical hygiene tests to bulletproof models before allocating capital.
 ▪ **4 Production-Grade Vectorized Python Engines:** Vectorized multi-factor backtest (lag 12-2, Z-scores, turnover), tail risk suite (CVaR 95%, VaR, Sortino), FWL alpha purification, and robust Ledoit-Wolf shrinkage.
 
-Available for instant digital download:
+---
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
 👉 https://warrenjax.gumroad.com/l/fsrcmj
 
-If your goal is to build robust systematic models that survive real-world execution frictions or stand out decisively in buy-side interviews, this is your blueprint.
-
 ---
-Lucca Simeoni Pavan, Ph.D.
-Former Head of Quantitative Strategies & Portfolio Allocation Manager
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics
 
 #QuantFinance #QuantCareers #AssetManagement #HedgeFunds #Python #Econometrics

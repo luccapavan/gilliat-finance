@@ -1,6 +1,6 @@
-# Post 09: Loops 'for' em Python: O teste silencioso que reprova candidatos em vagas Quant
+# Post 09: Loops 'for' em Python: O teste silencioso que reprova candidatos em vagas Quant / 'For' Loops in Python: The Silent Rejection in Quant Interviews
 **Pilar:** Engenharia / Código  
-**Horário Recomendado:** 12:00 BRT  
+**Horário Recomendado:** 12:00 BRT / 15:00 UTC  
 **Chamada:** Educativo / Código  
 
 ---
@@ -12,9 +12,11 @@ Quando avalio códigos em desafios técnicos para contratação de quants, a pri
 Quantas vezes a palavra `for` aparece em iterações de séries temporais de preços?
 
 Se o candidato escreveu:
-`for i in range(len(df)):`
-`    if df['pe'].iloc[i] < 10 and df['mom'].iloc[i] > 0:`
-`        portfolio.append(...)`
+```python
+for i in range(len(df)):
+    if df['pe'].iloc[i] < 10 and df['mom'].iloc[i] > 0:
+        portfolio.append(...)
+```
 
 A avaliação técnica encerra ali.
 
@@ -27,12 +29,21 @@ No buy-side, velocidade de computação vetorial não é estética; é a diferen
 
 Domine operações matriciais e broadcasting em NumPy/pandas. É o pré-requisito silencioso de qualquer processo seletivo institucional.
 
-No "The Institutional Quant Toolkit & Playbook", todos os 4 motores em Python foram escritos com vetorização pura (zero loops lentos), prontos para produção e processos seletivos:
+---
+
+🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
+Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
+📘 **The Quant Transition Playbook:**
+Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
 ---
-Lucca Simeoni Pavan, Ph.D.
-Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação
+Lucca Simeoni Pavan, Ph.D.  
+Ex-Head de Estratégias Quant & Gerente de Alocação de Recursos • Doutor em Economia
+
+#Python #DataScience #EngenhariaDeDados #QuantFinance #Vetorizacao
 
 ---
 
@@ -43,9 +54,11 @@ When reviewing technical code submissions for quantitative research positions, m
 How many times does the keyword `for` appear iterating over daily financial time series?
 
 If an applicant writes:
-`for i in range(len(df)):`
-`    if df['pe'].iloc[i] < 10 and df['mom'].iloc[i] > 0:`
-`        portfolio.append(...)`
+```python
+for i in range(len(df)):
+    if df['pe'].iloc[i] < 10 and df['mom'].iloc[i] > 0:
+        portfolio.append(...)
+```
 
 The technical evaluation effectively ends right there.
 
@@ -56,8 +69,20 @@ Why are quantitative desks so uncompromising on this?
 
 On systematic desks, vectorized matrix operations are not a stylistic preference; they determine whether your team tests 10 hypotheses a week or 10,000.
 
-Master broadcasting and matrix algebra in NumPy and pandas. It is the silent prerequisite of buy-side recruiting.
+Master broadcasting and matrix algebra in NumPy and Polars. It is the silent prerequisite of buy-side recruiting.
 
 ---
-Lucca Simeoni Pavan, Ph.D.
-Former Head of Quantitative Strategies & Product/Allocation Manager
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
+---
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics
+
+#Python #DataEngineering #QuantCareers #QuantitativeFinance #Vectorization

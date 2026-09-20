@@ -25,11 +25,18 @@ We mathematically "shrink" the noisy empirical sample matrix S toward a structur
 
 Are you still inverting raw sample covariance matrices in your models, or have you implemented statistical shrinkage in your pipelines?
 
-Inside **The Institutional Quant Toolkit & Playbook**, I provide the production-ready vectorized Python engine for Ledoit-Wolf covariance shrinkage and condition-number diagnostics:
+---
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
 👉 https://warrenjax.gumroad.com/l/fsrcmj
 
 ---
-Lucca Simeoni Pavan, Ph.D.
-Former Head of Quantitative Strategies & Portfolio Allocation Manager
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics
 
 #QuantFinance #PortfolioManagement #AssetAllocation #Python #HedgeFunds #RiskManagement

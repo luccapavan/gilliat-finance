@@ -1,6 +1,6 @@
-# Post 03: A Lei da Raiz Quadrada e o Cemitério de Estratégias Quant na B3
+# Post 03: A Lei da Raiz Quadrada e o Impacto de Microestrutura / The Square-Root Law & Non-Linear Slippage in Emerging Markets
 **Pilar:** Microestrutura / Execução  
-**Horário Recomendado:** 12:00 BRT  
+**Horário Recomendado:** 12:00 BRT / 15:00 UTC  
 **Chamada:** Educativo / Reflexão  
 
 ---
@@ -25,12 +25,21 @@ Isso define a Fronteira de Capacidade da Estratégia: o teto de patrimônio (AUM
 Antes de celebrar a rentabilidade acumulada de um backtest, responda a uma pergunta:
 Seu modelo sobrevive a 15 bps de custo fixo mais 20 bps de slippage não-linear?
 
-No "The Institutional Quant Toolkit & Playbook", disponibilizo o Checklist Anti-Vieses com os 10 testes de auditoria de microestrutura e motores em Python prontos para produção. Baixe a Ementa Oficial e o Kit de Nivelamento do curso:
+---
+
+🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
+Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
+📘 **The Quant Transition Playbook:**
+Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
 ---
-Lucca Simeoni Pavan, Ph.D.
-Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação
+Lucca Simeoni Pavan, Ph.D.  
+Ex-Head de Estratégias Quant & Gerente de Alocação de Recursos • Doutor em Economia
+
+#Microestrutura #TradingQuantitativo #Execucao #MercadoFinanceiro #FinancasQuantitativas
 
 ---
 
@@ -38,9 +47,9 @@ Ex-Head de Estratégias Quant & Gerente de Produtos e Alocação
 
 A backtest devoid of realistic market microstructure friction is not an investment strategy. It is financial fiction.
 
-Too often, quantitative algorithms are designed assuming instantaneous fills at the mid-price or fixed penny bid-ask spreads.
+Too often, quantitative algorithms are designed assuming instantaneous fills at the mid-price or flat penny spreads.
 
-In production markets, transaction impact is governed by the Square-Root Law of Market Impact:
+In production markets, transaction impact is strictly governed by the Square-Root Law of Market Impact:
 
 Impact ≈ Y * Daily_Volatility * sqrt(Q / ADV)
 
@@ -49,11 +58,27 @@ What does this equation tell us?
 2. A 2.0 Sharpe ratio is meaningless if the model demands 80% weekly portfolio turnover in mid-cap names;
 3. The very act of executing your order moves the equilibrium order book price against you (permanent market impact), wiping out alpha.
 
-This dictates the Strategy Capacity Frontier: the strict AUM ceiling beyond which execution frictions erode 100% of theoretical alpha.
+In emerging economies—such as Brazil (B3)—these frictions are amplified.
+Liquidity is heavily concentrated in a handful of commodity and banking mega-caps. In mid and small-cap equities, order books are shallow and short-borrow fees are steep.
+Executing an order exceeding 10% to 15% of ADV triggers severe non-linear slippage that completely devours theoretical factor returns.
+
+This defines the Strategy Capacity Frontier: the strict AUM ceiling beyond which execution frictions destroy 100% of paper alpha.
 
 Before celebrating a stellar backtest cumulative curve, ask yourself:
-Does your algorithm survive 15 bps of brokerage plus 20 bps of nonlinear slippage?
+Does your algorithm survive realistic non-linear execution frictions in emerging market regimes?
 
 ---
-Lucca Simeoni Pavan, Ph.D.
-Former Head of Quantitative Strategies & Product/Allocation Manager
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
+---
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics
+
+#Microstructure #QuantFinance #AlgorithmicTrading #Execution #EmergingMarkets #Python

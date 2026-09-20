@@ -25,11 +25,18 @@ If the t-statistic collapses toward zero, your model was simply riding existing 
 
 Factor orthogonalization is not mathematical pedantry. It is the fundamental filter of professional survival on institutional quant desks.
 
-Inside **The Institutional Quant Toolkit & Playbook**, I dedicate a complete chapter to the matrix algebra of FWL factor purification, along with the production-ready vectorized Python engine:
+---
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
 👉 https://warrenjax.gumroad.com/l/fsrcmj
 
 ---
-Lucca Simeoni Pavan, Ph.D.
-Former Head of Quantitative Strategies & Portfolio Allocation Manager
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics
 
 #QuantFinance #HedgeFunds #FactorInvesting #Python #QuantitativeResearch #Econometrics

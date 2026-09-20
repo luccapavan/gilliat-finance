@@ -18,11 +18,18 @@ What separates the 5% who get hired from the 95% summarily rejected on the spot?
 
 In systematic asset management, methodological discipline and statistical hygiene will always trump blind algorithmic complexity.
 
-In **The Institutional Quant Toolkit & Playbook**, I distilled the exact blueprint for this 48h buy-side take-home challenge, the quantitative evaluation rubric used by hiring PMs, and 4 production-grade vectorized Python engines so you never build from scratch:
+---
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
 👉 https://warrenjax.gumroad.com/l/fsrcmj
 
 ---
-Lucca Simeoni Pavan, Ph.D.
-Former Head of Quantitative Strategies & Portfolio Allocation Manager
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics
 
 #QuantFinance #QuantCareers #HedgeFunds #Python #DataScience #QuantitativeResearch

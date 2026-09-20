@@ -1,32 +1,82 @@
-# O mapa prático de transição da Academia/Data Science para o Mercado Quant
+# O mapa prático de transição da Academia/Data Science para o Mercado Quant / The Practical Blueprint: Academia & Data Science to Buy-Side Quant
 
-- **Pilar:** conversao
-- **Horário Sugerido:** Sexta-feira (11:30)
+- **Pilar:** Carreira / Conversão Institucional
+- **Horário Sugerido:** Sexta-feira (11:30 BRT / 15:30 UTC)
 
 ---
 
-Quando concluí meu Doutorado em Economia e ingressei na gestão quantitativa de recursos, percebi uma lacuna brutal:
+## 🇧🇷 Versão em Português:
 
-A faculdade te ensina a teoria econométrica pura. Os cursos de data science ensinam a ajustar modelos no Scikit-Learn.
-Mas praticamente NINGUÉM ensina como uma gestora de fundos quantitativos realmente opera no dia a dia.
+Quando concluí meu Doutorado em Economia e assumi a liderança de estratégias quantitativas e alocação de recursos, deparei-me com uma lacuna gritante no mercado:
 
-Questões como:
-- Como estruturar um pipeline de Factor Investing (Momentum, Value, Quality, Low Vol) sem vieses temporais?
-- Como codificar um backtester vetorial confiável em Python?
-- O que realmente cai nas provas técnicas e entrevistas de contratação para vagas de Quant?
+A pós-graduação ensina a teoria econométrica pura.
+Cursos genéricos de data science ensinam a ajustar modelos no Scikit-Learn com bases de churn ou e-commerce.
+Mas praticamente NINGUÉM ensina como uma mesa quant institucional opera no dia a dia.
 
-Nos últimos meses, organizei toda essa vivência empírica, erros comuns e boas práticas de modelagem em um material único:
+Questões essenciais como:
+▪ Como estruturar um pipeline de Factor Investing (Value, Momentum, Quality, Low Vol) sem vazamento temporal?
+▪ Como codificar um motor de backtest vetorial robusto em Python que considere atritos de microestrutura?
+▪ O que gestores de fundos sistemáticos realmente avaliam em desafios práticos de 48h (take-home challenges)?
 
-📘 "The Quant Transition Playbook" — O Guia Prático para Ingressar no Mercado Financeiro Quantitativo.
+Organizei essa vivência empírica, erros comuns e as melhores práticas do buy-side em dois recursos complementares:
 
-O material inclui o passo a passo metodológico mais 3 repositórios com código em Python prontos para estudo:
-1. Pipeline de extração e tratamento de dados de mercado da B3.
-2. Modelo multifator completo de seleção de ativos e rebalanceamento.
-3. Motor de análise de risco e performance (Sharpe, Sortino, Drawdown, VaR).
+1. **The Quant Transition Playbook:** O blueprint prático com o passo a passo metodológico e repositórios em Python para acelerar sua entrada no buy-side.
+2. **Curso de Análise Quantitativa Aplicada:** Treinamento executivo e institucional de 30h de pesquisa aplicada com dados reais de mercado.
 
-Se você quer acelerar sua transição para a Faria Lima ou mesas de operações com base sólida e código real:
+Se você busca fazer uma transição de carreira sólida e embasada para mesas quantitativas:
 
-Para baixar gratuitamente o Kit de Nivelamento (Ementa de 30h + Guia Técnico em Python + Teste Diagnóstico) e garantir 20% OFF no curso:
+---
+
+🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
+Baixe a Ementa Oficial de 30h e o Kit de Nivelamento gratuito em Python:
 👉 https://curso-quant-research.netlify.app/
 
-#QuantFinance #Carreira #Econometria #Python #AssetManagement
+📘 **The Quant Transition Playbook:**
+Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
+---
+Lucca Simeoni Pavan, Ph.D.  
+Ex-Head de Estratégias Quant & Gerente de Alocação de Recursos • Doutor em Economia  
+
+#QuantFinance #CarreiraQuant #Econometria #Python #AssetManagement
+
+---
+
+## 🇺🇸 Versão em Inglês (English):
+
+When I completed my Ph.D. in Economics and stepped onto the quantitative desk leading systematic strategy research and portfolio allocation, I confronted a glaring industry divide:
+
+Graduate school teaches pure asymptotic econometric theory.
+Generic data science bootcamps teach fitting standard Scikit-Learn models on churn or marketing datasets.
+Yet virtually NO ONE teaches how an institutional quantitative hedge fund operates in daily production.
+
+Critical industry realities like:
+▪ How to engineer a Point-in-Time multifactor pipeline (Value, Momentum, Quality, Low Vol) without subtle look-ahead bias?
+▪ How to build a vectorized Python backtest engine incorporating non-linear microstructure drag?
+▪ What Quantitative PMs specifically evaluate in 48-hour take-home modeling challenges?
+
+I synthesized this buy-side empirical experience, institutional risk protocols, and production code into two comprehensive resources:
+
+1. **The Quant Transition Playbook:** The complete operational career blueprint and vectorized Python repository designed for PhDs, quants, and data scientists.
+2. **Applied Quantitative Research Course:** An intensive 30-hour master curriculum built on production-grade market data.
+
+Whether you are targeting global systematic desks or regional funds navigating volatile market regimes, methodological precision is your greatest competitive moat.
+
+Which aspect of the transition to quantitative finance has proven the most challenging for you: data hygiene, mathematical intuition, or production coding?
+
+---
+
+🎓 **Free 30-Hour Course Syllabus & Python Leveling Kit:**
+Download the institutional curriculum and diagnostic test:
+👉 https://curso-quant-research.netlify.app/
+
+📘 **The Quant Transition Playbook & Vectorized Python Engines:**
+Fast-track your buy-side quant career with institutional templates:
+👉 https://warrenjax.gumroad.com/l/fsrcmj
+
+---
+Lucca Simeoni Pavan, Ph.D.  
+Former Head of Quantitative Strategies & Portfolio Allocation Manager • Ph.D. in Economics  
+
+#QuantCareers #SystematicTrading #HedgeFunds #FinancialEngineering #Python\n
