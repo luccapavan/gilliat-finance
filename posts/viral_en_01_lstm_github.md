@@ -29,7 +29,7 @@ Have you ever deployed complex machine learning models on live market data? What
 
 ---
 
-🎓 **Free Course Syllabus & Python Leveling Kit:**
+🎓 **Free Leveling Kit & Official Syllabus — Applied Quantitative Research Course:**
 Download the institutional curriculum and diagnostic test:
 🔗 (Link in first comment)
 

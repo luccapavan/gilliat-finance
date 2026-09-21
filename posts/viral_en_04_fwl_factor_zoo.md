@@ -27,7 +27,7 @@ Factor orthogonalization is not mathematical pedantry. It is the fundamental fil
 
 ---
 
-🎓 **Free Course Syllabus & Python Leveling Kit:**
+🎓 **Free Leveling Kit & Official Syllabus — Applied Quantitative Research Course:**
 Download the institutional curriculum and diagnostic test:
 🔗 (Link in first comment)
 

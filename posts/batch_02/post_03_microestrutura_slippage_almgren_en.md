@@ -28,7 +28,7 @@ How do you account for non-linear execution frictions in your backtests?
 
 ---
 
-🎓 **Free Course Syllabus & Python Leveling Kit:**
+🎓 **Free Leveling Kit & Official Syllabus — Applied Quantitative Research Course:**
 Download the institutional curriculum and diagnostic test:
 🔗 (Link in first comment)
 

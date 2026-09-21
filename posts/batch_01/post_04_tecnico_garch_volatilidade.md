@@ -27,7 +27,7 @@ Você já utiliza volatilidade condicional na modelagem de risco da sua carteira
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial do Curso de Análise Quantitativa Aplicada e Kit de Nivelamento em Python:
 🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
@@ -66,7 +66,7 @@ Do you model time-varying conditional volatility in your strategy risk pipelines
 
 ---
 
-🎓 **Free Course Syllabus & Python Leveling Kit:**
+🎓 **Free Leveling Kit & Official Syllabus — Applied Quantitative Research Course:**
 Download the institutional curriculum and diagnostic test:
 🔗 (Link in first comment)
 

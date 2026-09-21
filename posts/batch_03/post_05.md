@@ -30,7 +30,7 @@ Você ainda usa a fronteira eficiente tradicional ou já migrou para métodos ro
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial do Curso de Análise Quantitativa Aplicada e Kit de Nivelamento em Python:
 🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
@@ -69,7 +69,7 @@ Are you still constructing portfolios along traditional mean-variance frontiers,
 
 ---
 
-🎓 **Free Course Syllabus & Python Leveling Kit:**
+🎓 **Free Leveling Kit & Official Syllabus — Applied Quantitative Research Course:**
 Download the institutional curriculum and diagnostic test:
 🔗 (Link in first comment)
 

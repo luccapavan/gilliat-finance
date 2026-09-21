@@ -33,7 +33,7 @@ Quantos testes de backtest você geralmente roda antes de escolher seu modelo fi
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial do Curso de Análise Quantitativa Aplicada e Kit de Nivelamento em Python:
 🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
@@ -75,7 +75,7 @@ How many parameter sweeps do you run before selecting a production model? Do you
 
 ---
 
-🎓 **Free Course Syllabus & Python Leveling Kit:**
+🎓 **Free Leveling Kit & Official Syllabus — Applied Quantitative Research Course:**
 Download the institutional curriculum and diagnostic test:
 🔗 (Link in first comment)
 

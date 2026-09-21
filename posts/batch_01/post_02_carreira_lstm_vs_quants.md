@@ -33,7 +33,7 @@ Você já tentou rodar modelos de deep learning em séries financeiras? Como foi
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial do Curso de Análise Quantitativa Aplicada e Kit de Nivelamento em Python:
 🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
@@ -75,7 +75,7 @@ Have you ever deployed complex machine learning architectures on live market dat
 
 ---
 
-🎓 **Free Course Syllabus & Python Leveling Kit:**
+🎓 **Free Leveling Kit & Official Syllabus — Applied Quantitative Research Course:**
 Download the institutional curriculum and diagnostic test:
 🔗 (Link in first comment)
 

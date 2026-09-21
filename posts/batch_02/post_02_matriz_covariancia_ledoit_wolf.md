@@ -31,7 +31,7 @@ Qual método de regularização de matriz de risco você tem utilizado em produ�
 ---
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
-Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
+Baixe a Ementa Oficial do Curso de Análise Quantitativa Aplicada e Kit de Nivelamento em Python:
 🔗 (Link no 1º comentário)
 
 📘 **The Quant Transition Playbook:**
