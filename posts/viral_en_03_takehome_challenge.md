@@ -22,11 +22,11 @@ In systematic asset management, methodological discipline and statistical hygien
 
 🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook & Vectorized Python Engines:**
 Fast-track your buy-side quant career with institutional templates:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  

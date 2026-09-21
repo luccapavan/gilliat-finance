@@ -36,11 +36,11 @@ Você já opera ou estuda estratégias de Factor Investing na B3? Qual prêmio d
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
 Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
 Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -76,11 +76,11 @@ Are you running or researching Factor Investing strategies in emerging markets? 
 
 🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook & Vectorized Python Engines:**
 Fast-track your buy-side quant career with institutional templates:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -125,11 +125,11 @@ Você utiliza defasagens de tempo para neutralizar ruídos de curto prazo nos se
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
 Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
 Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -173,11 +173,11 @@ Do you implement operational lags to purge short-term noise from your momentum p
 
 🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook & Vectorized Python Engines:**
 Fast-track your buy-side quant career with institutional templates:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -220,11 +220,11 @@ Como você valida se as variáveis do seu modelo têm significância econômica 
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
 Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
 Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -265,11 +265,11 @@ How do you verify whether candidate variables possess true economic causality or
 
 🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook & Vectorized Python Engines:**
 Fast-track your buy-side quant career with institutional templates:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -307,11 +307,11 @@ Você já teve a experiência de colocar um modelo para rodar na prática e perc
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
 Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
 Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -348,11 +348,11 @@ Have you ever launched a strategy live only to watch execution frictions consume
 
 🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook & Vectorized Python Engines:**
 Fast-track your buy-side quant career with institutional templates:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -394,11 +394,11 @@ Você ainda utiliza a fronteira eficiente tradicional ou já migrou para técnic
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
 Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
 Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -438,11 +438,11 @@ Are you still relying on traditional mean-variance frontiers, or have you upgrad
 
 🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook & Vectorized Python Engines:**
 Fast-track your buy-side quant career with institutional templates:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  

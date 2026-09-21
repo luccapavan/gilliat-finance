@@ -31,11 +31,11 @@ Você ainda usa a fronteira eficiente tradicional ou já migrou para métodos ro
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
 Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook:**
 Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
@@ -71,11 +71,11 @@ Are you still constructing portfolios along traditional mean-variance frontiers,
 
 🎓 **Free Course Syllabus & Python Leveling Kit:**
 Download the institutional curriculum and diagnostic test:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link in first comment)
 
 📘 **The Quant Transition Playbook & Vectorized Python Engines:**
 Fast-track your buy-side quant career with institutional templates:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link in first comment)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  

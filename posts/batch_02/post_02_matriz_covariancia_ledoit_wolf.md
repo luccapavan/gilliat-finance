@@ -32,11 +32,11 @@ Qual método de regularização de matriz de risco você tem utilizado em produ�
 
 🎓 **Curso de Análise Quantitativa Aplicada (Turma Fundadora):**
 Baixe a Ementa Oficial e o Kit de Nivelamento gratuito em Python:
-👉 https://curso-quant-research.netlify.app/
+🔗 (Link no 1º comentário)
 
 📘 **The Quant Transition Playbook:**
 Acesse o guia prático de carreira no buy-side e os motores vetoriais de backtesting em Python:
-👉 https://warrenjax.gumroad.com/l/fsrcmj
+🔗 (Link no 1º comentário)
 
 ---
 Lucca Simeoni Pavan, Ph.D.  
